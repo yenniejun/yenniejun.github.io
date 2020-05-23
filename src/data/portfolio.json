@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Covid Texting Service", 
+      "description": [
+        "Texting service that provide basic statistics and  question-answering functionality about COVID-19.",
+        "Originally built for those without Internet access to get information about the pandemic.",
+        "Currently working with nonprofit Silicon Harlem in NYC to get the service in the hands of people in need."
+      ],
+      "announcement": "Demo: Text 1NYC to 313131",
+      "codelink":"https://github.com/yenniejun/covid-texting-service"},
+    {
+      "title": "Joseon Munkwa Project", 
+      "description": [
+        "Analyze Korean aristocratic historical figures and civil service officials and perform disambiguation on historical records.",
+        "I am working as a research assistant with the Big Data Studies Lab at Seoul National University."
+      ],
+      "codelink": "https://github.com/yenniejun/JoseonMunkwa"
+    },
+    {
+      "title": "Virtual Coffeeshop", 
+      "description": [
+        "Virtual coffeeshop experience for those of us stuck at home during stay-at-home and seeking the vibe and comradeship of a cafe."
+      ],
+      "demolink": "https://virtualcoffeeshop.herokuapp.com/",
+      "codelink": "https://github.com/yenniejun/internetcafe"
+    },
+    {
+      "title": "Project 2", 
+      "description": [
+        "Factorize a scale into parts that can be understood using combinations of 'symmetric' scales."
+      ],
+      "codelink": "https://github.com/yenniejun/music-factorization"
+    },
+    {
+      "title": "Project 2", 
+      "description": [
+        "Determine which male white writer from the 19/20th century your writing most resembles using basic NLP models."
+        ],
+      "codelink": "https://github.com/yenniejun/whichwhiteguy/blob/master/lesson4-gutenberg.ipynb"
+    },
+    {
+      "title": "Spam Classifier", 
+      "description": [
+        "Simple image classifier built using fastai."
+        ],
+      "demolink": "https://vimeo.com/363318751"
+    }
+  ]
+
+
+  
