@@ -25,14 +25,14 @@
       "codelink": "https://github.com/yenniejun/internetcafe"
     },
     {
-      "title": "Project 2", 
+      "title": "Music Factorization", 
       "description": [
         "Factorize a scale into parts that can be understood using combinations of 'symmetric' scales."
       ],
       "codelink": "https://github.com/yenniejun/music-factorization"
     },
     {
-      "title": "Project 2", 
+      "title": "Which White Male?", 
       "description": [
         "Determine which male white writer from the 19/20th century your writing most resembles using basic NLP models."
         ],
