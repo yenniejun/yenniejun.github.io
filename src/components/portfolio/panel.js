@@ -21,11 +21,11 @@ const PortfolioPanel = (props) => {
             }
 
             {props.data.demolink &&
-              <h3><a className={panelStyles.demolink} href={props.data.demolink} target="_blank"><span>Demo</span></a></h3>
+              <h3><a className={panelStyles.demolink} href={props.data.demolink} target="_blank" rel="noreferrer"><span>Demo</span></a></h3>
             }
 
             {props.data.codelink &&
-              <a className={panelStyles.codelink} href={props.data.codelink} target="_blank">
+              <a className={panelStyles.codelink} href={props.data.codelink} target="_blank" rel="noreferrer">
                 <FaGithub/>
                 <span>Link to code</span>
               </a>

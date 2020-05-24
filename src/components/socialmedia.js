@@ -13,23 +13,23 @@ const SocialMediaLinks = ({ location }) => {
     return (
       <>
         <div className="social-media-links-container">
-            <a href="mailto:yennie.jun@gmail.com" target="_blank">
+            <a href="mailto:yennie.jun@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail/>
                 <span>Mail</span>
             </a>
-            <a href="https://www.linkedin.com/in/yennie-jun-30a650a5/" target="_blank">
+            <a href="https://www.linkedin.com/in/yennie-jun-30a650a5/" target="_blank" rel="noreferrer">
                 <TiSocialLinkedin/>
                 <span>LinkedIn</span>
             </a>
-            <a href="https://github.com/yenniejun" target="_blank">
+            <a href="https://github.com/yenniejun" target="_blank" rel="noreferrer">
                 <RiGithubLine/>
                 <span>GitHub</span>
             </a>
-            <a href="https://www.facebook.com/yennie.jun" target="_blank">
+            <a href="https://www.facebook.com/yennie.jun" target="_blank" rel="noreferrer">
                 <GrFacebookOption/>
                 <span>Facebook</span>
             </a>
-            <a href="https://www.instagram.com/lingling62/?hl=en" target="_blank">
+            <a href="https://www.instagram.com/lingling62/?hl=en" target="_blank" rel="noreferrer">
                 <FaInstagram/>
                 <span>Instagram</span>
             </a>
