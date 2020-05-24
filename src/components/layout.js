@@ -25,7 +25,7 @@ const Layout = (props) => {
           textAlign: `center`
         }}>{props.children}</main>
         <footer style={{
-          textAlign:`center`, margin: `-5rem auto 1.45rem auto` 
+          textAlign:`center`, margin: `0rem auto 1.45rem auto` 
         }}>
           © {new Date().getFullYear()}, Built with
           {` `}

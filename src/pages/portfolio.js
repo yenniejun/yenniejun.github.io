@@ -9,7 +9,7 @@ const colors = ["#ffece5","#ffdfd3","#ffd2c2","#ffc5b0","#ffb99f","#ffac8d","#ff
 const PortfolioPage = () => (
   <Layout title="Projects">
     <SEO title="Portfolio" />
-    <div style={{ marginBottom: `15rem` }}>
+    <div>
       {portfolioData.map((item, i) =>
             <PortfolioPanel 
               key={i} 

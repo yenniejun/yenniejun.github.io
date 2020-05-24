@@ -2,10 +2,10 @@
 @import './colors.css';
 
 .social-media-links-container {
-    margin: 2rem auto 1.5em auto;
+    margin: 2rem auto 0 auto;
     width:60%;
     text-align: center;
-    height: 10rem;
+    height: 5rem;
 }
 
 .social-media-links-container a {
@@ -50,7 +50,8 @@
 
 @media only screen and (max-width: 767px) {
     .social-media-links-container {
-        width: 80%;
+        width: 70%;
+        margin-bottom: 5rem;
     }
 
     .social-media-links-container a {
