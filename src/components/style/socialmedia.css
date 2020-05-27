@@ -6,11 +6,14 @@
     width:60%;
     text-align: center;
     height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .social-media-links-container a {
     font-size: 1.5rem;
-    margin: 2rem 1.5rem 0 0;
+    margin: 2rem 1rem 0 1rem;
     text-align: center;
     display: inline-block;
     flex: 0 1;
@@ -36,6 +39,7 @@
     font-weight:200px;
     display: block;
     opacity: 0;
+    white-space: nowrap;
 }
 
 .social-media-links-container a:hover span, .social-media-links-container a:focus span {
@@ -49,13 +53,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    /* phones */
     .social-media-links-container {
-        width: 70%;
-        margin-bottom: 5rem;
-    }
-
-    .social-media-links-container a {
-      margin: 0 1rem 0 0;
+        margin-bottom: 10rem;
     }
 
     .social-media-links-container span {

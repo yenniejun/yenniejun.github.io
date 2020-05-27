@@ -644,6 +644,10 @@ pre tt:after {
   margin: 0 auto 1.45rem auto;
 }
 
+.text-loop-icon {
+  width: 5%;
+  margin: 0 0 0 0;
+}
 
 .normalLink:visited, .normalLink:link, .normalLink {
   color: var(--brand-shade-dark);
@@ -652,6 +656,12 @@ pre tt:after {
 
 .normalLink:hover {
   color: var(--brand-shade-light);
+}
+
+.header-icon {
+  margin: 0 0 0 0.5rem;
+  width: 5%;
+  padding: 0 0 0 0;
 }
 
 @media only screen and (max-width: 767px) {
