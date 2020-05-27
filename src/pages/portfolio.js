@@ -7,7 +7,7 @@ import portfolioData from "../data/portfolio.json"
 const colors = ["#ffece5","#ffdfd3","#ffd2c2","#ffc5b0","#ffb99f","#ffac8d","#ff9f7c","#ff926a","#ff8559","#ff7f50"];
 
 const PortfolioPage = () => (
-  <Layout title="Projects">
+  <Layout title="Projects" icon="computer">
     <SEO title="Portfolio" />
     <div>
       {portfolioData.map((item, i) =>
