@@ -1,0 +1,51 @@
+.container {
+    background-color: 	#f8f8ff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25); */
+    /*https://tobiasahlin.com/blog/layered-smooth-box-shadows/*/
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    margin: 1rem auto 0 auto;
+    /* width: 70%; */
+    font-family: 'IBM Plex Serif';
+    padding: 1.2rem;
+    text-align: left;
+}
+
+.container:hover .title, .container:hover .blogtag {
+    color: var(--brand-shade-dark);
+}
+
+.container a:link, .container a:visited {
+    text-decoration: none !important;
+    color: var(--brand-shade-dark);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom:0.3rem;
+}
+
+.date {
+    color: gray;
+    font-size:0.8rem;
+}
+
+.blogtag {
+    display: inline-flex;
+    margin: 1rem 1rem 0rem 0rem;
+    color: #a5a5a5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 18px;
+    border: 1px solid #e2e2e2;
+    font-size: 0.9rem;
+}
+
+.blogtag svg {
+    margin: 0.3rem 0.2rem 0rem 0rem;
+}
