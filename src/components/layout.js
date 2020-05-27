@@ -14,7 +14,7 @@ import "./style/layout.css"
 const Layout = (props) => {
   return (
     <>
-      <Header siteTitle={props.title} />
+      <Header siteTitle={props.title} icon={props.icon}/>
       <div
         style={{
           margin: `0 auto`,
@@ -25,11 +25,12 @@ const Layout = (props) => {
           textAlign: `center`
         }}>{props.children}</main>
         <footer style={{
-          textAlign:`center`, margin: `0rem auto 1.45rem auto` 
+          textAlign:`center`, 
+          margin: `5rem auto 1.45rem auto`,
+          fontSize: `0.6rem`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} Yennie Jun
+          {props.icon && <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>}
         </footer>
       </div>
     </>

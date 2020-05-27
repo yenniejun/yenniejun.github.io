@@ -11,7 +11,7 @@ const Menu = ({ location }) => {
             <Link to="/" activeClassName={menuStyles.active}>Home</Link>
             <Link to="/portfolio" activeClassName={menuStyles.active}>Projects</Link>
             <Link to="/writing" activeClassName={menuStyles.active}>Writing</Link>
-            <Link to="/resume" activeClassName={menuStyles.active}>Resume</Link>
+            <Link to="/books" activeClassName={menuStyles.active}>Books</Link>
         </div>
       </>
     )
