@@ -14,12 +14,17 @@ const BooksPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"book"}/>)
 
     return(
-      <Layout title="Books" icon="books">
+      <Layout 
+        title="Books" 
+        icon="books"
+        quote="Some books are to be tasted, others to be swallowed, and some few to be chewed and digested"
+        quote_author="Francis Bacon"
+      >
         <SEO title="Books" />
         <div className="homeContainer">
-          <p>I love to read across all genres. Here are some of my notes.</p>
-          <hr/>
-          {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
+        <p>I love to read across all genres. Here are my notes and thoughts on some of my recent favorite reads.</p>
+        <hr/>
+        {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
         </div>
       </Layout>
     )

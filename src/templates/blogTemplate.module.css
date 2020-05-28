@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+.blogContainer {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+.blogHeader h1 {
+    margin-top:3rem;
+    /* font-family: 'Chelsea Market', cursive; */
+}
+
+.blogHeader {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.blogLine {
+    margin: 2rem 0 2rem 0;
+}
+
+.bookHeader {
+    margin-top: 3rem;
+    text-align: center
+}
+
+.bookHeader p {
+    margin-bottom: 0
+}
+
+.blogPostContent hr {
+    width: 10%;
+    margin: 2rem auto 2rem auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .blogContainer {
+        width: 80%;
+    }
+}

@@ -15,6 +15,17 @@ const Layout = (props) => {
   return (
     <>
       <Header siteTitle={props.title} icon={props.icon}/>
+      
+      {props.quote && 
+        <div className="quote">
+          <blockquote>
+            <q>{props.quote}</q>
+          </blockquote>
+          <p>({props.quote_author})</p>
+        </div>
+      }
+
+
       <div
         style={{
           margin: `0 auto`,

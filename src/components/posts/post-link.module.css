@@ -16,7 +16,7 @@
     text-align: left;
 }
 
-.container:hover .title, .container:hover .blogtag {
+.container:hover .title {
     color: var(--brand-shade-dark);
 }
 
@@ -31,6 +31,10 @@
     margin-bottom:0.3rem;
 }
 
+.author {
+    font-size: 0.8rem;
+}
+
 .date {
     color: gray;
     font-size:0.8rem;
@@ -38,8 +42,8 @@
 
 .blogtag {
     display: inline-flex;
-    margin: 1rem 1rem 0rem 0rem;
-    color: #a5a5a5;
+    margin: 0.5rem 1rem 0rem 0rem;
+    color: var(--brand-shade-dark);
     padding: 0.2rem 0.5rem;
     border-radius: 18px;
     border: 1px solid #e2e2e2;
