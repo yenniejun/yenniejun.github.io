@@ -1,0 +1,127 @@
+---
+# slug: "/blog/my-first-post"
+posttype: "books"
+path: "/books/lincoln"
+date: "2019-01-31"
+updatedDate: "2020-05-28"
+title: "Team of Rivals: The Political Genius of Abraham Lincoln"
+author: "Doris Kearns Goodwin"
+tags: ["Nonfiction", "Biography"]
+link: "https://www.goodreads.com/book/show/2199.Team_of_Rivals?from_search=true&from_srp=true&qid=4PtSkso7hQ&rank=1"
+---
+
+> “What Lincoln lacked in preparation and guidance, he made up for with his duanting concentration, phenomenal memory, acute reasoning faculties, and interpretive penetration” (54)
+
+## Overall
+
+This was an amazing book. I learned so much from it and thoroughly enjoyed Goodwin’s writing. The book is very long and dense and thus took me a really long time to finish it. However, it was really worth my time and I learned a lot about Lincoln's personality, leadership, and character. Goodwin's comparative storytelling was very clever (widening the lens to tell not just Lincoln's story, but also the story of his closest family members, friends, and political rivals) and I think a more instructive, valuable, and well-rounded story than if she had only focused on Lincoln and his achievements.
+
+Goodwin organized the book in such a way that I felt fully immersed in the story and life of Lincoln, and I did not feel bogged down by a barrage of indigestible facts. She did a fantastic job highlighting the political genius of Lincoln.
+
+I found Lincoln’s story very compelling and inspiring. Compared to his contemporary rivals, he had to rely on himself from an early age for anything and for everything. From walking many miles in his childhood to procure books, to mastering subjects ranging from geometry to law late at night during his time traveling with the law circuits, he was always trying to “catch up” on the learning he missed out on as a child. One of the greatest qualities of his leadership was his moral character -- his empathy, his mangaminity, his kind-heartedness, his ability to connect with the common people, his ability to forgo grudges and create connections with all kinds of people.
+
+## Character Connections
+
+While reading the book, I found myself making a few random connections between the characters in Team of Rivals and fictional characters.
+
+One of the most striking connections I found was a similarity between Lincoln and Albus Dumbledore from the Harry Potter series. Both were (physically) lined with aspects of sadness and hardship, but were also simultaneously filled with wit and an endless supply of stories and jokes. Both were of melancholy temperament but possessed the ability to tell stories and to buoy the spirits of others in necessary times. Lincoln would often start his cabinet meetings, which were often tense and stressed because of the Civil War, with funny cartoons, jokes, or stories. Many of his cabinet members decried this behavior as Lincoln not being serious. Lincoln also liked to include in his speeches anecdotes and stories with morals and messages that any common man could understand. Similarly, Dumbledore, often characterized as “odd” and “strange” would go off on tangents to tell stories or jokes that other more “serious” wizards or witches would condescend towards.
+
+Both leaders also believed in being empathetic leaders and in giving second chances. Lincoln never forgoed the opportunity to pardon Union soldiers sentenced to death for desertion, falling asleep at his post, or petty mistakes. Lincoln never hesitated to mend old conflicts and to remain cordial with even his greatest rivals and enemies (no matter how mad he was). Dumbledore, too, was a great believer in second chances, of believing in the good in people, extending his trust to people such as Snape who had already betrayed his trust once. Dumbledore trusted in people like Hagrid as well, a character that nearly everyone made fun of or called “stupid” or “oafish.”
+
+On a different note, Salmon Chase, with his sullen irritability and loneliness, reminded me of the Caterpillar from Alice in Wonderland. Ulysses S. Grant, an “unpretentious man of action” (614), reminded me of Mad Eye Moody.
+
+## Female Characters
+
+I was pleased by the appearance and influence of female characters in the story. However, no matter how politically inclined or intelligent they were, the women were barred from having a major role in any of the political activities; they had to stay behind the scenes. It was sad learning about how intelligent, clever, and ambitious some of the women were and yet their talents had to stay behind the scenes.
+
+#### Frances Seward
+Very intelligent and interested in politics, and yet because of the societal standards limiting the extent of women’s involvement in public life, she was prone to many illnesses, wasting away at her home in Auburn. “I have wept the most bitterly over the **decay of my young dreams…** When I realized most forcibly that ‘love is the history of a woman and but an episode in the life of a man’” (76).
+
+Frances maybe was so sick all of the time because she felt like she was lacking purpose in life. “Frustrations of an educated woman’s life in the mid-nineteenth century” (155), felt restricted with nothing to do.
+
+#### Kate Chase
+I thought that Kate’s life was one of the greatest tragedies in the book. She was well-educated, clever, ambitious, and politically inclined. She basically ran her father’s political campaign for senator and president. She was well associated with the elite social groups of Washington and was known for her involvement. She was “able to cross swords with the brightest intellects of the nation” (194).
+
+She was so smart and capable and yet she basically sacrificed her life for her father’s political advancement. She married William Sprague to attain his millions of dollars to help finance her father’s bid for president. Her marriage ended in ruins (Sprague was in many aspects a really shitty husband - alcoholic, not very smart, not very supportive of Kate’s political interests and ambitions) and she died in poverty. :(
+
+Kate had hoped to be Sprague’s “partner in all his endeavors” and be involved in politics/business like she was with her father, but Sprague rebuffed her and complained about her doing so (638). She is too competent and high spirited and Sprague sucks. She wrote: “God forgive me that I had so often wished that I had found in my husband a man of more intellectual resources, even with far less material wealth” (639)
+
+#### Charlotte Cushman
+Charlotte was only mentioned in passing as one of the major actresses in the theaters that Lincoln loved to frequent. She was a very large personality and presence on the stage, and also was very sexually progressive for her age. “Her work was her chief passion”. She never married.
+
+## Funny Quotes
+
+- Chase as super awkward -- “On those evenings when he had no public functions to attend, he would … practice the jokes that, however hard he tried, he could never gracefully deliver” (17).
+- Lincoln was supposed to marry Mary Owens but he was really not feeling it…. “He attempted to imagine she was handsome, which, but for her unfortunate corpulency, was actually true… He conjured up ways he might ‘procrastinate the evl day’” (94). Obviously, they didn’t get married.
+- When Lincoln grows his beard out in 1861, John Hay writes “Apparent hair becomes heir apparent” (271)
+- McClellan brought a lot of things to the front of the war, including “six immense four-horse wagons” (418)
+
+## Notes
+> Lincoln’s strengths as leader came from his “peculiar moral power” and the “greatness of his character” (748)
+
+- Seward as super optimistic, loving tech advancements, prosperity.
+- Chase as severely disciplined, super religious, super strict, awkward. Early life filled with sorrow - married three times and all three wives died early/young. His daughter Kate is his pride
+- Lincoln as super resilient because of his difficult childhood
+    - His father Thomas was mostly illiterate
+    - “Even as a child, Lincoln dreamed heroic dreams” (49)
+    - He is melancholy because he understand human frailty, pain, death…. And yet he doesn’t let these difficulties weigh him down. He is still able to have humor because he is resilient
+    - “Herculean feat of self-creation” (50)
+    - Passion for storytelling - “Passion for rendering experience into powerful language” (50)
+    - He loved Aesop (stories with morals) and Shakespeare a lot
+    - “Our only poet-president” (52)
+    - “Systematic regimen of self-improvement”       
+- “The years following the Revolution fostered the belief that the only barriers to success were discipline and the extent of one’s talents” (28). Lincoln’s story of “self-made man” seems to fit really well within the context of an era where ideas of the American Dream and Manifest Destiny were starting to sprout.
+    - This time period is a time of a “fast-changing society” -- not unlike the time we live in now
+- Lincoln gets depressed when his engagement to Mary Todd is temporarily dissolved and his term at House of Rep isn’t going too well. He wanted to die but he felt that he had “done nothing to make any human being remember that he had lived” or anything to make death worth it (99)
+- Lincoln as a melancholy man. “**His melancholy dript from him as he walked**” (102)
+- Lincoln as a sensitive man - “Acute sensitivity to the pains and injustices he perceived in the world” (103) → empathy. “Predestined to sorrow”
+- Lincoln and Mary didn’t have the happiest marriage. Lincoln idealized love a lot when he was younger but then realized that although the thing he had with Mary wasn’t the perfect idealized version of love, he felt some sort of love for her. They often weren’t on the same page.
+- Lincoln’s storytelling often had lessons and conveyed practical wisdom in the form of humorous tales
+    - His oratory style was not convoluted but usually very straight-forward and underscored with his stories. “Accessible logic” (166)
+    - He doesn’t blame the South/slave owners, unlike other anti-slavery people, but rather “sought to comprehend their position through empathy” (167). Puts himself in South’s shoes
+- Lincoln’s “singular ability to transcend personal vendetta”
+    - Ex: slighted by Stanton but Stanton becomes Secretary of War (175)
+    - Ex: Chase is a shit and resigns like three times but Lincoln is magnanimous towards him
+- Antebellum North/South arguments about slavery… “two sections no longer spoke the same language” (185). Reminds me of present-day liberal left/alt-right not being able to have a conversation and basically speaking two different languages
+- Republican Convention for Pres in 1860, Lincoln is not hindered by the faults of his more accomplished rivals. Seward is too proud and leaves the US for a several-months-long Europe trip b/c he thinks he has secured the nomination. Chase is deluded by how popular he thinks he is and doesn’t even campaign. Bates is lazy and doesn’t actually care. Lincoln works super hard and has good timing and is shrewd and diligent.
+    - His “political intuition” and not blind luck secures him the nomination (255)
+    - “Though Lincoln desired success as fiercely as any of his rivals, he did not allow his quest for office to consume the kindness and open heartedness with which he treated supporters and rivals alike, nor alter his steady commitment to the antislavery cause” (256) - he didn’t sacrifice his moral beliefs for his ambition
+- Lincoln’s cabinet - unprecedented to assemble such a team of rivals. He asks Seward, Chase, and Bates (who ran against him for Republican nomination) to join his cabinet, as well as prominent Democratic people. He wants to have difference of opinions, and he wants the people who are best and brightest on his team (no matter if they used to be his enemies or whatever).
+    - “We needed the strongest men of the party in this Cabinet” (319)
+    - “Seward, Chase, Bates - they were indeed strong men. But in the end it was the prairie lawyer from Springfield who would emerge as the strongest of them all” (319)
+- Robert E. Lee was first offered a position in the Union Army. Lee said “I look upon secession as an anarchy …. But how can I draw my sword upon Virginia, my native state?” (350)
+- Southerners have most of the navy officers but Northerners just have more people
+- Lincoln is adamant from beginning that the purpose of the war is to **“preserve the Union”** (370) not eliminating slavery. This is a political move to ensure the border states stay with the Union.
+    - Lincoln is slow and cautious about freeing the slaves. This angers Radicals but his tact placates the moderates and conservatives. He doesn’t want full abolition and to enlist blacks in the army YET because he has to keep the border states on the Union side
+- McClellan is a shit. He blames others for everything/all failures. Master of excuses.
+- Lincoln’s home life isn’t the best. He spends a lot of time with Seward, who becomes his best friend. Mary becomes resentful of all the time Lincoln spends with Seward, and is petty towards the whole Seward family.
+    - Mary becomes addicted to spending money. While Civil War is going on she spends an unnecessary extravagant amount of money on White House decorations and clothes and stuff like that…. (402)
+    - Part of the reason is First Lady is scrutinized by press on every detail, including what she is wearing, and she feels a lot of pressure because she is super insecure, and also feels like she is not “cultured” in Washington society because she is from the West.
+- Willie Lincoln dies. Mary gets super depressed and conducts White House seances. She copes with Willie’s death by trying to erase all memories of Willie and trying to meet his spirit via seances. Abe copes by keeping Willie’s memory alive with stories (the dead only live on in the minds of the living) (423)
+- Emancipation Proclamation. Lincoln drafts it and shows it to his cabinet but it’s not up for argument. He wants their suggestions but he’s already decided he’s going to do it.
+    - “If my name ever goes into history it will be for this act, and my whole soul is in it” (499)
+    - Jan 1 1863 finally proclaimed. Immediate effects are limited but it forever changed the relationship of national government to slavery
+    - Perfect timing. Lincoln waited to issue EP after a change in public attitudes (and after Antietam victory so North is more positive about the war). Lincoln and his power of patience
+- Seward as Lincoln’s most intimate friend
+- Lincoln and poor relationship with sons. He and Robert never got too close because Lincoln was absent during Robert’s childhood for months at a time due to politics and law circuits. (541)
+    - Lincoln is closer to his secretary John Hay as a son than to his own son Robert (545)
+- Radical press claims that Seward is the acting president but Seward knows the absurdity of this claim (577). By this point Seward has abandoned his dreams for presidency and is a hundred percent devoted to Lincoln. (Unlike Chase, who never abandons his ambitions for Presidency and always doubts Lincoln)
+- Lincoln: “as in religion, so in politics, it is faith, and not despondency, that overcomes mountains and scales the heavens” (578)
+- Gettysburg Address. “Such was the quiet that his footfalls, I remember very distinctly, woke echoes” (585). Lincoln only had a short period of time to write it but he had thought about this theme for nearly a decade
+    - “Translated the story of his country and the meaning of the war into words and ideas accessible to every American” (587)
+- Lincoln loved to unwind at the theater.
+    - Lincoln’s ability to **“appreciate tragedy and comedy with equal intensity”** (613). I think this summarizes his temperament very well
+- Frederick Douglass invited to White House and Douglass is v. impressed with how well Lincoln treats him. “He treated me as a man; he did not let me feel for a moment that there was any difference in the color of our skins!” (650)
+- Lincoln: “The nation is worth fighting for, to secure such an inestimable jewel” (653)
+- Lincoln: “I would rather be defeated with the soldier vote behind me than to be elected without it” (664)
+    - His second election, most soldiers vote for him. So they vote to prolong the war because they trust Lincoln. The soldiers voted with their hearts “for the president they loved and the cause that he embodied” (666)
+
+>“A man has not time to spend half his life in quarrels. If any man ceases to attack me, i never remember the past against him.” (665)
+- After all the shitty things Chase did Lincoln nominates Chase to Supreme Court Chief Justice. “The degree of magnanimity to thus forgive and exalt a rival who had so deeply and so unjustifiably intrigued against him… most marked illustration of the greatness of the President” (680)
+- Lincoln on Reconstruction. Incremental change. Focusing on the main priority of UNITY even if by gradual changes. (729)
+    - He doesn’t want to perpetrate further violence (732) and doesn’t want to hang any Confederate soldiers if necessary. Wants liberality to rebel leaders.
+- Triple assassinations of Lincoln, Seward, Andrew Johnson planned….
+    - Johnson is safe, Seward survives, but Lincoln dies. Obviously.
+- Lincoln’s cabinet as team of rivals as ingenious. Lincoln gave all of these super brilliant men “an opportunity to exercise their talents to the fullest and to share in the labor and the glory of the struggle that would reunite and transform their country and secure their own places in posterity” (747)
+- Story of Lincoln reached even the remote area of North Caucasus, as the great general and ruler who “spoke with the voice of thunder … laughed like the sunrise … deeds strong as the rock” (747)
+    - 

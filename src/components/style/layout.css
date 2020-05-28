@@ -455,12 +455,12 @@ blockquote {
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
+  border-left: 0.8rem solid var(--brand-shade-dark);
+  background: #f9f9f9;
+  padding: 1rem;
 }
+
 form {
   margin-left: 0;
   margin-right: 0;
@@ -663,6 +663,25 @@ pre tt:after {
   width: 5%;
   padding: 0 0 0 0;
 }
+
+.quote {
+  margin: 1rem auto 2rem auto;
+  padding: 1rem 1rem 2.4rem 1rem !important;
+  width: 40%;
+  border-left: 0.8rem solid var(--brand-shade-dark);
+  background: #f9f9f9;
+}
+
+.quote blockquote {
+  margin-bottom: 0.5rem;
+  border-left: none;
+  padding: 0;
+}
+
+.quote p {
+  float: right;
+}
+
 
 @media only screen and (max-width: 767px) {
   /* phone */

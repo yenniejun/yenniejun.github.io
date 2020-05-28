@@ -3,25 +3,115 @@
 posttype: "books"
 path: "/books/leonardo"
 date: "2020-03-25"
-updatedDate: "2020-05-23"
+updatedDate: "2020-05-28"
 title: "The Science of Leonardo: Inside the Mind of the Great Genius of the Renaissance"
 author: "Fritjof Capra"
 tags: ["Nonfiction", "Biography"]
 link: "https://www.goodreads.com/book/show/670702.The_Science_of_Leonardo?ac=1&from_search=true&qid=IdcqiFIpz1&rank=1"
 ---
 
-Leonardo Da Vinci was a man that I really can feel inspired by. Leonardo was a man who had a curiosity of learning (that transcended his art) until he died; he was always trying to understand the world he lived in (and all of its mysteries). He kept his scientific discoveries, explorations, and observations in his thousands of Notebooks, which he kept hidden while he was alive and the majority of which were not understood in their entirety until many hundreds of years after his death. In them, Capra argues that Leonardo's science was brilliant and systemic, compared to the more mechanical view of science espoused by Descartes, Newton, and Galileo. Capra argues that Leonardo was in fact the first "systemic thinker," viewing the world as holistic rather than as divided into modular and separate pieces. He found connections and patterns in the many different fields he studied (geometry, optics, mechanics, light, wave patterns) which aided his learning and led him to the conclusion that everything in nature is connected.
+Leonardo Da Vinci's curiosity of learning transcended his art; he was always trying to understand the world he lived in (and all of its mysteries). He kept his scientific discoveries, explorations, and observations in his thousands of Notebooks, which he kept hidden while he was alive and the majority of which were not understood in their entirety until many hundreds of years after his death. Capra argues that Leonardo's science was brilliant and systemic, compared to the more mechanical view of science espoused by Descartes, Newton, and Galileo. Capra argues that Leonardo was in fact the first "systemic thinker," viewing the world as holistic rather than as divided into modular and separate pieces. Leonardo found connections and patterns in the many different fields he studied (geometry, optics, mechanics, light, wave patterns) which aided his learning and led him to the conclusion that everything in nature is connected.
 
 >"He always looked for patterns that would interconnect observations from different disciplines; his mind seemed to work best when it was occupied with multiple projects" (86)
 
 
-I found Leonardo's love of learning inspiring. He never had a Classical training and so he spent most of his adult life teaching himself geometry and Latin (which he started learning at age 40!) and anatomy and so many other fields. (This actually reminded me of Abraham Lincoln, another self-taught genius who never had the opportunity to engage in a rigorous Classical education in his childhood).
+I found Leonardo's love of learning inspiring. He never received a Classical training and so he spent most of his adult life teaching himself geometry and Latin (which he started learning at age 40!) and anatomy and so many other fields. (This actually reminded me a lot of Abraham Lincoln, another self-taught genius who never had the opportunity to engage in a rigorous Classical education in his childhood).
 
-One of the funniest anecdotes was when Leonardo was asked to build a giant bronze statue of a horse (3x the size of a normal horse) for the Duke of Milan. Leonardo spent so long planning and doing his research (including a full treatise on horse anatomy, and methods to improve the sewage system for the horse stables) that by the time he was ready to build the horse, the project ran out of money because Milan got into war and the Duke used the bronze that would be used for the horse on cannonballs!
+One of the funniest anecdotes was when Leonardo was asked to build a giant bronze statue of a horse (3x the size of a normal horse) for the Duke of Milan. Leonardo spent so long planning and doing his research (including creating a full treatise on horse anatomy and designing methods to improve the sewage system for the horse stables) that by the time he was ready to build the horse, the project ran out of money because Milan got involved in war and the Duke used the bronze that would be used for the horse on cannonballs.
 
-I think for Leonardo, his main goal in life was lifelong learning rather than the "final products." Capra argues similarly, that for Leonardo, the final product of the art was never the end goal ... the process was what mattered most for him.
+I think for Leonardo, his main goal in life was lifelong learning rather than creating "final products." Capra argues similarly, that for Leonardo, the final product of the art was never the end goal ... the process was what mattered most for him.
 
 >"In his art as in his science, he always seemed to be more interested in the process of exploration than in the completed work or final results. Thus many of his paintings and all of his science remained unfinished work in progress." (165)
 
 
-In general, I thought the arguments made by Capra about Leonardo's life were really interesting, trying to take a holistic approach to viewing Leonardo as an artist and scientist. However, I found the second half of the book ("Leonardo the Scientist") felt more like a list of his accomplishments and notes and dragged on a bit near the end.
+---
+
+# Notes
+
+## Leonardo the Man
+
+> Leonardo had "frequent withdrawals into periods of solitude, spent in contemplation and sustained observations of nature" (20)
+- "He was worldly, eloquent, and charming, but also solitary, accustomed to spending long periods in intense concentration" (25)
+- He had great passion for life and respect for all living things. He loved living things so much that he remained vegetarian for most of his adult life: "He immersed himself in the study of living forms not only intellectually, but emotionally as well ... he held a great awe and reverence for nature's creativity" (21)
+- He was pragmatic: He had a lot of scientific research he wanted to pursue and needed income to do so ... In order to secure a stable income he used his smarts as a military engineer (even though this conflicted with his very pacifist outlook on life)
+    - "he had an eminently practical mind, yet delighted in fables, allegories, and fantasies" (25)
+- He was a genius: intense curiosity, great enthusiasm for discovery, intense concentration over long periods of time
+
+### As a Lifelong Learner
+- Renaissance Man <i>(l'uomo Universale)</i> as one with a rational scientific frame of mind and individual critical thought
+- Leonardo went farther than all the other "universal men" of his time by "transcending the disciplinary boundaries of his time" (33) — by recognizing patterns that connected different domains —> "integrating his discoveries into a unified vision of the world"
+- "For Leonardo, being universal meant to recognize similarities in living forms that interconnect different facets of nature" (34) (systemic thinking)
+- Learning as a continual process (<i>discorso mentale</i>)
+> "This <i>discourso mentale</i>, the intellectual process of painting, was often more important to Leonardo than the actual completion of the work" (46)
+- He wrote: "The scientific and true principles of painting are understood by the mind alone without manual operations"
+- Synthesizing art, science, and creativity
+    - Art == skill
+    - Scientia == knowledge or theory
+    - Fantasia = artist's creative imagination
+- He called himself "inventor and interpreter between nature and humans" (37)
+- In his sketches he often did "preparatory drawings" where he would draw the outline over and over again ... until the "buried, latent form" would "emerge"
+    - in complex theory - "emergence"  ... creative insights emerging from states of uncertainty and confusion
+- In his art he discovered light/shade techniques through experiment and curiosity ... the PROCESS was very important to him. he wrote about his discoveries in treatises about painting ...
+
+
+### On his education
+- he was an illegitimate child and so could not go to university. Being "unlettered" meant he didn't know Latin.
+- But he strove to educate himself in numerous disciplines ... "Not being constrained by the rules of classic rhetoric was an advantage because it made it easier for him to learn directly from nature, especially when his observations contradicted conventional ideas" (69)
+    - "Obsessive program of self-education ... obstinate attempt of cultural emancipation" (85)
+- But this also meant that he "did not have the abstract vocabulary necessary for precise and elegant formulations of his theories" (85)
+- So he tries to "enlarge his vocabulary" (85) by learning astronomy, anatomy, math, medicine, natural history, geography, geology, military science, architecture - all from books!
+- He always learned several areas simultaneously WHILE also being engaged in various artistic projects! (86)
+- When he was over 40 he begins to learn Latin (while he is also doing a lot of intensive research)... "It is very touching to see passages [in his Notebooks] in which Leonardo, over forty years old and at the height of his powers and fame, wrote out the same basic conjugations schoolboys have to memorize at age thirteen" (92)
+
+>"He always looked for patterns that would interconnect observations from different disciplines; his mind seemed to work best when it was occupied with multiple projects" (86)
+
+### On his career
+- Rigorous art apprenticeship
+- When he went to Milan (Sforza court) he originally came as a court musician bc he couldn't get the fancy art gigs he wanted!
+- Then he was a magician, painter, and engineer
+- In 1500s works for Cesare Borgia as military engineer. He is super conflicted about conflict of purpose (pacifist) and COOL JOB!
+- Leonardo on the artist's power to inflame the viewer to love:
+- "The painter seduces the spirits of men to fall in love with an to love a painting that does not represent a living woman" (123)
+- To love abstract concepts!
+- Leonardo, near the end of his life, spent a lot of time organizing his Notebooks into treatises
+> He was not afraid of death; he wrote: "Just as a well-spent day brings a happy sleep, so a well-employed life brings a happy death" (129)
+
+### On his Notebooks
+- After he died his Notebooks were scattered, separated, sold, cut out, rearranged ... only recently have they been started to be put together
+- Apparently Bill Gates has one part of it!
+
+---
+
+## Leonardo the Scientist
+
+- "Like every good scientist, Leonardo consulted the traditional texts and used their conceptual framework as his starting point. He then tested the traditional ideas against his own scientific observations" (138)
+    - unlike his contemporaries, Leonardo refused to "blindly accept the teachings of the classical authorities. He studied them carefully, but then he tested them by subjecting them to rigorous comparisons with his own experiments and his direct observations of nature ... single-handedly developed a new approach to knowledge, known today as the scientific method" (156)
+- Leonardo was all about learning from experience and doing, not rote memorizing without fully understanding or appreciating
+    - He "despised the established philosophers who merely quoted the classical texts in Latin and Greek" (161) and wrote about them: "They strut about puffed up and pompous, decked out and adorned **not with their own labors but with those of others**"
+    - He wrote: **"The surer way is to go to the objects of nature, rather than those that are imitated with great deterioration, and so acquire sad habits; for he who can go to the well does not go to the water jar"**
+- he was very methodical, organized, systematic; attention to detail
+- generally worked on several problems at once ... "paid special attention to similarities of forms and processes in different areas of investigation" (164) (i.e. forces transmitted by pulleys and levers vs forces transmitted by muscles and bones)
+
+> "In his art as in his science, he always seemed to be more interested in the process of exploration than in the completed work or final results. Thus many of his paintings and all of his science remained unfinished work in progress." (165)
+
+- He wrote: "Everything comes from everything, and everything is made of everything, and everything turns into everything, because that which exists in the elements is made up of these elements" (169)
+- Leonardo's science is one of **qualities** not **quantities**
+
+> His science is one of shapes and proportions, rather than absolute quantities (169)
+
+- he was really interested in movement and transformations ... "forms are merely in a continual process of transformation" (172)
+- He was the first to "separate individual mechanisms from the machines in which they were embedded" (180)
+- His dream of flying! Studied a lot of birds and designed flying machines
+- He wrote: "Nature is full of infinite causes that have never occurred in experience" (190)
+- His science on light
+    - Drew the conclusion that both light and sound are waves! Wow! (231)
+    - However he "lacked the appropriate mathematical language" and thus could not develop a proper wave theory of light (234)
+    - "He asserted that the speed of sound is greater than that of elastic waves in earth, and that light moves faster than sound, **but that the mind moves even faster than light" (232)**
+- His science on the eye
+    - "Don't you see that the eye embraces the beauty of the whole world? It is the master of astronomy, it practices cosmography, it counsels and corrects all human arts; it transports man to different parts of the world. The eye is the prince of mathematics; its sciences are most certain. It has measured the heights and sizes of the stars, it has discovered the elements and their locations ... IT has created architecture, perspective, and divine painting ... The eye is the window of the human body, through which the soul contemplates and enjoys the beauty of the world" (238)
+
+> "He used his scientific understanding of forms of nature as the intellectual underpinning of his art, and he used his drawings and paintings as tools of scientific analysis" (259)
+
+- Instead of trying to dominate nature, Leonardo was always trying to learn from it as much as possible
+
+> He wrote: "Though human ingenuity in various inventions uses different instruments for the same end, it will never discover an invention more beautiful, easier, or more economical that nature's because in her inventions nothing is wanting and nothing is superfluous" (260)
