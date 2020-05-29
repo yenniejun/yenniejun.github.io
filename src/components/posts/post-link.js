@@ -14,7 +14,7 @@ const PostLink = (props) => {
       
       {!!post.frontmatter.author && <div className={linkStyles.author}>By: {post.frontmatter.author}</div>}
       
-      {props.type == "blog" && 
+      {props.type === "blog" && 
         <div className={linkStyles.date}>Written: {post.frontmatter.date}</div>}
       
       {/* {props.type == "book" && 
