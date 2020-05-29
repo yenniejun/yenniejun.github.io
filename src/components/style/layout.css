@@ -669,7 +669,7 @@ pre tt:after {
   padding: 1rem 1rem 2.4rem 1rem !important;
   width: 40%;
   border-left: 0.8rem solid var(--brand-shade-dark);
-  background: #f9f9f9;
+  background: var(--brand-color-light2);
 }
 
 .quote blockquote {
@@ -688,11 +688,27 @@ pre tt:after {
   .homeContainer {
     width: 80% !important;
   }
+
+  .quote {
+    width: 80% !important;
+    padding: 0.5rem 0.5rem 1.7rem 0.5rem !important;
+    font-size: 0.8rem;
+  }
+
+  .quote blockquote {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width:892px){
   /* tablets and desktop */
   .homeContainer {
-    width: 70% !important;
+    width: 80% !important;
+  }
+
+  .quote {
+    width: 70%;
   }
 }
