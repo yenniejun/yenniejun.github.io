@@ -15,3 +15,6 @@ gatsby develop
 ```
 
 ## Deploy to gatsby/github pages
+```
+npm run deploy
+```
