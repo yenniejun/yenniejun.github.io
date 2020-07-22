@@ -23,6 +23,7 @@
 
 .active {
     font-weight:900;
+    border-bottom: 2px solid;
     /* text-decoration: underline !important; */
 }
 

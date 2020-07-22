@@ -4,20 +4,28 @@ import PortfolioPanel from "../components/portfolio/panel"
 import SEO from "../components/seo"
 import portfolioData from "../data/portfolio.json"
 
-const colors = ["#ffece5","#ffdfd3","#ffd2c2","#ffc5b0","#ffb99f","#ffac8d","#ff9f7c","#ff926a","#ff8559","#ff7f50"];
-
 const PortfolioPage = () => (
-  <Layout title="Projects" icon="computer">
+  <Layout 
+    title="Projects" 
+    icon="computer"
+    quote="Learning is movement from moment to moment"
+    quote_author="Jiddu Krishnamurti"
+    >
+              
     <SEO title="Portfolio" />
-    <div>
-      {portfolioData.map((item, i) =>
-            <PortfolioPanel 
-              key={i} 
-              color={colors[i]}
-              data={item}
-            />
-          )
-        }
+    <div className="homeContainer">
+      <p>I'm always trying to learn new things!
+      Here are some of my current or recent projects.</p>
+      <hr />
+        {
+          portfolioData.map((item, i) =>
+              <PortfolioPanel 
+                key={i} 
+                color = {"#f9f9f9"}
+                data={item}
+              />
+            )
+          }
     </div>
   </Layout>
 )
