@@ -662,10 +662,11 @@ pre tt:after {
 }
 
 .right {
-  font-size: 0.9rem;
+  /* font-size: 1rem; */
   margin-left: 2rem;
   text-align: left;
-
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .homeAbout {
