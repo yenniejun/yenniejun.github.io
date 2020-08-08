@@ -643,8 +643,35 @@ pre tt:after {
 }
 
 .homeContainer {
-  width: 50%;
+  width: 70%;
   margin: 0 auto 1.45rem auto;
+}
+
+.homeContainer img {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.homeFlex {
+  display: flex;
+}
+
+.left {
+  width: 80%;
+}
+
+.right {
+  font-size: 0.9rem;
+  margin-left: 2rem;
+  text-align: left;
+
+}
+
+.homeAbout {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-loop-icon {
@@ -692,6 +719,15 @@ pre tt:after {
     width: 80% !important;
   }
 
+  .homeFlex {
+    display: block;
+  }
+
+  .homeFlex div {
+    margin: auto;
+    font-size: 1.1rem;
+  }
+
   .quote {
     width: 80% !important;
     padding: 0.5rem 0.5rem 1.7rem 0.5rem !important;
@@ -703,12 +739,22 @@ pre tt:after {
     margin-right: 0.4rem;
     margin-bottom: 0;
   }
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width:892px){
   /* tablets and desktop */
   .homeContainer {
     width: 80% !important;
+  }
+
+  .homeFlex {
+    display: block;
+  }
+
+  .homeFlex div {
+    margin: auto;
+    font-size: 1.1rem;
   }
 
   .quote {

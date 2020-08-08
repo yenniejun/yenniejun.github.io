@@ -22,7 +22,7 @@ const BooksPage = ({
       >
         <SEO title="Books" />
         <div className="homeContainer">
-        <p>I love to read across all genres. Here are my notes and thoughts on some of my recent favorite reads.</p>
+        <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
         <hr/>
         {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
         </div>
