@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap');
 @import './colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -218,7 +220,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'IBM Plex Serif';
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

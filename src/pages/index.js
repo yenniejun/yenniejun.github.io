@@ -8,26 +8,21 @@ const IndexPage = () => (
     <SEO title="Yennie Jun Website" />
     <div className="homeContainer">
       <p>Welcome to my site!</p>
-      <p>I like to wear a lot of different hats 🎩.</p>
+
+      <p>I am a researcher with the Big Data Studies Lab at Seoul National University. I will be attending Oxford University in the fall to pursue an MSc in Social Data Science.</p>
+      <br/>
+      <h2>Here's a little more about me:</h2>
 
       <div style={{textAlign:'left'}}>
-        <p><b>Technologist</b>: I was previously a software engineer at 
-            Microsoft. In the fall, I will be pursuing an MSc in Social Data Science 
-            at Oxford's Internet Institute.</p>
-
-        <p><b>Researcher</b>: I am working with the Big Data 
-            Studies Lab at Seoul National University about the future of archives
-            during the age of big data.</p>
-
-        <p><b>Writer</b>: I am finishing a novel. Reach out to me if
-            you want to learn more!</p>
-
-        <p><b>Musician</b>: I play piano, flute, accordion, and whatever else I can 
-            get my hands on (including beer bottles).</p>
-
-        <p><b>Lifelong learner</b>: I always love learning new things! I read fiction,
-            non-fiction, poetry, biography, memoir, history books, science books ... and sometimes
-            I write about what I learned.</p>
+        <p>🎓 I graduated from Tufts University in 2017 with a B.S. in computer science and history</p>
+        <p>💾 I worked as a software engineer at Microsoft for two years</p>
+        <p>🌏 I quit my job at Microsoft to travel and write a novel</p>
+        <p>✍️ I am researching the future of archives during the age of big data (with SNU) </p>
+        <p>📚 I love reading, everything including non-fiction, fiction, poetry, biography, memoir, history, and science</p>
+        <p>🎶 I play piano, flute, accordion, and whatever else I can 
+        get my hands on</p>
+        <p>🥋 I am a black belt in Taekwondo</p>
+    
       </div>
       
 

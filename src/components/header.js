@@ -22,7 +22,7 @@ const Header = ({ siteTitle, icon }) => (
         }}
       >
         {siteTitle}
-        {icon && icon === "sunflower" && <img className="header-icon" src={Sunflower} alt="sunflower icon"></img>}
+        {icon && icon === "sunflower" && <img className="header-icon" src={Sunflower}></img>}
         {icon && icon === "quill" && <img className="header-icon" src={Quill} alt="writing quill icon"></img>}
         {icon && icon === "computer" && <img className="header-icon" src={Computer} alt="computer icon"></img>}
         {icon && icon === "books" && <img className="header-icon" src={Books} alt="books icon"></img>}
