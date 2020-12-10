@@ -643,25 +643,25 @@ pre tt:after {
 }
 
 .homeContainer {
-  width: 70%;
+  width: 70% !important;
+}
+
+.mainContainer {
+  width: 50%;
   margin: 0 auto 1.45rem auto;
 }
 
-.homeContainer img {
-  border-radius: 0.5rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25);
-
-}
 
 .homeFlex {
   display: flex;
 }
 
-.left {
-  width: 80%;
+.right {
+  flex: 0 0 38%;
+  margin: 1rem;
 }
 
-.right {
+.left {
   /* font-size: 1rem; */
   margin-left: 2rem;
   text-align: left;
@@ -716,7 +716,7 @@ pre tt:after {
 
 @media only screen and (max-width: 767px) {
   /* phone */
-  .homeContainer {
+  .mainContainer {
     width: 80% !important;
   }
 
@@ -740,12 +740,16 @@ pre tt:after {
     margin-right: 0.4rem;
     margin-bottom: 0;
   }
+
+  .left {
+    text-align: center;
+  }
   
 }
 
 @media only screen and (min-width: 768px) and (max-width:892px){
   /* tablets and desktop */
-  .homeContainer {
+  .mainContainer {
     width: 80% !important;
   }
 

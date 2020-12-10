@@ -1,13 +1,13 @@
 .panel {
     /* width: 70%; */
     /* height: 15rem; */
-    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
                 0 2px 4px rgba(0,0,0,0.07), 
                 0 4px 8px rgba(0,0,0,0.07), 
                 0 8px 16px rgba(0,0,0,0.07),
                 0 16px 32px rgba(0,0,0,0.07), 
-                0 32px 64px rgba(0,0,0,0.07);
-    border-radius: 10px;
+                0 32px 64px rgba(0,0,0,0.07); */
+    /* border-radius: 10px; */
     margin: 3rem auto 3rem auto;
     font-family: 'IBM Plex Serif';
     padding: 1.2rem;
