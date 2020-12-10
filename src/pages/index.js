@@ -3,31 +3,23 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import resume from  "../data/resume.pdf"
 import profilepic from "./../images/me_hat.jpg"
-
+import classnames from 'classnames';
 
 const IndexPage = () => (
   <Layout title="Hi, I'm Yennie" icon="sunflower">
     <SEO title="Yennie Jun Website" />
-    <div className="homeContainer">
-      <p>Welcome to my site!</p>
-      <p>I am a researcher with the Big Data Studies Lab at Seoul National University. I will be attending Oxford University in the fall to pursue an MSc in Social Data Science.</p>
+    <div className={classnames("homeContainer", "mainContainer")}>
       <br/>
-
       <div className="homeFlex">
         <div className="left">
-          <img src={profilepic} alt="Picture of me" />
-        </div>
-        <br/>
-        <div className="right">
-          <p>🎓 I graduated from Tufts University in 2017 with a B.S. in computer science and history</p>
-          <p>💾 I worked as a software engineer at Microsoft for two years</p>
-          <p>🌏 I quit my job at Microsoft to travel and write a novel</p>
-          <p>✍️ I am researching the future of archives during the age of big data (with SNU) </p>
+          <p>I am currently studying for my Master of Science (MSc) in Social Data Science at the Oxford Internet Internet Institute. I am also part of the Big Data Studies Lab at Seoul National University (SNU), where I investigate the future of digital archives in the age of Big Data.</p>
+          <p>Before that, I was a software engineer at Microsoft on the Education team.</p>
+          <p>Before that, I graduated from Tufts University with a B.S. in computer science, B.A. in history, and minor in music.</p>
+          <p>For fun, I love to cycle around the English countryside, hike, do martial arts (Taekwondo), read, and write (anything from short stories to fiction to poetry; check out my Writing!). I also love to play music: piano, flute, accordion, and now trying to learn classical guitar.</p>
           {/* <p>📚 I love reading, everything including non-fiction, fiction, poetry, biography, memoir, history, and science</p> */}
-          <p>🎶 I play piano, flute, accordion, and whatever else I can 
-          get my hands on</p>
-          <p>🥋 I am a black belt in Taekwondo</p>
-          <p>🍉 I love watermelon</p>
+        </div>
+        <div className="right">
+          <img src={profilepic} alt="Picture of Yennie" />
         </div>
       </div>
        
