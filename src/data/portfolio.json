@@ -1,20 +1,41 @@
 [
     {
+      "title": "Surveillance in the COVID-19 Pandemic", 
+      "description": [
+        "[Working Paper with SNU]",
+        "This paper analyzes the privacy implications of digital contact tracing in East Asian countries during the COVID-19 pandemic through topic modeling and network analysis of news media. Analysis done across 6 countries and 3 languages."
+      ],
+      "codelink":"https://github.com/yenniejun/covid-news-analysis"
+    },
+    {
+      "title": "Big Data as Historical Archive", 
+      "description": [
+        "[Working Paper with SNU]",
+        "This paper examines the future of born-digital archives and the implications of the Big Data paradigm and data centers to future historians."
+      ]
+    },
+    {
       "title": "Covid Texting Service", 
       "description": [
-        "Texting service that provide basic statistics and  question-answering functionality about COVID-19.",
-        "Originally built for those without Internet access to get information about the pandemic.",
-        "Currently working with nonprofit Silicon Harlem in NYC to get the service in the hands of people in need."
+        "Texting service for answering questions related to the pandemic and providing COVID-19 statistics to those without access to Internet",
+        "Working with Silicon Harlem in NYC to get the service in the hands of people in need."
       ],
       "announcement": "Demo: Text 1NYC to 313131",
-      "codelink":"https://github.com/yenniejun/covid-texting-service"},
+      "codelink":"https://github.com/yenniejun/covid-texting-service"
+    },
     {
       "title": "Joseon Munkwa Project", 
       "description": [
-        "Analyze Korean aristocratic historical figures and civil service officials and perform disambiguation on historical records.",
-        "I am working as a research assistant with the Big Data Studies Lab at Seoul National University."
+        "Named-Entity Recognition and Disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
       ],
       "codelink": "https://github.com/yenniejun/JoseonMunkwa"
+    },
+    {
+      "title": "Bechdel Test Analysis", 
+      "description": [
+        "Exploratory data analysis of top movies and the Bechdel Test ratings over the years."
+      ],
+      "codelink": "https://github.com/yenniejun/bechdel"
     },
     {
       "title": "Virtual Coffeeshop", 
@@ -30,20 +51,6 @@
         "Factorize a scale into parts that can be understood using combinations of 'symmetric' scales."
       ],
       "codelink": "https://github.com/yenniejun/music-factorization"
-    },
-    {
-      "title": "Which White Male?", 
-      "description": [
-        "Determine which male white writer from the 19/20th century your writing most resembles using basic NLP models."
-        ],
-      "codelink": "https://github.com/yenniejun/whichwhiteguy/blob/master/lesson4-gutenberg.ipynb"
-    },
-    {
-      "title": "Spam Classifier", 
-      "description": [
-        "Simple image classifier built using fastai."
-        ],
-      "demolink": "https://vimeo.com/363318751"
     }
   ]
 

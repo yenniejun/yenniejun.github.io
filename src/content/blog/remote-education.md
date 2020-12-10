@@ -10,7 +10,7 @@ tags: ["Opinion"]
 description: Toward an inclusive remote education system
 ---
 
-(First published on [OneZero](https://onezero.medium.com/now-is-the-time-to-make-online-schools-available-to-everyone-1ab26d3222f7))
+(Published on [OneZero](https://onezero.medium.com/now-is-the-time-to-make-online-schools-available-to-everyone-1ab26d3222f7))
 
 ---
 
