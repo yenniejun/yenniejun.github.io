@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/posts/post-link"
 import { graphql } from "gatsby"
+import classnames from 'classnames';
 
 const BooksPage = ({
   data: {
@@ -21,10 +22,10 @@ const BooksPage = ({
         quote_author="Francis Bacon"
       >
         <SEO title="Books" />
-        <div className="homeContainer">
-        <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
-        <hr/>
-        {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
+        <div className="mainContainer">
+          <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
+          <hr/>
+          {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
         </div>
       </Layout>
     )

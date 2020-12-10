@@ -6,7 +6,7 @@ import resume from  "../data/resume.pdf"
 const AboutPage = () => (
   <Layout title="About">
     <SEO title="About" />
-    <div className="homeContainer">
+    <div className="mainContainer">
            <hr/>
       <a className="normalLink" href={resume} target="_blank" rel="noreferrer">Download Resume</a>
     </div>

@@ -13,7 +13,7 @@ const PortfolioPage = () => (
     >
               
     <SEO title="Portfolio" />
-    <div className="homeContainer">
+    <div className="mainContainer">
       <p>I'm always trying to learn new things!
       Here are some of my current or recent projects.</p>
       <hr />
