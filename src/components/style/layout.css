@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap');
 @import './colors.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -220,8 +222,10 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -651,20 +655,27 @@ pre tt:after {
   margin: 0 auto 1.45rem auto;
 }
 
+.home-blurb {
+  width: 70%;
+  margin-left: auto;
+  text-align: justify;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
 
 .homeFlex {
   display: flex;
 }
 
-.right {
+.homeFlex-image {
   flex: 0 0 38%;
   margin: 1rem;
 }
 
-.left {
+.homeFlex-bio {
   /* font-size: 1rem; */
   margin-left: 2rem;
-  text-align: left;
+  text-align: justify;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -726,7 +737,7 @@ pre tt:after {
 
   .homeFlex div {
     margin: auto;
-    font-size: 1.1rem;
+    /* font-size: 1rem; */
   }
 
   .quote {
@@ -741,10 +752,19 @@ pre tt:after {
     margin-bottom: 0;
   }
 
-  .left {
-    text-align: center;
+  .home-blurb {
+    width: 100%;
+    margin-bottom: 2rem;
   }
-  
+
+  /* .homeFlex-bio {
+    text-align: center;
+  } */
+
+  /* img {
+    margin-bottom: 0;
+  }
+   */
 }
 
 @media only screen and (min-width: 768px) and (max-width:892px){
