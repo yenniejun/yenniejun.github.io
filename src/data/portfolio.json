@@ -1,6 +1,31 @@
 [
+      {
+      "title": "Learning From The Hateful Memes Challenge: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
+      "description": [
+        "[Working Paper with OxAI Labs]",
+        "We evaluate Facebook’s Hateful Memes Challenge using unimodal and mulitmodal models and assesses the deployment gap between synthetic memes and memes in the wild."
+      ]
+    },
     {
-      "title": "Surveillance in the COVID-19 Pandemic", 
+      "title": "How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases", 
+      "description": [
+        "[Working Paper with OxAI Labs]",
+        "We prompt engineer GPT-2 with 7000 prefix templates and evaluate the biases in its predictions by comparing to ground-truth US labor data. We find that while GPT-2 encompasses many stereotypical biases, especially for intersectional categories, GPT-2 reflects the societal skew of gender and ethnicity in the US, and in some cases, pulls the distribution towards gender parity."
+      ],
+      "paperlink":"https://arxiv.org/pdf/2102.04130.pdf",
+      "codelink": "https://github.com/oxai/intersectional_gpt2"
+    },
+    {
+      "title": "The Effect of Government Type on COVID-19 Restrictions", 
+      "description": [
+        "Were authoritarian governments more likely to enact more restrictive COVID-19 measures than democratic governments? I examine the relationship between government response to COVID-19 and country’s level of democracy and ask whether the regime type of a government has an impact on that government’s response."
+      ],
+      "paperlink":"https://towardsdatascience.com/did-government-type-have-an-effect-on-restrictive-covid-19-measures-68fa31124b8d"
+    },
+
+
+    {
+      "title": "Data Surveillance and Biocitizenship in the COVID-19 Pandemic: Digital Contact-tracing in South Korea, Hong Kong, Singapore, and Taiwan. in the COVID-19 Pandemic", 
       "description": [
         "[Working Paper with SNU]",
         "This paper analyzes the privacy implications of digital contact tracing in East Asian countries during the COVID-19 pandemic through topic modeling and network analysis of news media. Analysis done across 6 countries and 3 languages."
@@ -26,16 +51,9 @@
     {
       "title": "Joseon Munkwa Project", 
       "description": [
-        "Named-Entity Recognition and Disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
+        "Named-Entity recognition and disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
       ],
       "codelink": "https://github.com/yenniejun/JoseonMunkwa"
-    },
-    {
-      "title": "Bechdel Test Analysis", 
-      "description": [
-        "Exploratory data analysis of top movies and the Bechdel Test ratings over the years."
-      ],
-      "codelink": "https://github.com/yenniejun/bechdel"
     },
     {
       "title": "Virtual Coffeeshop", 
