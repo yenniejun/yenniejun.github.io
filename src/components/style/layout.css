@@ -669,7 +669,7 @@ pre tt:after {
 
 .homeFlex-image {
   flex: 0 0 38%;
-  margin: 1rem;
+  margin: 1rem !important;
 }
 
 .homeFlex-bio {
