@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/posts/post-link"
 import { graphql } from "gatsby"
-import classnames from 'classnames';
+// import classnames from 'classnames';
 
 const BooksPage = ({
   data: {
