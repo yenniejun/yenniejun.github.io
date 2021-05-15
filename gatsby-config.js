@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     // "gatsby-plugin-catch-links", 
     "gatsby-plugin-react-helmet",
@@ -15,6 +16,13 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-transformer-remark`,
