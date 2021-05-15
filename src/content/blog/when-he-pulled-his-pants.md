@@ -84,6 +84,8 @@ He says in a quiet voice, almost a whisper, that I can barely hear, “I don’t
 
 I meet with his parents for dinner. He returns to the army to finish his reeducation. He does not turn in his friends. He does not die. He comes out a year and a half later, but he never shows me his bruises again. He never pulls down his pants in front of me again. By the time he is out of the army there are new student leaders, new protests, new government officials, new policies, new presidents. The country moves in its lumbering, circuitous, but inevitable path towards democracy. He finishes college, he gets married to his high school sweetheart, he starts working at a giant telecommunications company as an electrical engineer, he puts on his business suit and he slowly works his way up the company ladder for thirty years.
 
+---
+
 ### 2020, New Orleans
 Today he calls me to tell me that he has been fired from his job. He has tried organizing a labor union at his company. He has publicly criticized the CEO for corruption claims. He has tried organizing worker strikes for unfair working standards and opaque promotion patterns.
 
