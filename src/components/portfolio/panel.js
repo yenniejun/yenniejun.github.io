@@ -20,6 +20,10 @@ const PortfolioPanel = (props) => {
               <h3>{props.data.announcement}</h3>
             }
 
+            {props.data.paperlink &&
+              <h3><a className={panelStyles.demolink} href={props.data.paperlink} target="_blank" rel="noreferrer"><span>Link to paper</span></a></h3>
+            }
+
             {props.data.demolink &&
               <h3><a className={panelStyles.demolink} href={props.data.demolink} target="_blank" rel="noreferrer"><span>Demo</span></a></h3>
             }
