@@ -712,6 +712,8 @@ pre tt:after {
   width: 40%;
   border-left: 0.8rem solid var(--brand-shade-dark);
   background: var(--brand-color-light2);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  
 }
 
 .quote blockquote {

@@ -8,6 +8,7 @@
                 0 16px 32px rgba(0,0,0,0.07), 
                 0 32px 64px rgba(0,0,0,0.07); */
     /* border-radius: 10px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: 3rem auto 3rem auto;
     font-family: 'IBM Plex Serif';
     padding: 1.2rem;
