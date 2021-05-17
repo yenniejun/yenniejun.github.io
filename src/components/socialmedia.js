@@ -29,7 +29,7 @@ const SocialMediaLinks = ({ location }) => {
                 <GrFacebookOption/>
                 <span>Facebook</span>
             </a>
-            <a href="https://www.instagram.com/lingling62/?hl=en" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/_yenniejun_/" target="_blank" rel="noreferrer">
                 <FaInstagram/>
                 <span>Instagram</span>
             </a>
