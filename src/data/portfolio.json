@@ -1,9 +1,18 @@
 [
       {
+        "title": "Tuning In: COVID-19 Vaccine Discourse on Public Radio in South Africa and Nigeria",
+        "image": "projects-thesis.png",
+        "description": [
+          "This Master's thesis aims to evaluate semantic shifts of discourse related to vaccine distribution and side effects during the COVID-19 pandemic on public radio streams from South Africa and Nigeria. Temporal word embeddings are used to determine the words that consistently describe vaccine discourse for each country over a period of eight weeks in 2021. To address the instability of word embedding models, over 800 models are trained by bootstrapping training documents. Using the ensemble of bootstrapped models, the role of local and global real-world events in shaping vaccine discourse is evaluated. Finally, these results are operationalized by translating the above insights into a decision-making tool to empower public health officials for better understanding, combating, and monitoring the infodemic."
+        ],
+        "codelink": "https://github.com/yenniejun/thesis-radio",
+        "tags": ["NLP"]
+      },
+      {
       "title": "Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
       "image": "projects-memes.png",
       "description": [
-        "In this paper, we evaluate Facebook’s Hateful Memes Challenge using unimodal and mulitmodal models and assesses the deployment gap between synthetic memes and memes in the wild. We collect memes from Pinterest as a proxy for 'memes in the wild' and compare with Facebook memes across unimodal and multimodal aspects. [Working paper with OxAI Labs]"
+        "In this paper, we evaluate Facebook’s Hateful Memes Challenge using unimodal and mulitmodal models and assesses the deployment gap between synthetic memes and memes in the wild. We collect memes from Pinterest as a proxy for 'memes in the wild' and compare with Facebook memes across unimodal and multimodal aspects."
       ],
       "paperlink":"https://arxiv.org/abs/2107.04313",
       "tags": ["NLP", "multimodal"]
@@ -12,7 +21,7 @@
       "title": "How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases", 
       "image": "projects-gpt2.jpg",
       "description": [
-        "We prompt engineer GPT-2 with 7000 prefix templates and evaluate the biases in its predictions by comparing to ground-truth US labor data. We find that while GPT-2 encompasses many stereotypical biases, especially for intersectional categories, GPT-2 reflects the societal skew of gender and ethnicity in the US, and in some cases, pulls the distribution towards gender parity. [Working paper with OxAI Labs]"
+        "We prompt engineer GPT-2 with 7000 prefix templates and evaluate the biases in its predictions by comparing to ground-truth US labor data. We find that while GPT-2 encompasses many stereotypical biases, especially for intersectional categories, GPT-2 reflects the societal skew of gender and ethnicity in the US, and in some cases, pulls the distribution towards gender parity."
       ],
       "paperlink":"https://arxiv.org/pdf/2102.04130.pdf",
       "codelink": "https://github.com/oxai/intersectional_gpt2",
