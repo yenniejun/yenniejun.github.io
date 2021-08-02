@@ -1,11 +1,12 @@
 [
       {
-      "title": "Learning From The Hateful Memes Challenge: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
+      "title": "Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
       "image": "projects-memes.png",
       "description": [
         "In this paper, we evaluate Facebook’s Hateful Memes Challenge using unimodal and mulitmodal models and assesses the deployment gap between synthetic memes and memes in the wild. We collect memes from Pinterest as a proxy for 'memes in the wild' and compare with Facebook memes across unimodal and multimodal aspects. [Working paper with OxAI Labs]"
       ],
-      "tags": ["NLP", "multimodality"]
+      "paperlink":"https://arxiv.org/abs/2107.04313",
+      "tags": ["NLP", "multimodal"]
     },
     {
       "title": "How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases", 
