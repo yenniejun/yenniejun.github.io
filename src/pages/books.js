@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PostLink from "../components/posts/post-link"
+import BookList from "../components/books/book-list"
 import { graphql } from "gatsby"
 // import classnames from 'classnames';
 
@@ -10,13 +10,13 @@ const BooksPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const Posts = edges
+  const Books = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"book"}/>)
+    .map(edge => <BookList key={edge.node.id} post={edge.node} type={"book"}/>)
 
     return(
       <Layout 
-        title="Books" 
+        title="My Bookshelf" 
         icon="books"
         quote="Some books are to be tasted, others to be swallowed, and some few to be chewed and digested"
         quote_author="Francis Bacon"
@@ -25,7 +25,7 @@ const BooksPage = ({
         <div className="mainContainer">
           <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
           <hr/>
-          {<div style={{marginBottom:`4rem`}}>{Posts}</div>}
+          {<div style={{marginBottom:`4rem`}}><table>{Books}</table></div>}
         </div>
       </Layout>
     )
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY-MM-DD")
             path
             tags
             author
