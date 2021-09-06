@@ -15,7 +15,8 @@ import "./style/layout.css"
 const Layout = (props) => {
   return (
     <>
-      <Header siteTitle={props.title} icon={props.icon}/>
+      
+      <Header siteTitle={props.title} subTitle={props.subtitle} icon={props.icon}/>
       
       {props.quote && 
         <div className="quote">
@@ -29,7 +30,7 @@ const Layout = (props) => {
       <div style={{ margin: `0 auto`}}>
         <main style={{
           // minHeight: `calc(100vh - 10rem)`,
-          textAlign: `center`
+          textAlign: `left`
         }}>{props.children}</main>
       </div>
 

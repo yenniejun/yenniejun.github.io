@@ -8,7 +8,7 @@ const Footer = ({icon}) => (
         margin: `5rem auto 1.45rem auto`,
         fontSize: `0.6rem`
     }}>
-        <hr style={{width:`50%`, margin: `1rem auto 3rem auto`}}/>
+        <hr style={{margin: `1rem auto 3rem auto`}}/>
 
         <SocialMediaLinks />
 
