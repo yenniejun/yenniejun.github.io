@@ -1,7 +1,7 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "books"
-path: "/books/bookname2"
+path: "/books/educated"
 date: "2020-01-14"
 title: "Educated"
 author: "Tara Westover"
