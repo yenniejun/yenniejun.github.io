@@ -1,9 +1,13 @@
 :root {
+  --background-color: #FECA1F;
+  --text-color-light: #444444;
+  --text-color-dark: black;
+
   --brand-color-light: #f7efe9;
   --brand-color-light2: #f9f9f9;
   --brand-color-dark: #3A3948;
   --brand-shade-light: #84BAB8;
-  --brand-shade-dark: #1b8585;
+  --brand-shade-dark: #09646A;
   /* --brand-accent: #D6A521; */
   --brand-accent: #ffb99f;
   --brand-accent-yellow: #e1ad01;

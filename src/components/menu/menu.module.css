@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700;900&display=swap');@import '../style/colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');@import '../style/colors.css';
 
 .menu {
     margin: 3rem auto 2rem auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-family: 'Lato', sans-serif;
-    font-weight:500;
+    font-weight:400;
     font-size: 1.3rem;
 }
 
@@ -31,5 +31,9 @@
     .menu a {
         margin-left: 1rem !important;
         font-size: 1rem;
+    }
+
+    .menu {
+        justify-content: center;
     }
 }

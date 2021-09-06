@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Quicksand:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;800&display=swap');
 @import './colors.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -12,19 +13,20 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin-left: 7rem;
+  margin-right: 7rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--brand-color-light);
+  background-color: var(--background-color);
 }
 
 div {
   color: var(--brand-color-dark);
 }
 
-h1 {
+/* h1 {
   color: var(--brand-shade-dark);
-}
+} */
 
 .textloopwords, .textloopwords div {
   color: var(--brand-accent);
@@ -207,7 +209,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  /* font: 112.5%/1.45em georgia, serif; */
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -646,14 +648,6 @@ pre tt:after {
   }
 }
 
-.homeContainer {
-  width: 70% !important;
-}
-
-.mainContainer {
-  width: 50%;
-  margin: 0 auto 1.45rem auto;
-}
 
 .home-blurb {
   width: 70%;
@@ -668,8 +662,9 @@ pre tt:after {
 }
 
 .homeFlex-image {
+  /* position: inherit !important; */
   flex: 0 0 38%;
-  margin: 1rem !important;
+  /* margin: 1rem !important; */
 }
 
 .homeFlex-bio {
@@ -694,6 +689,7 @@ pre tt:after {
 .normalLink:visited, .normalLink:link, .normalLink {
   color: var(--brand-shade-dark);
   text-decoration: none !important;
+  font-weight: 600;
 }
 
 .normalLink:hover {
@@ -702,14 +698,15 @@ pre tt:after {
 
 .header-icon {
   margin: 0 0 0 0.5rem;
-  width: 2rem;
+  width: 2.5rem;
   padding: 0 0 0 0;
 }
 
 .quote {
-  margin: 1rem auto 2rem auto;
+  /* margin: 1rem auto 2rem auto; */
+  margin-bottom: 2rem;
   padding: 1rem 1rem 2.4rem 1rem !important;
-  width: 40%;
+  width: 80%;
   border-left: 0.8rem solid var(--brand-shade-dark);
   background: var(--brand-color-light2);
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
@@ -726,27 +723,84 @@ pre tt:after {
   float: right;
 }
 
+#faded_name {
+  font-size:7rem;
+  position: absolute;
+  /* margin-top: -18rem; */
+  /* margin-left: 4rem; */
+  top: 160px;
+  right: 15%;
+  font-family: 'IBM Plex Serif';
+  opacity: 0.05;
+}
+
+#title_text {
+  color: var(--text-color-dark);
+  font-family: 'IBM Plex Serif';
+  margin-top: 7rem;
+  font-size: 3rem;
+}
+
+#subtitle_text {
+  color: var(--text-color-light);
+  font-family: 'IBM Plex Serif';
+  font-weight: 300;
+}
+
+.body-container {
+  display: flex;
+}
+
+.body-container > div {
+  flex: 50%;
+  text-align: left;
+}
+
+.body-container > div:nth-child(1) {
+  /* padding-right: 2rem; */
+}
+.body-container > div:nth-child(2) {
+  padding-left: 2rem;
+}
 
 @media only screen and (max-width: 767px) {
   /* phone */
-  .mainContainer {
-    width: 80% !important;
+
+  body {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
-  .homeFlex {
-    display: block;
+  #title_text {
+    margin-top: 5rem;
   }
 
-  .homeFlex div {
-    margin: auto;
-    /* font-size: 1rem; */
+  #faded_name {
+    font-size:5rem;
+    top:80px;
+    left:20%;
+    right:0
+  }
+
+  #subtitle_text {
+    font-size: 1rem;
+  }
+
+  .body-container {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .body-container > div:nth-child(2) {
+    padding-left: 0;
+    padding-bottom: 2rem;
   }
 
   .quote {
     width: 80% !important;
     padding: 0.5rem 0.5rem 1.7rem 0.5rem !important;
     font-size: 0.8rem;
-  }
+  } 
 
   .quote blockquote {
     margin-left: 0.4rem;
@@ -766,6 +820,7 @@ pre tt:after {
   /* img {
     margin-bottom: 0;
   }
+
    */
 }
 
@@ -788,3 +843,4 @@ pre tt:after {
     width: 70%;
   }
 }
+

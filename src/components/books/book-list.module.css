@@ -1,0 +1,58 @@
+.title {
+    text-decoration: none !important;
+}
+
+.book_title_link_cell a, .book_title_link_cell a:link, .book_title_link_cell a:visited {
+    text-decoration: none;
+}
+
+.book_title_link_cell a:hover {
+    color: var(--brand-shade-dark);
+    text-decoration: underline;
+}
+
+.title:hover {
+    color: var(--brand-shade-dark);
+  }
+
+table {
+    font-size:0.83rem;
+    width: 80%;
+    color:var(--text-color-light);
+    font-weight: 300;
+}
+
+td, th {
+    border-bottom: 0;
+    padding-bottom: 0;
+    vertical-align: baseline;
+}
+
+tr th:first-child,
+tr td:first-child {
+  width: 50%;
+  word-break: break-word;
+}
+
+.author {
+    font-size: 0.8rem;
+}
+
+.date {
+    color: gray;
+    font-size:0.8rem;
+}
+
+.blogtag {
+    display: inline-flex;
+    margin: 0.5rem 1rem 0rem 0rem;
+    color: var(--brand-shade-dark);
+    padding: 0.2rem 0.5rem;
+    border-radius: 18px;
+    border: 1px solid #e2e2e2;
+    font-size: 0.9rem;
+}
+
+.blogtag svg {
+    margin: 0.3rem 0.2rem 0rem 0rem;
+}
