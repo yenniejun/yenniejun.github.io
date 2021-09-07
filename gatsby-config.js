@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     // "gatsby-plugin-catch-links", 
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
