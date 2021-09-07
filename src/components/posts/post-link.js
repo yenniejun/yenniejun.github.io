@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import linkStyles from "./post-link.module.css"
+import * as linkStyles from "./post-link.module.css"
 import { GoTag } from 'react-icons/go'
 
 const PostLink = (props) => {

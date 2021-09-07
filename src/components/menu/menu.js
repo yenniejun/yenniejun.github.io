@@ -1,7 +1,7 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
 import { Link } from "gatsby"
-import menuStyles from "./menu.module.css"
+import * as menuStyles from "./menu.module.css"
 
 const Menu = ({ location }) => {
 

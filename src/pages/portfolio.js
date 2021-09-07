@@ -16,7 +16,7 @@ const PortfolioPage = () => {
             base
             id
             childImageSharp {
-              fluid(maxWidth: 500, maxHeight: 500) {
+              fluid {
                 ...GatsbyImageSharpFluid
               }
             }

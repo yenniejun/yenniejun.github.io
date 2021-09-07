@@ -32,6 +32,18 @@ div {
   color: var(--brand-accent);
 }
 
+/* FOR TOOLTIPS */
+/* https://stackoverflow.com/questions/7117073/add-a-tooltip-to-a-div */
+[data-tooltip]:before {            
+   position : absolute;
+   content : attr(data-tooltip);
+   opacity : 0;
+}
+
+[data-tooltip]:hover:before {        
+  opacity : 1;
+}
+
 article,
 aside,
 details,
@@ -841,6 +853,11 @@ pre tt:after {
 
   .quote {
     width: 70%;
+  }
+
+  body{ 
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 

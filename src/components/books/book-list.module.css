@@ -16,7 +16,7 @@
   }
 
 table {
-    font-size:0.83rem;
+    font-size: 20px;
     width: 80%;
     color:var(--text-color-light);
     font-weight: 300;
@@ -55,4 +55,16 @@ tr td:first-child {
 
 .blogtag svg {
     margin: 0.3rem 0.2rem 0rem 0rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* phone */
+    .book_date {
+        display: none;
+    }
+
+    table {
+        width: 100%;
+    }
 }

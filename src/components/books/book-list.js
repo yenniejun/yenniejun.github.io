@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import bookStyles from "./book-list.module.css"
+import * as bookStyles from "./book-list.module.css"
 import { GoTag } from 'react-icons/go'
 
 
@@ -15,11 +15,11 @@ const BookList = (props) => {
             </Link>
         </td>
         
-        <td>
+        <td className={bookStyles.book_author}>
             {!!post.frontmatter.author && <div>{post.frontmatter.author}</div>}
         </td>
 
-        <td>
+        <td className={bookStyles.book_date}>
             {post.frontmatter.date}
         </td>
 

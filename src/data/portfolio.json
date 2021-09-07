@@ -3,7 +3,7 @@
         "title": "Tuning In: COVID-19 Vaccine Discourse on Public Radio in South Africa and Nigeria",
         "image": "projects-thesis.png",
         "description": [
-          "This Master's thesis aims to evaluate semantic shifts of discourse related to vaccine distribution and side effects during the COVID-19 pandemic on public radio streams from South Africa and Nigeria. Temporal word embeddings are used to determine the words that consistently describe vaccine discourse for each country over a period of eight weeks in 2021. To address the instability of word embedding models, over 800 models are trained by bootstrapping training documents. Using the ensemble of bootstrapped models, the role of local and global real-world events in shaping vaccine discourse is evaluated. Finally, these results are operationalized by translating the above insights into a decision-making tool to empower public health officials for better understanding, combating, and monitoring the infodemic."
+          "Evaluated COVID-19 vaccine discourse on public radio streams from South Africa and Nigeria using temporal word embeddings. Master's Thesis with the Oxford Internet Institute and UNGP."
         ],
         "codelink": "https://github.com/yenniejun/thesis-radio",
         "tags": ["NLP"]
@@ -12,7 +12,7 @@
       "title": "Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
       "image": "projects-memes.png",
       "description": [
-        "In this paper, we evaluate Facebook’s Hateful Memes Challenge using unimodal and mulitmodal models and assesses the deployment gap between synthetic memes and memes in the wild. We collect memes from Pinterest as a proxy for 'memes in the wild' and compare with Facebook memes across unimodal and multimodal aspects."
+        "Evaluated Facebook's Hateful Meme Challenge by comparing Facebook's carefully synthesized dataset with a collection of 'memes in the wild' gathered from Pinterest."
       ],
       "paperlink":"https://arxiv.org/abs/2107.04313",
       "tags": ["NLP", "multimodal"]
@@ -21,7 +21,7 @@
       "title": "How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases", 
       "image": "projects-gpt2.jpg",
       "description": [
-        "We prompt engineer GPT-2 with 7000 prefix templates and evaluate the biases in its predictions by comparing to ground-truth US labor data. We find that while GPT-2 encompasses many stereotypical biases, especially for intersectional categories, GPT-2 reflects the societal skew of gender and ethnicity in the US, and in some cases, pulls the distribution towards gender parity."
+        "Probed GPT-2 with prefix templates related to gender and occupation to evaluate biases in its predictions, which were compared wtih ground-truth US labor data."
       ],
       "paperlink":"https://arxiv.org/pdf/2102.04130.pdf",
       "codelink": "https://github.com/oxai/intersectional_gpt2",
@@ -31,7 +31,7 @@
       "title": "The Effect of Government Type on COVID-19 Restrictions", 
       "image": "projects-covidgovernment.png",
       "description": [
-        "Were authoritarian governments more likely to enact more restrictive COVID-19 measures than democratic governments? In this article, I examine the relationship between government response to COVID-19 and country’s level of democracy and ask whether the regime type of a government has an impact on that government’s response."
+        "Examined the relationship between government response to COVID-19 and country’s level of democracy and ask whether the regime type of a government has an impact on that government’s response."
       ],
       "articlelink":"https://towardsdatascience.com/did-government-type-have-an-effect-on-restrictive-covid-19-measures-68fa31124b8d",
       "codelink": "https://github.com/yenniejun/covid_government_type",
@@ -41,7 +41,7 @@
       "title": "Covid Texting Service", 
       "image": "projects-covidtexting.png",
       "description": [
-        "Texting service for answering questions related to the pandemic and providing COVID-19 statistics to those without access to Internet. This is a working project with Silicon Harlem in NYC to get the service in the hands of people in need."
+        "Created texting service for answering questions related to the pandemic and providing COVID-19 statistics to those without access to Internet. This is a working project with Silicon Harlem in NYC to get the service in the hands of people in need."
       ],
       "announcement": "Demo: Text 1NYC to 313131",
       "codelink":"https://github.com/yenniejun/covid-texting-service",
@@ -51,7 +51,7 @@
       "title": "Data Surveillance and Biocitizenship in the COVID-19 Pandemic: Digital Contact-tracing in South Korea, Hong Kong, Singapore, and Taiwan", 
       "image": "projects-contacttracing.png",
       "description": [
-        "This paper analyzes the privacy implications of digital contact tracing in East Asian countries during the COVID-19 pandemic through topic modeling and semantic network analysis of news media. Analysis conducted across 6 countries and 3 languages (Korean, English, Chinese). [Working paper with SNU]"
+        "Analyzed the privacy implications of digital contact tracing in East Asian countries during the COVID-19 pandemic through topic modeling and semantic network analysis of news media. Analysis conducted across 6 countries and 3 languages (Korean, English, Chinese)."
       ],
       "codelink":"https://github.com/yenniejun/covid-news-analysis",
       "tags": ["topic modeling", "text cleaning", "networks"]
@@ -60,25 +60,25 @@
       "title": "Big Data as Historical Archive: The Challenges of Preserving Today’s Digital Artifacts", 
       "image": "archives_of_the_future.jpg",
       "description": [
-        "What is an archive in an age of big data? The short lifespan of storage hardware and the physical existence of big data in the form of data center infrastructure challenge historians' relationships with primary sources. The narratives that future researchers will find in the digital archives of the early 21st century will contain an unbalanced representation of the digital lives, activities, and stories of today. This article examines the greatest challenges for long-term preservation of big data, challenges which differ from the preservation of mostly static, smaller-scale digital material which had concerned archivists in the past. [Working paper with SNU]"
+        "Examined the greatest challenges for long-term preservation of big data, challenges which differ from the preservation of mostly static, smaller-scale digital material which had concerned archivists in the past."
       ],
-      "tags": ["big data studies", "digital history"]
+      "tags": ["big data studies", "digital history", "digital humanities"]
     },
 
     {
       "title": "Joseon Munkwa Project", 
       "image": "projects-sillok.jpg",
       "description": [
-        "Named-entity recognition and disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
+        "Conducted named-entity recognition and disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
       ],
       "codelink": "https://github.com/yenniejun/JoseonMunkwa",
-      "tags": ["digital history", "NER", "disambiguation"]
+      "tags": ["digital history", "digital humanities", "NER", "disambiguation"]
     },
     {
       "title": "Virtual Coffeeshop", 
       "image": "projects-cafebackground.png",
       "description": [
-        "Virtual coffeeshop experience for those of us stuck at home during stay-at-home and seeking the vibe and comradeship of a cafe."
+        "Created virtual coffeeshop experience for those of us stuck at home during stay-at-home and seeking the vibe and comradeship of a cafe."
       ],
       "demolink": "https://virtualcoffeeshop.herokuapp.com/",
       "codelink": "https://github.com/yenniejun/internetcafe",
@@ -88,9 +88,10 @@
       "title": "Music Factorization", 
       "image": "projects-music.png",
       "description": [
-        "Factorize a scale into parts that can be understood using combinations of 'symmetric' scales. An exercise in breaking down all scales into a combination of whole tone scales."
+        "Factorized a scale into parts that can be understood using combinations of 'symmetric' scales. An exercise in breaking down all scales into a combination of whole tone scales."
       ],
-      "codelink": "https://github.com/yenniejun/music-factorization"
+      "codelink": "https://github.com/yenniejun/music-factorization",
+      "tags": ["Python", "music theory"]
     }
   ]
 
