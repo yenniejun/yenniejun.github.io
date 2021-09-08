@@ -6,7 +6,9 @@ date: "2020-04-01"
 updatedDate: "2020-05-28"
 title: "A Brief History of Time"
 author: "Stephen Hawking"
-tags: ["Nonfiction"]
+tags: ["Nonfiction", "Science"]
+link: "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time"
+rating: 4.0
 ---
 
 This book blew my mind away. The physical book that I read was published in 1988 and actually used by my dad when he was in college (so, it's really old). The thought that comes to mind is: How timeless is time. Or rather, how timeless is humanity's musing about time?

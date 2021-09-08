@@ -1,0 +1,14 @@
+---
+# slug: "/blog/my-first-post"
+posttype: "books"
+path: "/books/water-for-chocolate"
+date: "2021-08-03"
+title: "Like Water for Chocolate"
+author: "Laura Esquivel"
+tags: ["Fiction"]
+link: "https://www.goodreads.com/book/show/6952.Like_Water_for_Chocolate"
+rating: 4.5
+---
+This was such a lovely book and I absolutely adored the style, the writing, and the story. I recommend this book for anyone seeking stories with magical realism as well as beautiful writing about family and relationships. Esquivel uses family recipes to tell the story of the main character, Tita, and weaves in the magic of food wtih the magic of the writing.
+The book was a very beautiful and poignant (partially due to its light-heartedness) way of telling the frustrations of one woman’s life. I loved the storytelling through recipes and the magical realism, I loved the characters and their development, i loved the small absurdities, I loved the entire arc of Tita’s life. All of the women portrayed in the book were so rich with life and character and desires and dreams and quirks and downfalls. They each played their role as prescribed by society in small ways while pushing traditional boundaries in their own individual ways. I loved how women played a central part in this story.
+

@@ -2,12 +2,13 @@
 # slug: "/blog/my-first-post"
 posttype: "books"
 path: "/books/sympathizer"
-date: "2020-02-20"
+date: "2020-02-02"
 updatedDate: "2020-05-23"
 title: "The Sympathizer"
 author: "Viet Thanh Nguyen"
 tags: ["Fiction"]
-link: "https://www.goodreads.com/book/show/23168277-the-sympathizer?ac=1&from_search=true&qid=PIM6rWZzj5&rank=1"
+link: "https://www.goodreads.com/book/show/23168277-the-sympathizer"
+rating: 4.4
 ---
 
 Finishing this book, I am struck by Nguyen's mastery with language, plot, character development, and storytelling.

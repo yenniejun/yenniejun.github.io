@@ -8,6 +8,7 @@ title: "Little Fires Everywhere"
 author: "Celeste Ng"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/51704136-little-fires-everywhere"
+rating: 4.0
 ---
 
 In general, this book spoke a lot to me, especially at this time of my life, when I am about to embark on a huge journey to discover what about my life is the most important to me. This is related to Mia's life as an itinerant artist, but also in general to the theme of "little fires." Following your passion. Not just following the prescribed rules.

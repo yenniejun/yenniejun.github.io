@@ -8,6 +8,7 @@ title: "Invisible Women: Data Bias in a World Designed for Men"
 author: "Caroline Criado Perez"
 tags: ["Nonfiction"]
 link: "https://www.goodreads.com/book/show/41104077-invisible-women"
+rating: 4.0
 ---
 As a self-sustaining entity of a book, I didn't enjoy it that much. The narrative jumped around a lot, some of the arguments were either hard to follow or just jumped to conclusions, and the writing itself wasn't amazing. That being said, this book opened me up to so many new thinking spaces, and it was very influential in introducing me to so many new directions I can take my future career. So, in a way, very influential. This book reminded me that a dream or goal of working on lessening and improving the data gap is feasible, and that there is still so much work to be done, and that this is definitely a space that I can work in. 
 
