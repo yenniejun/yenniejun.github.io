@@ -25,7 +25,19 @@ const BooksPage = ({
         <div className="mainContainer">
           <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
           <hr/>
-          {<div style={{marginBottom:`4rem`}}><table>{Books}</table></div>}
+          {<div style={{marginBottom:`4rem`}}>
+            <table>
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th className="hide_header_column">Date Finished</th>
+                  <th className="hide_header_column">Rating</th>
+                </tr>
+              </thead>
+              {Books}
+            </table>
+          </div>}
         </div>
       </Layout>
     )
@@ -49,6 +61,7 @@ export const pageQuery = graphql`
             tags
             author
             description
+            rating
           }
         }
       }

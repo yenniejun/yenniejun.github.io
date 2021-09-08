@@ -24,11 +24,32 @@
 
 .bookHeader {
     margin-top: 3rem;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bookTable {
+    font-size: 18px;
+}
+
+.bookTable tr th:first-child, .bookTable tr td:first-child {
+    width: 13%;
     text-align: left
 }
 
+.bookTable td {
+    padding-left: 0;
+    padding-top: 0;
+
+}
+
+
 .bookHeader p {
     margin-bottom: 0
+}
+
+.blogPostContent {
+    font-size: 18px;
 }
 
 .blogPostContent a, .blogPostContent a:link, .blogPostContent a:visited,
@@ -49,5 +70,10 @@
 @media only screen and (max-width: 767px) {
     .blogContainer {
         width: 80%;
+    }
+
+    .bookTable tr th:first-child, .bookTable tr td:first-child {
+        width: 40%;
+        text-align: left
     }
 }

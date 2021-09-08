@@ -22,6 +22,10 @@ const BookList = (props) => {
         <td className={bookStyles.book_date}>
             {post.frontmatter.date}
         </td>
+ 
+        <td className={bookStyles.book_rating}>
+          {post.frontmatter.rating.toFixed(1) + " / 5"}
+        </td>
 
        
       {/* {props.type == "book" && 

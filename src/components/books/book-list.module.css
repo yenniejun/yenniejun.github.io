@@ -17,10 +17,16 @@
 
 table {
     font-size: 20px;
-    width: 80%;
     color:var(--text-color-light);
-    font-weight: 300;
+    font-weight: 400;
 }
+
+.title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+  }
 
 td, th {
     border-bottom: 0;
@@ -30,7 +36,8 @@ td, th {
 
 tr th:first-child,
 tr td:first-child {
-  width: 50%;
+  /* width: 50%; */
+  width: 500px;
   word-break: break-word;
 }
 
@@ -41,6 +48,10 @@ tr td:first-child {
 .date {
     color: gray;
     font-size:0.8rem;
+}
+
+.book_rating {
+    text-align: left;
 }
 
 .blogtag {
@@ -60,11 +71,23 @@ tr td:first-child {
 
 @media only screen and (max-width: 767px) {
     /* phone */
-    .book_date {
+    .book_date, .book_rating {
         display: none;
     }
 
     table {
         width: 100%;
+        font-size:14px;
+    }
+
+    .title {
+        width: 180px;
+        padding-right:0;
+    }
+
+    tr th:first-child,
+    tr td:first-child {
+    /* width: 50%; */
+        width: 180px;
     }
 }

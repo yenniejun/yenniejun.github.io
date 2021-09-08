@@ -21,9 +21,26 @@ export default function Template({
             {frontmatter.posttype==="books" &&
               <div className={templateStyles.bookHeader}>
                 <h1>{frontmatter.title}</h1>
-                <p>Author: {frontmatter.author}</p>
-                <p>Finished: {frontmatter.date}</p>
-                {frontmatter.link && <a href={frontmatter.link} target="_blank" rel="noreferrer"><p>Goodreads link</p></a>}
+
+                <table className={templateStyles.bookTable}>
+                  <tbody>
+                    <tr>
+                      <td>Author</td>
+                      <td>{frontmatter.author}</td>
+                    </tr>
+                    <tr>
+                      <td>Finished</td>
+                      <td>{frontmatter.date}</td>
+                    </tr>
+                    <tr>
+                      <td>Rating</td>
+                      <td>{frontmatter.rating.toFixed(1) + " / 5"}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>{frontmatter.link && <a href={frontmatter.link} target="_blank" rel="noreferrer"><p>Goodreads link</p></a>}</p>
+
+
               </div>
             }     
             
@@ -49,6 +66,7 @@ export const pageQuery = graphql`
         author
         posttype
         link
+        rating
       }
     }
   }

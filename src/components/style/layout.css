@@ -4,7 +4,8 @@
 @import './colors.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap');
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -825,6 +826,10 @@ pre tt:after {
     margin-bottom: 2rem;
   }
 
+  .hide_header_column {
+    display: none;
+  }
+
   /* .homeFlex-bio {
     text-align: center;
   } */
@@ -859,5 +864,12 @@ pre tt:after {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+
 }
 
+
+
+.hide_header_column {
+  /* display: inline-block; */
+}
