@@ -1,0 +1,34 @@
+---
+# slug: "/blog/my-first-post"
+posttype: "books"
+path: "/books/aquariums-pyongyang"
+date: "2020-07-31"
+title: "The Aquariums of Pyongyang: Ten Years in the North Korean Gulag"
+author: "Kang Chol-Hwan"
+tags: ["Nonfiction", "Memoir"]
+link: "https://www.goodreads.com/book/show/69951.The_Aquariums_of_Pyongyang"
+rating: 3.1
+---
+I am glad I read this book because I learned about the horrific situation of the North Korean gulags. However, perhaps because I read it right after reading "Nothing to Envy", I didn't like it that much. Perhaps there is something to say about the translation as well, but the author felt really distant and formal. He would mention things in passing that I wanted to know more about, that would have really humanized him in the book - the girl he loved, what happened to his sister, what happened to his mother, whether or not he tried to get his family out afterwards. I realize that the main point of the book was to showcase how bad the gulags were. I also realize that his experience was harrowing and even to write about something like this is a huge feat. However, not only did it feel like he left out a lot of details that would have made the story even more poignant, I didn't like his offhanded place of privilege. In some places, he recognizes that he came from a place of privilege (having a grandma who was politically high, being placed in a relatively better prison camp with a future release date, having rich Japanese family who would send over money for bribes, etc) but I don't think it's quite stressed enough. Again, I feel weird saying that because obviously it must have been horrid and I wasn't there, and maybe I am not being empathetic enough... but by the end of the book I really didn't like the author. I didn't like how he abandoned his family, I didn't like his views on women's place in South Korea (and offhand remarks about how women who go to Ewha are all prostitutes?), I didn't like his careless disregard of his friends and family back in North Korea.
+
+- "My family was once again a family of uprooted emigrants. That feeling of nostalgia is still in the family, but with every generation its object continues to shift." (34)
+- Surveillance was automated .... "the prisoners were forced to create a system of self-surveillance, which while perfectly effective at maintaining order, required little outside intervention" (72)
+- At Yodok, there were ten villages, four for redeemables and six for irredeemables
+    - The irredeemables were there for life... "**These prisoners were tossed into a world of phantoms and nonentitites**" (79)
+- After several years, it became his home... so sad. He said, "So do I dare admit it? Some mysterious bound had come to attach me to that place. I've heard it said that the most miserable slave is one who is content with his fate... But Yodok was the big cage where I'd grown into adulthood and wised up to life's tough realities... I had learned to love the scents wafted by the springtime breeze" (126)
+- "A couple of years was all it took for the camp to utterly change a child... the camp taught us how to rebel, jeer, and mock anything vaguely whiffing of authority. Within a year or two of arriving, a prisoner lost every scintilla of respect he might have had for the party. Our disdain spread like gangrene..." (135)
+    - Yodok and other camps backfires on the REAL supporters, like his grandmother
+- "I had the strange feeling of being swallowed up in a world where the earth and the sky had changed places" (140)
+- Like when he leaves North Korea, he just leaves his girlfriend and is sad about it right? And then he gets to China and then this woman asks him to dance and he doesn't know how to respond, but then that night he "began to wonder if I would ever meet her again and whether I would ever overcome my shyness" (200). So... he forgot about his girlfriend?
+- "I began to wonder whether the North Korean authorities weren't justified in fearing capitalism's nefarious influence on China! But I think what scared me was the prospect of enjoying life" (202)
+- "Perhaps it's naive, but I've always had the belief that women would shield and protect me from the vicissitudes of fate" (212)
+    - NOT NAIVE BUT SEXIST
+    - TAKE CARE OF YOUR DAMN SELF
+- And then when he is staying with the prostitutes (Madame Yi), some North Korean sailors come to China. The author rips them off and takes advantage of them. Like UGH (214)
+- Hard time adjusting in South Korea. "Life in the North had made me a bit of a Spartan. When students sat down cross-legged in front of me and started smoking, I had a hard time holding my tongue; you don't do that in front of someone your senior. **The North is hypertraditionalist**. Friendships between members of the opposite sex is not the norm. When a man speaks to a woman his own age, he employs the familiar form of address, she the formal. Relations follow a strict hierarchy. Here, we are equal!" (228)
+    - Again, I was bothered by the author's offhand sexist comments but I guess it's how he grew up. His voice sounds honest but also seems to leave a lot out, it's annoying
+- He condemns left liberalism... "Leftist students should do well to consider the meaning of that silence" (228)
+- His call to action: "The citizens of South Korea should realize they have an important role to play in welcoming refugees... Their actions need to prove it. The rhetoric of reunification is one thing, people's attitudes toward North Korean renegades quite another." (230)
+- At the end he does acknowledge his privilege. He says, "I think of all the advantages I had. Money allowed me to reach the border by train and to hire a guide" (232)
+- In the epilogue: "We are all brothers it seems, but our sisters are being bought and sold at the border" (235) OH SO NOW YOU BRING IT UP
+- Notes at the end: Perhaps bad translation, but author felt very distant. Felt like I was being told not shown so many things. And he would backhandedly mention "my girlfriend" or "my mother" or "that one best friend" without providing any background details. Maybe he is just a bad writer. I didn't like his storytelling style (this is purely from a literary perspective). Also what happens to his family? Feels too egoistic

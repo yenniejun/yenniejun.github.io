@@ -3,7 +3,7 @@
 posttype: "books"
 path: "/books/dark-forest"
 date: "2021-06-23"
-title: "The Dark Forest
+title: "The Dark Forest"
 author: "Lin Cixin"
 tags: ["Fiction", "Sci-Fi"]
 link: "https://www.goodreads.com/book/show/23168817-the-dark-forest"
