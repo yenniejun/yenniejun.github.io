@@ -21,7 +21,7 @@ const BooksPage = ({
         quote="Some books are to be tasted, others to be swallowed, and some few to be chewed and digested"
         quote_author="Francis Bacon"
       >
-        <SEO title="Books" />
+        <SEO title="Book Notes" />
         <div className="mainContainer">
           <p>I love to read across all genres: non-fiction, fiction, poetry, biography, memoir, history, and science. Here are my notes and thoughts on some of my recent favorite reads.</p>
           <hr/>

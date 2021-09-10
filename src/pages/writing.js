@@ -22,7 +22,7 @@ const WritingPage = ({
         quote="I write to discover what I know"
         quote_author="Flannery O'Connor"
       >
-      <SEO title="Writing" />
+      <SEO title="Yennie Jun's Writing" />
       <div className="mainContainer">
   
       <p>I like to write across genres and styles: fiction short stories, nonfiction short stories, poetry, and opinion pieces.
