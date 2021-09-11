@@ -103,8 +103,12 @@ tr td:first-child {
 
 @media only screen and (max-width: 767px) {
     /* phone */
-    .book_date, .book_rating {
+    .book_rating, .book_date_divider {
         display: none;
+    }
+
+    .author_date_container {
+        flex-direction: column;
     }
 
     table {
@@ -113,8 +117,9 @@ tr td:first-child {
     }
 
     .title {
-        width: 180px;
+        width: 90vw;
         padding-right:0;
+        font-size: 20px;
     }
 
     tr th:first-child,

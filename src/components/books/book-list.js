@@ -21,7 +21,7 @@ const BookList = (props) => {
 
       <div className={bookStyles.author_date_container}>
         {!!post.frontmatter.author && <div className={bookStyles.book_author}>{"By: " + post.frontmatter.author}</div>}
-        <div>|</div>
+        <div className={bookStyles.book_date_divider}>|</div>
         <div className={bookStyles.book_date}>{"Finished: " + post.frontmatter.date}</div>
       </div>
 
