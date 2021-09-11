@@ -8,6 +8,7 @@ author: "Ian Milligan"
 tags: ["Nonfiction", "Technology"]
 link: "https://www.goodreads.com/book/show/42682653-history-in-the-age-of-abundance"
 rating: 3.5
+description: 'Milligan brings up a lot of important questions about what does an Internet archive, and, more broadly, what does an archive from present-day "digital day" look like, especially for historians of the future? I think this was a good place for me to start thinking about archives in relation to historical research, especially in the "digital age". I was a little bit disappointed because almost no mention of Asia. Everything seemed quite Euro-centric.'
 ---
 
 Overall: Milligan brings up a lot of important questions about what does an Internet archive, and, more broadly, what does an archive from present-day "digital day" look like, especially for historians of the future? I think this was a good place for me to start thinking about archives in relation to historical research, especially in the "digital age". I was a little bit disappointed because almost no mention of Asia. Everything seemed quite Euro-centric.

@@ -3,15 +3,18 @@
 posttype: "books"
 path: "/books/buried-giant"
 date: "2019-03-12"
-title: "TMilk and Honey"
+title: "The Buried Giant"
 author: "Kazuo Ishiguro"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/22522805-the-buried-giant"
 rating: 3.4
+description: "I thought the story itself was interesting, but I felt like there were many holes left gaping at the end. The theme of amnesia and forgetfulness (the “buried giant”) was tied in nicely with the physical symbolism of the mist sweeping across the land."
 ---
-I thought the story itself was interesting, but I felt like there were many holes left gaping at the end. I liked the ending, tying everything back with the boatman. (I almost cried when Axl asked Beatrice if he could hold her one last time - “But let me just hold you once more”). 
+I thought the story itself was interesting, but I felt like there were many holes left gaping at the end. The theme of amnesia and forgetfulness (the “buried giant”) was tied in nicely with the physical symbolism of the mist sweeping across the land.
 
-The theme of amnesia and forgetfulness (the “buried giant”) was tied in nicely with the physical symbolism of the mist sweeping across the land. It was unclear, however, why the mist affected some more than others, and affected some memories more than others. Why did the mist affect Wistan and Sir Gaiwan less, for example? 
+I liked the ending, tying everything back with the boatman. (I almost cried when Axl asked Beatrice if he could hold her one last time - “But let me just hold you once more”). 
+
+It was unclear, however, why the mist affected some more than others, and affected some memories more than others. Why did the mist affect Wistan and Sir Gaiwan less, for example? 
 
 The idea of hidden memories being uncovered and having huge consequences is nothing new, but I liked how Ishiguro explored that at both a macro and micro level. 
 * Macro level -- The ruse of Arthurian peace is completely shattered and war is coming. 

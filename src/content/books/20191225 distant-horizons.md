@@ -8,6 +8,7 @@ author: "Ted Underwood"
 tags: ["Nonfiction"]
 link: "https://www.goodreads.com/book/show/41591145-distant-horizons"
 rating: 4.0
+description: "I enjoyed this book! Prof. Underwood has a very pleasant literary style. As a reader who is well versed in both historical ideas and computer science concepts, this book was quite a pleasure to read. The technical details of his methods were explained in a way that was easy to understand but also not too simplified."
 ---
 Overall - I enjoyed this book! Prof. Underwood has a very pleasant literary style (which makes sense, I guess, since he is a lit prof). He writes in a way that is not difficult to understand or process, and I think that he is able to reach the "delicate balance" he mentions at the end of writing about a very interdisciplinary process/style while not getting too bogged down in the details. As a reader who is well versed in both historical ideas and computer science concepts, this book was quite a pleasure to read. The technical details of his methods were explained in a way that was easy to understand but also not too simplified.
 

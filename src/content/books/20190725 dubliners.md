@@ -8,6 +8,8 @@ author: "James Joyce"
 tags: ["Fiction", "Short Stories"]
 link: "https://www.goodreads.com/book/show/11012.Dubliners"
 rating: 4.3
+description: "I really enjoyed this collection of short stories. I liked how characters were reused across the stories, which made them feel cohesive and fit together like a whole. It reminded me of snapshots into random peoples' lives in a community where some of the people are bound to interact with each other.
+"
 ---
 I really enjoyed this collection of short stories. I was inspired to make a similar set. I liked how characters were reused across the stories, which made them feel cohesive and fit together like a whole. It reminded me of snapshots into random peoples' lives in a community where some of the people are bound to interact with each other.
 

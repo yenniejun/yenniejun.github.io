@@ -8,6 +8,7 @@ author: "Edith Wharton"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/53835.The_Age_of_Innocence"
 rating: 4.0
+description: "I'll be honest - I didn't like the first 3/4 of the book. But the ending was so well done. It was almost like Edith Wharton had to spend the first 200 pages of the book building up this world that was really stuffy, annoying, old-fashioned ('innocent')."
 ---
 
 I'll be honest - I didn't like the first 3/4 of the book. But the ending was so well done. It was almost like Edith Wharton had to spend the first 200 pages of the book building up this world that was really stuffy, annoying, old-fashioned ("innocent"). I think that is why I didn't like the book at first - all of the characters were annoying and never communicated and so pretentious and aristocratic and stuck in their ways. And then at the end - oh, the ending was so perfect - when Archer sits outside of Ellen's apartment, imagining what the scene will look like rather than actually going in, you realize that despite Archer's grandiose dreams about idealism and romance, he, like the rest of of his generation, is stuck in the same "age of innocence." He is too "old-fashioned" and he cannot change. He blames it on his generation but I think he is actually just too scared of himself and of Ellen.

@@ -8,36 +8,8 @@ author: "Zora Neale Hurston"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/37415.Their_Eyes_Were_Watching_God"
 rating: 3.1
+description: "I liked Their Eyes Were Watching God for its focus on the black community and its organic relationships rather than on the politics of race relations. I liked that the book wasn't a Big Bold Statement about Lynching or Running Away From Slavery or Jim Crowe or Reconstruction. It was about black people with other black people and their everyday lives removed from white people. Although they cannot be entirely removed from white people's negative influences (i.e. Mrs Turner and her obsession with whiteness, the white people at the end that force Tea Cake into grave digging), the focus of the book is NOT on white peoples' exploitation of black people, or on the relationship between black and white people. The book focused more on the black community and their loves and humor and dialogue and dialect and everyday happenings ... and, of course, the story of how a woman finds her independence."
 ---
-Overall: This book (for some weird way) reminded me of Colson Whitehead's "Underground Railroad" (which I did NOT like) - possibly because of the reference to semi-utopian black-only community. I liked what ZNH was doing with the book but I won't say it was my favorite book ever. 
-
-If I had to describe her style, it would entail skipping over a lot of details many people would think important (i.e. physical details of love, or physical descriptions of rooms) and focusing a lot on dialogue and dialect.
-
-Maybe I'm just an anachronistic reader from the future, but I didn't like how Tea Cake beat Janie just to show that he was an owner of her. And how he described Janie as submissive and as perfect wife because she just wants to be where he is - this struck me as old-fashioned and akin to the language of slavery. Not sure if this was ZNH's point, but it seemed like even in Janie's third marriage, even though she was supposedly happy and in love and all, there were still some signs of abuse from Tea Cake. 
-
-I kind of liked how this book wasn't about Lynching or Running Away From Slavery or Jim Crowe or Reconstruction. It was about black people with other black people and their everyday lives removed from white people. Although they cannot be entirely removed from white people's negative influences (i.e. Mrs Turner and her obsession with whiteness, the white people at the end that force Tea Cake into grave digging), the focus of the book is NOT on white peoples' exploitation of black people, or on the relationship between black and white people. My take on the focus of the book was on how a woman finds her independence ... or something like that
-
-"Their eyes were watching God" - the poor black people waiting as the hurricane came were watching God, as if waiting for him to do something, as if waiting for him to give a sign to tell them what to do. This makes me think of Janie her whole life, waiting for people to tell her what to do because she was bound by societal norms (to her grandmother, to her husbands, to other people)  ... and then in the end she goes up to her room and feels Tea Cake all around her on her own terms.
-
-## Quotes
-
-- "Here Nanny had taken the biggest thing God ever made, the horizon — for no matter how far a person can go the horizon is still way beyond you — and pinched it in to such a little bit of a thing that she could tie it about her granddaughter's neck tight enough to choke her. She hated the old woman who had twisted her so in the name of love." (89)
-- "Still and all, she's her own woman. She oughta know by now whut she wants tuh do" (111)
-- Black people who think they are white
-    - "Ah jus' couldn't see mahself married to no black man. It's too many black folks already. We oughta lighten up de race." (140) Mrs. Turner
-- "They huddled closer and stared at the door. They just didn't use another part of their bodies, and they didn't look at anything but the door. The time was past for asking the white folks what to look for through that door. Six eyes were questioning *God.* (159)
-- When they are waiting for the storm, Janie tells Tea Cake: "We been tuhgether round two years. **If you kin see de light at daybreak, you don't keer if you die at dusk. It's so many people never seen de light at all.** Ah wuz fumblin' round and God opened de door." (159)
-    - It's okay because she was more alive these two years with him than her entire life
-- "As soon as Tea Cake went out pushing wind in front of him, he saw that the wind and water had given life to lots of things that folks think of as dead and given death to so much that had been living things. Water everywhere" (160)
-- Tea Cake hedged his bets wrong when he thought he could stay and ignore the hurricane.... He hedged his bets wrong like when he gambled and should have gotten out when he could have with a profit. Stayed too long and got cut.....
-- "It was the meanest moment of eternity" (184)
-- "And Janie sat like a lump and waited. It was not death she feared. It was misunderstanding." (188)
-- "She went on in her overalls. She was too busy feeling grief to dress like grief" (189)
-    - In contrast to Joe's death when she made a big deal to pretend like she had grief
-- "Two things everybody's got tuh do fuh theyselves. They got tuh go tuh God, and they got tuh find out about livin' fuh theyselves" (192)
-- "Tea Cake, with the sun for a shawl. Of course he wasn't dead. He could never be dead until she herself had finished feeling and thinking. The kiss of his memory made pictures of love and light against the wall. Here was peace. She pulled in her horizon like a great fish-net. Pulled it from around the waist of the world and draped it over her shoulder. So much of life in its meshes! She called in her soul to come and see." (193)
-
-# My Review
 
 Overall: I liked Their Eyes Were Watching God for its focus on the black community and its organic relationships rather than on the politics of race relations. I liked that the book wasn't a Big Bold Statement about Lynching or Running Away From Slavery or Jim Crowe or Reconstruction. It was about black people with other black people and their everyday lives removed from white people. Although they cannot be entirely removed from white people's negative influences (i.e. Mrs Turner and her obsession with whiteness, the white people at the end that force Tea Cake into grave digging), the focus of the book is NOT on white peoples' exploitation of black people, or on the relationship between black and white people. The book focused more on the black community and their loves and humor and dialogue and dialect and everyday happenings ... and, of course, the story of how a woman finds her independence.
 

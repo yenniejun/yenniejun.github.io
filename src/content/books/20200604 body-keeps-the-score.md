@@ -8,6 +8,7 @@ author: "Bessel van der Kolk"
 tags: ["Nonfiction", "Science"]
 link: "https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score"
 rating: 4.0
+description: "Dr. van der Kolk, who has worked with trauma patients for his entire career, shares his knowledge about trauma's influence on the body and the brain, and the interconnection between both. In the 'nature vs. nurture' argument, he (indirectly) seems to take a firm stance that nurture is possibly a lot more important than nature. van der Kolk argues that childhood abuse is perhaps one of America's biggest public health crises right now, and something that is not getting as much support and attention as it should."
 ---
 Dr. van der Kolk, who has worked with trauma patients for his entire career, shares his knowledge about trauma's influence on the body and the brain, and the interconnection between both. In the "nature vs. nurture" argument, he (indirectly) seems to take a firm stance that nurture is possibly a lot more important than nature. van der Kolk argues that childhood abuse is perhaps one of America's biggest public health crises right now, and something that is not getting as much support and attention as it should. 
 

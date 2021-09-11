@@ -8,6 +8,7 @@ author: "Celeste Ng"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/18693763-everything-i-never-told-you"
 rating: 3.8
+description: "Very lovely book. Since I read this right after Little Fires Everywhere, I immediately sensed that this book was earlier and that Ng's style was not as matured. There were a couple plot points that did not make as much sense and some weird stylistic things  (maybe complexity felt a bit strained?) However in general I enjoyed the story a lot. So many feelings. So many secrets."
 ---
 Very lovely book. Since I read this right after Little Fires Everywhere, I immediately sensed that this book was earlier and that Ng's style was not as matured. There were a couple plot points that did not make as much sense and some weird stylistic things  (maybe complexity felt a bit strained?) However in general I enjoyed the story a lot. So many feelings. So many secrets. 
 

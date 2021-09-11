@@ -9,6 +9,7 @@ author: "Viet Thanh Nguyen"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/23168277-the-sympathizer"
 rating: 4.4
+description: "Nguyen has such mastery with prose and I underlined so many passages just because the prose was so beautiful or creative. His vocabulary is immense and he utilizes words and phrases in such familiar and surprising ways that are so beautiful, profound, expressive, and poetic. Also I just found his tone and language so funny. I found the humor dark and filled with irony."
 ---
 
 Finishing this book, I am struck by Nguyen's mastery with language, plot, character development, and storytelling.

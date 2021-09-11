@@ -8,6 +8,7 @@ author: "Salman Rushdie"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/9865.The_Moor_s_Last_Sigh"
 rating: 4.2
+description: "Classic Salman Rushdie book! I definitely enjoyed Rushdie's cleverness of puns, style, and writing. He covered a lot of ground. It was definitely long in span (breadth and depth). I was impressed with the level of detail he gave to every event and character."
 ---
 Classic Salman Rushdie book! I definitely enjoyed Rushdie's cleverness of puns, style, and writing. He covered a lot of ground. It was definitely long in span (breadth and depth). I was impressed with the level of detail he gave to every event and character. I liked the unreliability of the narratorship - which becomes extremely apparent by the end, when Moor basically says that he made up a lot of the things about Carmen and his parents because how would he know the truth? I liked the theme of narrator and how it's really dependent on the story you want to tell.
 

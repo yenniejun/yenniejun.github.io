@@ -8,6 +8,7 @@ author: "Lin Cixin"
 tags: ["Fiction", "Sci-Fi"]
 link: "https://www.goodreads.com/book/show/20518872-the-three-body-problem?"
 rating: 3.9
+description: "I enjoyed this book quite immensely. It was a very well done piece of science fiction. Very creatively imagined world, and I loved the setting of it within the Cultural Revolution. Premise: a physicist (Ye) who has been extremely disillusioned by the Cultural Revolution loses faith in humanity, reaches out to extra-terrestial life to help rebuild and destroy humanity.  In the end we get a glimpse into the alien life (Trisolaris), and we see that they are as afraid of humans as humans are of them."
 ---
 I enjoyed this book quite immensely. It was a very well done piece of science fiction. Very creatively imagined world, and I loved the setting of it within the Cultural Revolution. Premise: a physicist (Ye) who has been extremely disillusioned by the Cultural Revolution loses faith in humanity, reaches out to extra-terrestial life to help rebuild and destroy humanity. ("Our civilization is no longer capable of solving its own problems. We need your force to intervene" (276)).  In the end we get a glimpse into the alien life (Trisolaris), and we see that they are as afraid of humans as humans are of them. 
 

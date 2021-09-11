@@ -8,6 +8,7 @@ author: "Lin Cixin"
 tags: ["Fiction", "Sci-Fi"]
 link: "https://www.goodreads.com/book/show/23168817-the-dark-forest"
 rating: 1.0
+description: "This book was one of the worst books I’ve read. While the Three Body Problem was actually a lot better, this book kind of made me want to vomit. In terms of storyline, it was okay … the details of the futuristic society felt a bit tacky and shoddy and not well thought out. Especially the societal values of the underground society felt really handwavy. The science part of the spaceships and the space wars were cool, as were the book’s way of addressing the Fermi paradox."
 ---
 This book was one of the worst books I’ve read. While the Three Body Problem was actually a lot better, this book kind of made me want to vomit. In terms of storyline, it was okay … the details of the futuristic society felt a bit tacky and shoddy and not well thought out. Especially the societal values of the underground society felt really handwavy. The science part of the spaceships and the space wars were cool, as were the book’s way of addressing the Fermi paradox.
 

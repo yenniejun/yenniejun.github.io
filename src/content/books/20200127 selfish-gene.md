@@ -8,6 +8,7 @@ author: "Richard Dawkins"
 tags: ["Nonfiction", "Science"]
 link: "https://www.goodreads.com/book/show/61535.The_Selfish_Gene"
 rating: 3.0
+description: "This was an interesting book with a lot of interesting concepts. Parts felt repetitive. The parts I could resonate the most with were the parts where he gave concrete examples."
 ---
 Overall: This was an interesting book with a lot of interesting concepts. I understand that this book is a "classic" but I couldn't really get into it. Maybe it was his tone and writing style, which felt a bit condescending, but also maybe it's the writing style of the 60s (it felt a lot like Dale Carnegie's writing style. not my favorite). Parts felt repetitive. The parts I could resonate the most with were the parts where he gave concrete examples.
 

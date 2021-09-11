@@ -8,6 +8,7 @@ author: "Atul Gawande"
 tags: ["Nonfiction", "Science"]
 link: "https://www.goodreads.com/book/show/20696006-being-mortal"
 rating: 3.2
+description: "In this book, Atul Gawande, a surgeon (and also Harvard professor and New Yorker staff writer…), addresses the issue of mortality and how many people in the US are not ready to face death when it finally comes. He used a lot of personal anecdotes as well as facts to drive home his main points. Reading this made me realize how much I haven’t yet come to terms with my own mortality."
 ---
 In this book, Atul Gawande, a surgeon (and also Harvard professor and New Yorker staff writer…), addresses the issue of mortality and how many people in the US are not ready to face death when it finally comes. He used a lot of personal anecdotes as well as facts to drive home his main points. Reading this made me realize how much I haven’t yet come to terms with my own mortality.
 

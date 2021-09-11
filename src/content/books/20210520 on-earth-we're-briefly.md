@@ -8,6 +8,7 @@ author: "Ocean Vuong"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous"
 rating: 4.6
+description: "A very lovely book with such beautiful writing style. It is a coming-of-age story, written by the author as a letter to his mother, of him grappling with his Asian-American identity, of his relationships with his mother and grandmother, and with his sexuality. Every page read like the most beautiful poetry."
 ---
 
 A very lovely book with such beautiful writing style. It is a coming-of-age story, written by the author as a letter to his mother, of him grappling with his Asian-American identity, of his relationships with his mother and grandmother, and with his sexuality. Every page read like the most beautiful poetry.

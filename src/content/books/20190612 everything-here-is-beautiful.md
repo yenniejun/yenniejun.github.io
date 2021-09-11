@@ -8,6 +8,7 @@ author: "Mira T. Lee"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/34262106-everything-here-is-beautiful"
 rating: 4.5
+description: "Stunningly written. This book really resonated with me. Lee pieced together so many different cultures and ideas in such a beautiful way. Her language was so well crafted and there was so much nuance to her story. Word pictures everywhere!!"
 ---
 Stunningly written. This book really resonated with me. Lee pieced together so many different cultures and ideas in such a beautiful way. Her language was so well crafted and there was so much nuance to her story. Word pictures everywhere!!
 

@@ -8,6 +8,7 @@ author: "Kurt Vonnegut Jr."
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/135479.Cat_s_Cradle"
 rating: 4.3
+description: "Overall I liked this book a lot. It was pretty easy to read in a refreshing way. Vonnegut was very funny. I liked the ways he made fun of humanity, religion, relationships, government, and basically everything else."
 ---
 Overall I liked this book a lot. It was pretty easy to read in a refreshing way. Vonnegut was very funny. I liked the ways he made fun of humanity, religion, relationships, government, and basically everything else.
 

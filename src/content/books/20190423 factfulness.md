@@ -8,6 +8,7 @@ author: "Hans Rosling"
 tags: ["Nonfiction", "Science"]
 link: "https://www.goodreads.com/book/show/34890015-factfulness"
 rating: 3.1
+description: "I thought the book was easily consumable and had some good points. After the first 3 chapters, it got rather repetitive and the point was the same. I think this is one of those books that could have been distilled and reduced into one dense chapter or introductory essay. I appreciated Rosling’s stories and the diagrams were easy to understand."
 ---
 I thought the book was easily consumable and had some good points. After the first 3 chapters, it got rather repetitive and the point was the same. I think this is one of those books that could have been distilled and reduced into one dense chapter or introductory essay. I appreciated Rosling’s stories and the diagrams were easy to understand.
 

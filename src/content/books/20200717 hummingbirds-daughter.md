@@ -8,6 +8,7 @@ author: "Luis Alberto Urrea"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/91289.The_Hummingbird_s_Daughter"
 rating: 4.8
+description: 'This book was so beautifully written. I couldn't stop thinking about it while I was reading it. The language - so beautiful, so compelling. Like Gabriel Garcia Marquez. And the story. It was so good. The character growths of Teresita and of Tomas were astounding. They both grow so much through the book. The other characters were all so alive and so distinct. Huila the healer, and Gaby, and Segundo, and Buenaventura, all of them, so alive and distinct and so funny in their own ways. Urrera's usage of humor worked so well with his writing. I think that is part of what made the characters all feel so vivid.'
 ---
 This book was so beautifully written. I couldn't stop thinking about it while I was reading it. The language - so beautiful, so compelling. Like Gabriel Garcia Marquez. And the story. It was so good. The character growths of Teresita and of Tomas were astounding. They both grow so much through the book. The other characters were all so alive and so distinct. Huila the healer, and Gaby, and Segundo, and Buenaventura, all of them, so alive and distinct and so funny in their own ways. Urrera's usage of humor worked so well with his writing. I think that is part of what made the characters all feel so vivid. 
 

@@ -8,6 +8,7 @@ author: "Emily Brontë"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/6185.Wuthering_Heights"
 rating: 4.2
+description: "This book was my favorite book back in 8th grade. I re-read it again nearly ten years later, and I realize why I loved the book so much. It is so vivid and unique in its plot and characterization and spirit."
 ---
 This book was my favorite book back in 8th grade. I re-read it again nearly ten years later, and I realize why I loved the book so much. It is so vivid and unique in its plot and characterization and spirit. 
 

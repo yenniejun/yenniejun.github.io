@@ -8,6 +8,7 @@ author: "Sam Quinones"
 tags: ["Nonfiction"]
 link: "https://www.goodreads.com/book/show/22529381-dreamland"
 rating: 4.4
+description: "I learned a lot from reading this book. I did not realize the opioid epidemic was such a big problem in the United States. I learned a lot about the Xalisco Boys, Big Pharma (especially Purdue and Oxycontin), the morphine molecule, and the scary addictive qualities of heroin. I liked that Quinones followed several different storylines, although that felt a little lost as I got near the end. I liked that he ended on a note of hope — that opiods, as an agent of change, has the potential to bring about positive changes in America, such as bringing about new communities."
 ---
 I learned a lot from reading this book. Overall thoughts: I did not realize the opioid epidemic was such a big problem in the United States. In terms of raw information, I learned a lot about the Xalisco Boys, Big Pharma (especially Purdue and Oxycontin), the morphine molecule, and the scary addictive qualities of heroin. I liked that Quinones followed several different storylines, although that felt a little lost as I got near the end. I liked that he ended on a note of hope — that opiods, as an agent of change, has the potential to bring about positive changes in America, such as bringing about new communities.
 

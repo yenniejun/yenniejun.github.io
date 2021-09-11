@@ -9,6 +9,7 @@ author: "Ted Chiang"
 tags: ["Fiction", "Sci-Fi", "Short stories"]
 link: "https://www.goodreads.com/book/show/41160292-exhalation"
 rating: 3.8
+description: "I was pleasantly surprised by this collection of short stories. I normally do not read sci-fi, but I enjoyed all of Ted Chiang's short stories. Each story left me thinking about the common questions of humanity (who are we? are we special in the universe? what makes us human? do we have free will?). The technological elements of the stories were definitely really cool, but it felt like the main focuses of the stories were not the cool parts of technology, but rather the questions that humans have always asked about humanity, and will always continue to ask."
 ---
 
 I was pleasantly surprised by this collection of short stories. I normally do not read sci-fi, but I enjoyed all of Ted Chiang's short stories. Each story left me thinking about the common questions of humanity (who are we? are we special in the universe? what makes us human? do we have free will?). The technological elements of the stories were definitely really cool, but it felt like the main focuses of the stories were not the cool parts of technology, but rather the questions that humans have always asked about humanity, and will always continue to ask. 

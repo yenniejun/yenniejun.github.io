@@ -8,6 +8,7 @@ author: "Margaret Atwood"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/42975172-the-testaments"
 rating: 3.0
+description: "Binged in five hours on the plane. Felt like a very addictive tv show. Nuance in character development was really lacking. Story tied up too nicely such that the story arc felt very two dimensional."
 ---
 Binged in five hours on the plane. Felt like a very addictive tv show. Nuance in character development was really lacking. Story tied up too nicely such that the story arc felt very two dimensional. 
 Overall felt like this book was rushed and could benefit from a few months of marination. The loose ends tied up too cleanly. 

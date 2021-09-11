@@ -8,6 +8,7 @@ author: "Ruth Ozeki"
 tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/15811545-a-tale-for-the-time-being"
 rating: 4.3
+description: "A Tale for the Time Being is a lovely book with parallel narrative in which an older woman (Ruth) finds the diary of a teenage girl (Nao). The narratives start to weave together - slowly, gently, like waves - so that by the end you don't know if Nao's narrative is affecting Ruth's or vice versa - or both. I got a lot of Murkami vibes but with less jagged edges and more smooth transitions."
 ---
 I enjoyed this book a lot! I was really happy with the book. Slow build up ... felt like Murakami but a lot more subtle. The surrealistic parts did not happen until the end; I think I would have liked more of that in the beginning. But I will say the magic parts were well done and subtle. I especially loved the parts about the end of the diary changing, how the words kept fading ("Reader's Block") - this was so lovely and so well done. I loved it. 
 
