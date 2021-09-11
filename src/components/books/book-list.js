@@ -8,36 +8,38 @@ const BookList = (props) => {
   const { post } = props;
 
   return (
-    <tr >
-        <td className={bookStyles.book_title_link_cell}>
-            <Link to={post.frontmatter.path} activeClassName={bookStyles.active}>
-                <div className={bookStyles.title}>{post.frontmatter.title}</div>
-            </Link>
-        </td>
-        
-        <td className={bookStyles.book_author}>
-            {!!post.frontmatter.author && <div>{post.frontmatter.author}</div>}
-        </td>
-
-        <td className={bookStyles.book_date}>
-            {post.frontmatter.date}
-        </td>
- 
-        <td className={bookStyles.book_rating}>
+    <div className={bookStyles.book_post_container}>
+      <div className={bookStyles.book_title_container}>
+        <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.book_title_link_cell}>
+          <h2 className={bookStyles.title}>{post.frontmatter.title}</h2>
+        </Link>
+        <div className={bookStyles.book_rating}>
           {post.frontmatter.rating.toFixed(1) + " / 5"}
-        </td>
-
-       
-      {/* {props.type == "book" && 
-        <div className={linkStyles.date}>Finished: {post.frontmatter.date}</div>} */}
+        </div>
       
-      {/* {!!post.frontmatter.description && <div>{post.frontmatter.description}</div>}
-      <div>{post.frontmatter.tags.map((item, i) => 
+      </div>
+
+      <div className={bookStyles.author_date_container}>
+        {!!post.frontmatter.author && <div className={bookStyles.book_author}>{"By: " + post.frontmatter.author}</div>}
+        <div>|</div>
+        <div className={bookStyles.book_date}>{"Finished: " + post.frontmatter.date}</div>
+      </div>
+
+      <hr/>
+
+      {!!post.frontmatter.description && <div>{post.frontmatter.description}...</div>}
+
+
+      <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.read_more}>
+          Read more
+      </Link>
+
+      
+      {/* <div>{post.frontmatter.tags.map((item, i) => 
         <div key={i} className={linkStyles.blogtag}>
           <GoTag/>{item}
-        </div>)}
-      </div> */}
-    </tr>
+        </div>)} */}
+      </div> 
   )
 }
 export default BookList

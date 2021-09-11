@@ -2,52 +2,63 @@
     text-decoration: none !important;
 }
 
-.book_title_link_cell a, .book_title_link_cell a:link, .book_title_link_cell a:visited {
-    text-decoration: none;
+.book_post_container {
+    margin-bottom: 2rem;
 }
 
-.book_title_link_cell a:hover {
+.book_post_container hr {
+    margin-bottom: 8px;
+}
+
+.book_title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book_title_link_cell, .book_title_link_cell:link, .book_title_link_cell:visited {
+    text-decoration: none;
+    color: var(--text-color-light);
+}
+
+.book_title_link_cell:hover {
     color: var(--brand-shade-dark);
     text-decoration: underline;
 }
+
+.read_more, .read_more:link, .read_more:visited {
+    text-decoration: none;
+    color: var(--brand-shade-dark);
+    font-weight: 600;
+}
+
+.read_more:hover {
+    text-decoration:underline;
+}
+
+
 
 .title:hover {
     color: var(--brand-shade-dark);
   }
 
-table {
-    font-size: 18px;
-    color:var(--text-color-light);
-    font-weight: 400;
-}
-
 .title {
+    margin-bottom: 0;
     overflow: hidden;
+    white-space:nowrap;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 500px;
-  }
-
-td, th {
-    border-bottom: 0;
-    padding-bottom: 0;
-    vertical-align: baseline;
+    width: 700px;
 }
 
-tr th:first-child,
-tr td:first-child {
-  /* width: 50%; */
-  width: 500px;
-  word-break: break-word;
+.author_date_container{
+    font-size: 18px;
+    color: var(--text-color-light);
+    display: flex;
+    margin-top: 0.2rem;
+    /* margin-left:1rem; */
 }
 
-.author {
-    font-size: 0.8rem;
-}
-
-.date {
-    color: gray;
-    font-size:0.8rem;
+.author_date_container div {
+    margin-right: 0.4rem;
 }
 
 .book_rating {
@@ -67,6 +78,27 @@ tr td:first-child {
 .blogtag svg {
     margin: 0.3rem 0.2rem 0rem 0rem;
 }
+
+table {
+    font-size: 18px;
+    color:var(--text-color-light);
+    font-weight: 400;
+}
+
+td, th {
+    border-bottom: 0;
+    padding-bottom: 0;
+    vertical-align: baseline;
+}
+
+tr th:first-child,
+tr td:first-child {
+  /* width: 50%; */
+  width: 500px;
+  word-break: break-word;
+}
+
+
 
 
 @media only screen and (max-width: 767px) {
@@ -91,3 +123,4 @@ tr td:first-child {
         width: 180px;
     }
 }
+
