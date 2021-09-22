@@ -6,6 +6,7 @@ date: "2021-02-03"
 updatedDate: "2021-05-15"
 title: "When He Pulled His Pants Down"
 tags: ["Fiction"]
+description: Published in Existere Magazine, Vol. 40 Issue 1
 ---
 
 (Published in [Existere Magazine, Vol. 40 Issue 1](https://existere.info.yorku.ca/))

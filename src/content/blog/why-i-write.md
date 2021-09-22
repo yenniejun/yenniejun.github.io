@@ -6,7 +6,7 @@ date: "2019-11-22"
 updatedDate: "2020-05-28"
 title: "Why I Write"
 tags: ["Opinion"]
-description: Musings on the importance of writing to my identiy 
+description: Musings on the importance of writing to my identity.
 ---
 
 (First published on [Medium](https://medium.com/@yennie.jun/why-i-write-2d49ea8e05e0))

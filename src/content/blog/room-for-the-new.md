@@ -6,6 +6,7 @@ date: "2021-02-01"
 updatedDate: "2021-05-15"
 title: "Room for the New"
 tags: ["Creative Nonfiction"]
+description: Published in Meetinghouse Magazine
 ---
 
 (Published in [Meetinghouse Magazine](https://www.meetinghousemag.org/))

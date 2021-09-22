@@ -6,6 +6,7 @@ date: "2020-01-18"
 updatedDate: "2020-05-28"
 title: "All My Loving"
 tags: ["Fiction"]
+description: Published in The Weekly Knob
 ---
 
 (Published in [The Weekly Knob](https://theweeklyknob.com/all-my-loving-acc7c256e7d9))

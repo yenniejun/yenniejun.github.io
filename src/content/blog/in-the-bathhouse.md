@@ -6,6 +6,7 @@ date: "2020-07-10"
 updatedDate: "2020-12-10"
 title: "In The Bathhouse"
 tags: ["Creative Nonfiction"]
+description: Published in The Maine Review. 2021 Embody Award 1st Place.
 ---
 
 (Published in [The Maine Review](https://mainereview.com/in-the-bathhouse/))

@@ -6,6 +6,7 @@ date: "2019-12-14"
 updatedDate: "2020-05-28"
 title: "Fake Teeth"
 tags: ["Fiction"]
+description: Published in The Weekly Knob
 ---
 
 (Published in [The Weekly Knob](https://theweeklyknob.com/i-like-the-fake-teeth-more-86d025ab4c19))

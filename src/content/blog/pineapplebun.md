@@ -6,6 +6,7 @@ date: "2019-11-16"
 updatedDate: "2020-05-28"
 title: "Pineapple Bun"
 tags: ["Fiction"]
+description: Published in The Weekly Knob
 ---
 
 First published in [The Weekly Knob](https://theweeklyknob.com/pineapple-bun-16264b45d692)
