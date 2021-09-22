@@ -1,31 +1,44 @@
 import React from "react"
 import { Link } from "gatsby"
 import * as linkStyles from "./post-link.module.css"
+import * as bookStyles from "../books/book-list.module.css"
+import * as panelStyles from "../portfolio/panel.module.css"
+
 import { GoTag } from 'react-icons/go'
 
 const PostLink = (props) => {
   const { post } = props;
 
   return (
-    <div className={linkStyles.container}>
-      <Link to={post.frontmatter.path}>
-        <div className={linkStyles.title}>{post.frontmatter.title}</div>
+    <div className={bookStyles.book_post_container}>
+      <div className={bookStyles.book_title_container}>
+        <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.book_title_link_cell}>
+          <h2 className={bookStyles.title_noellipsis}>{post.frontmatter.title}</h2>
+        </Link>
+      </div>
+      <div className={bookStyles.author_date_container}>
+        <div className={bookStyles.book_date}>{"Written: " + post.frontmatter.date}</div>
+        
+      </div>
+      <div>{post.frontmatter.tags.map((item, i) => 
+          <div key={i} className={panelStyles.blogtag}>
+            <GoTag/>{item}
+          </div>)}
+        </div>
+
+      <hr/>
+      {!!post.frontmatter.description && <div>{post.frontmatter.description}</div>}
+
+      <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.read_more}>
+          Read more
       </Link>
+
       
-      {!!post.frontmatter.author && <div className={linkStyles.author}>By: {post.frontmatter.author}</div>}
-      
-      {props.type === "blog" && 
-        <div className={linkStyles.date}>Written: {post.frontmatter.date}</div>}
       
       {/* {props.type == "book" && 
         <div className={linkStyles.date}>Finished: {post.frontmatter.date}</div>} */}
       
-      {!!post.frontmatter.description && <div>{post.frontmatter.description}</div>}
-      <div>{post.frontmatter.tags.map((item, i) => 
-        <div key={i} className={linkStyles.blogtag}>
-          <GoTag/>{item}
-        </div>)}
-      </div>
+      
     </div>
   )
 }

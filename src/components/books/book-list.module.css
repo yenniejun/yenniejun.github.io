@@ -49,6 +49,10 @@
     width: 700px;
 }
 
+.title_noellipsis {
+    margin-bottom: 0;
+}
+
 .author_date_container{
     font-size: 18px;
     color: var(--text-color-light);
