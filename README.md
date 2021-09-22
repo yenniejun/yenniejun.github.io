@@ -25,3 +25,9 @@ gatsby develop
 ```
 npm run deploy
 ```
+
+
+## Converting Medium Posts to Markdown
+Following the instructions from [this blog post](https://towardsdatascience.com/converting-medium-posts-to-markdown-for-your-blog-5d6830408467), I can run the following:
+
+`node medium-to-markdown.js`
