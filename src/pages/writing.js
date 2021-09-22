@@ -25,7 +25,7 @@ const WritingPage = ({
       <SEO title="Yennie Jun's Writing" />
       <div className="mainContainer">
   
-      <p>I like to write across genres and styles: fiction short stories, nonfiction short stories, poetry, and opinion pieces.
+      <p>I like to write across genres and styles: fiction short stories, nonfiction short stories, poetry, and opinion pieces. I also write technical posts about data science projects and NLP.
             Some of my writing is published on <a href="https://medium.com/@yennie.jun" target="_blank" rel="noreferrer">Medium</a>.</p>
           
           <hr/>
