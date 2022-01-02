@@ -5,7 +5,7 @@ path: "/books/first-bad-man"
 date: "2021-08-05"
 title: "The First Bad Man"
 author: "Miranda July"
-tags: ["TAGS"]
+tags: ["Fiction"]
 link: "https://www.goodreads.com/book/show/21412400-the-first-bad-man"
 rating: 4.5
 description: "I absolutely loved this book for how weird it was. The story was strange and I’ve never read anything like it."
