@@ -2,7 +2,7 @@
 # slug: "/blog/my-first-post"
 posttype: "books"
 path: "/books/klara-and-the-sun"
-date: "2021-12-19"
+date: "2021-12-31"
 title: "Klara and the Sun"
 author: "Kazuo Ishiguro"
 tags: ["Fiction"]
