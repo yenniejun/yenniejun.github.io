@@ -17,7 +17,7 @@ const WritingPage = ({
   
     return(
       <Layout 
-        title="Creative Writing" 
+        title="My Writing" 
         icon="quill"
         quote="I write to discover what I know"
         quote_author="Flannery O'Connor"
