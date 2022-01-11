@@ -10,6 +10,7 @@ const Footer = ({icon}) => (
     }}>
         <hr style={{margin: `1rem auto 3rem auto`}}/>
 
+        <h5>Stay in touch!</h5>
         <SocialMediaLinks />
 
         © {new Date().getFullYear()} Yennie Jun
