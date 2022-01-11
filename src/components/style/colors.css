@@ -1,7 +1,8 @@
 :root {
-  --background-color: #FECA1F;
+  /* --background-color: #FECA1F; */
+  --background-color: #FBDA03;
   --text-color-light: #444444;
-  --text-color-dark: black;
+  --text-color-dark: #010101;
 
   --brand-color-light: #f7efe9;
   --brand-color-light2: #f9f9f9;
@@ -11,4 +12,6 @@
   /* --brand-accent: #D6A521; */
   --brand-accent: #ffb99f;
   --brand-accent-yellow: #e1ad01;
+
+  /* #fcf8ef */
 }

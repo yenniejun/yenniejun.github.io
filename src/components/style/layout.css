@@ -5,10 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400&display=swap');
 html {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+
+  /* font-family: 'Be Vietnam Pro', sans-serif; */
   font-size: 1.3rem;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -239,9 +242,11 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Noto Sans JP', sans-serif; */
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 200;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -270,8 +275,9 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
+    /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -287,8 +293,9 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
+    /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -678,6 +685,10 @@ pre tt:after {
   /* position: inherit !important; */
   flex: 0 0 38%;
   /* margin: 1rem !important; */
+  width: 50%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .homeFlex-bio {
@@ -702,7 +713,7 @@ pre tt:after {
 .normalLink:visited, .normalLink:link, .normalLink {
   color: var(--brand-shade-dark);
   text-decoration: none !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .normalLink:hover {
@@ -765,15 +776,18 @@ pre tt:after {
 }
 
 .body-container > div {
-  flex: 50%;
+  flex: 2;
+  /* 30%; */
   text-align: left;
 }
 
 .body-container > div:nth-child(1) {
   /* padding-right: 2rem; */
+  padding-left: auto;
+  padding-right:auto;
 }
 .body-container > div:nth-child(2) {
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -784,8 +798,18 @@ pre tt:after {
     margin-right: 2rem;
   }
 
+  .homeFlex-image {
+    width: 80%;
+    margin-bottom: 2rem;
+
+  }
+
+  hr {
+    margin-bottom: 2rem;
+  }
+
   #title_text {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   #faded_name {
@@ -800,7 +824,7 @@ pre tt:after {
   }
 
   .body-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     display: flex;
   }
 
@@ -872,4 +896,14 @@ pre tt:after {
 
 .hide_header_column {
   /* display: inline-block; */
+}
+
+.placesLived {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+
+.placesLived li {
+  margin:0;
 }
