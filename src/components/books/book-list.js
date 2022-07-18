@@ -27,7 +27,7 @@ const BookList = (props) => {
 
       <hr/>
 
-      {!!post.frontmatter.description && <div>{post.frontmatter.description}...</div>}
+      {!!post.frontmatter.description && <p>{post.frontmatter.description}...</p>}
 
 
       <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.read_more}>
