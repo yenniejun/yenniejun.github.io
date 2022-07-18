@@ -11,19 +11,19 @@ const WritingPage = ({
   },
 }) => {
     const OpinionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype=='Opinion') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.blogtype==='Opinion') // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const FictionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype=='Fiction') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.blogtype==='Fiction') // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const EssayPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype=='Essay') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.blogtype==='Essay') // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const NonfictionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype=='Creative Nonfiction') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.blogtype==='Creative Nonfiction') // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const TechnicalPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype=='Data Science') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.blogtype==='Data Science') // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
      
 
