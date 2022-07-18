@@ -1,11 +1,12 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "blog"
+blogtype: "Creative Nonfiction"
 path: "/blog/in-the-bathhouse"
 date: "2020-07-10"
 updatedDate: "2020-12-10"
 title: "In The Bathhouse"
-tags: ["Creative Nonfiction"]
+tags: "Creative Nonfiction"]
 description: Published in The Maine Review. 2021 Embody Award 1st Place.
 ---
 

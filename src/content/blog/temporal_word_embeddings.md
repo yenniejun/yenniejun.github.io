@@ -1,6 +1,7 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "blog"
+blogtype: "Data Science"
 path: "/blog/temporal-word-embeddings"
 date: "2021-09-21"
 title: "Measuring Semantic Changes Using Temporal Word Embeddings"
