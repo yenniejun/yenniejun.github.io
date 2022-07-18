@@ -3,38 +3,51 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/posts/post-link"
 import { graphql } from "gatsby"
+import * as bookStyles from "../components/books/book-list.module.css"
 
 const WritingPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
-  const Posts = edges
-    // .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+    const OpinionPosts = edges
+      .filter(edge => edge.node.frontmatter.blogtype=='Opinion') // You can filter your posts based on some criteria
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+    const FictionPosts = edges
+      .filter(edge => edge.node.frontmatter.blogtype=='Fiction') // You can filter your posts based on some criteria
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+    const EssayPosts = edges
+      .filter(edge => edge.node.frontmatter.blogtype=='Essay') // You can filter your posts based on some criteria
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+    const NonfictionPosts = edges
+      .filter(edge => edge.node.frontmatter.blogtype=='Creative Nonfiction') // You can filter your posts based on some criteria
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+    const TechnicalPosts = edges
+      .filter(edge => edge.node.frontmatter.blogtype=='Data Science') // You can filter your posts based on some criteria
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
+     
 
-    console.log(Posts)
+    // console.log(Posts)
   
     return(
       <Layout 
-        title="My Writing" 
+        title="Writing" 
         icon="quill"
-        quote="I write to discover what I know"
-        quote_author="Flannery O'Connor"
       >
       <SEO title="Yennie Jun's Writing" />
       <div className="mainContainer">
   
-      <p>I like to write across genres and styles: fiction short stories, nonfiction short stories, poetry, and opinion pieces. I also write technical posts about data science projects and NLP.
-            Some of my writing is published on <a href="https://medium.com/@yennie.jun" target="_blank" rel="noreferrer">Medium</a>.</p>
-          
-          <hr/>
-          {/* <p>More coming soon!</p> */}
-          { <div style={{marginBottom:`4rem`}}>{Posts}</div>}
-        </div>
-      </Layout>
-    )
-}
+      <h2 className={bookStyles.blog_type_header}>Data Science</h2>
+      { <div style={{marginBottom:`4rem`}}>{TechnicalPosts}</div>}
+      <h2 className={bookStyles.blog_type_header}>Essays</h2>
+      { <div style={{marginBottom:`4rem`}}>{OpinionPosts}</div>}
+      <h2 className={bookStyles.blog_type_header}>Creative Fiction</h2>
+      { <div style={{marginBottom:`4rem`}}>{FictionPosts}</div>}
+      <h2 className={bookStyles.blog_type_header}>Creative Nonfiction</h2>
+      { <div style={{marginBottom:`4rem`}}>{NonfictionPosts}</div>}
+    </div>
+  </Layout>
+)}
 
 export default WritingPage
 
@@ -42,7 +55,8 @@ export const pageQuery = graphql`
   query {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: {posttype: {in: "blog"}} }
+      filter: { frontmatter: 
+        {posttype: {in: "blog"}} }
     ) {
       edges {
         node {
@@ -52,6 +66,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             tags
+            blogtype
             description
           }
         }
@@ -59,3 +74,30 @@ export const pageQuery = graphql`
     }
   }
 `
+
+// export const pageQuery = graphql`
+//   query {
+//     allMarkdownRemark(
+//       sort: { order: DESC, fields: [frontmatter___date] },
+//       filter: { frontmatter: 
+//         {posttype: {in: "blog"}
+//          blogtype: {in: "Opinion"}}
+//       }
+//     ) {
+//       edges {
+//         node {
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "MMMM DD, YYYY")
+//             path
+//             tags
+//             blogtype
+//             description
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
+
