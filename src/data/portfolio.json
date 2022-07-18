@@ -18,12 +18,12 @@
       "tags": ["NLP", "multimodal"]
     },
     {
-      "title": "How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases", 
+      "title": "Bias Out-of-the-Box: An Empirical Analysis of Intersectional Occupational Biases in Popular Generative Language Models", 
       "image": "projects-gpt2.jpg",
       "description": [
         "Probed GPT-2 with prefix templates related to gender and occupation to evaluate biases in its predictions, which were compared wtih ground-truth US labor data."
       ],
-      "paperlink":"https://arxiv.org/pdf/2102.04130.pdf",
+      "paperlink":"https://proceedings.neurips.cc/paper/2021/hash/1531beb762df4029513ebf9295e0d34f-Abstract.html",
       "codelink": "https://github.com/oxai/intersectional_gpt2",
       "tags": ["NLP", "bias in AI"]
     },
