@@ -29,15 +29,10 @@ const PortfolioPage = () => {
   return <Layout 
     title="Projects" 
     icon="computer"
-    quote="Learning is movement from moment to moment"
-    quote_author="Jiddu Krishnamurti"
     >
               
     <SEO title="Yennie Jun's Portfolio" />
     <div className="mainContainer">
-      <p>I'm always trying to learn new things!
-      Here are some of my current or recent projects.</p>
-      <hr />
         {
           portfolioData.map((item, i) =>
               <PortfolioPanel 
