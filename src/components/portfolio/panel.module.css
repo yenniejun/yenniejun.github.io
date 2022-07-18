@@ -1,13 +1,8 @@
 .panel {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 1rem;
-    font-family: 'IBM Plex Serif';
-    padding: 1.2rem;
+    padding-bottom: 1.2rem;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25); */
     display: flex;
-    width: 90%;
-    font-family: 'Nunito', sans-serif;
 }
 
 .panel hr {
@@ -21,32 +16,35 @@
 .portfolio_panel_title {
     padding: 0;
     margin: 0 0 0.5rem 0;
-    font-size: 30px;
 }
 
 .projectContentContainer {
     /* width: 30rem; */
     text-align: left;
     align-items: center;
+    width: 75%;
+
 }
 
 .portfolio_panel_description {
     text-align: left;
     margin-bottom: 0.5rem;
     text-align: left;
-    font-size: 18px;
 }
 
 
 .projectIconContainer {
-    margin-right: 4rem;
+    width: 30%;
     background-position: center center;
 }
 
 .projectIcon {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .demolink:link, .demolink:visited {
@@ -81,7 +79,7 @@
 }
 
 .codelink svg {
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .codelink span {

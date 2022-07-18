@@ -2,7 +2,14 @@
     text-decoration: none !important;
 }
 
+.blog_type_header {
+    font-size: 20px;
+    color: var(--brand-shade-dark);
+    font-weight: 700;
+}
+
 .book_post_container {
+    /* width: 80%; */
     margin-bottom: 2rem;
 }
 
@@ -17,7 +24,7 @@
 
 .book_title_link_cell, .book_title_link_cell:link, .book_title_link_cell:visited {
     text-decoration: none;
-    color: var(--text-color-light);
+    color: var(--text-color-dark);
 }
 
 .book_title_link_cell:hover {
@@ -35,8 +42,6 @@
     text-decoration:underline;
 }
 
-
-
 .title:hover {
     color: var(--brand-shade-dark);
   }
@@ -49,9 +54,6 @@
     width: 700px;
 }
 
-.title_noellipsis {
-    margin-bottom: 0;
-}
 
 .author_date_container{
     font-size: 18px;
@@ -64,6 +66,7 @@
 .author_date_container div {
     margin-right: 0.4rem;
 }
+
 
 .book_rating {
     text-align: left;
