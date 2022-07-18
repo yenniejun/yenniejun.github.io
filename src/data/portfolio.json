@@ -1,21 +1,30 @@
 [
-      {
-        "title": "Tuning In: COVID-19 Vaccine Discourse on Public Radio in South Africa and Nigeria",
-        "image": "projects-thesis.png",
-        "description": [
-          "Evaluated COVID-19 vaccine discourse on public radio streams from South Africa and Nigeria using temporal word embeddings. Master's Thesis with the Oxford Internet Institute and UNGP."
-        ],
-        "codelink": "https://github.com/yenniejun/thesis-radio",
-        "tags": ["NLP"]
-      },
-      {
-      "title": "Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
-      "image": "projects-memes.png",
+  {
+    "title": "Scaling Radio Analysis with Data Science for Infodemic Monitoring",
+    "image": "projects-thesis.png",
+    "description": [
+      "Improving and analyzing radio transcriptions for public health monitoring with United Nations Global Pulse (UNGP)."
+    ],
+    "articlelink": "https://www.unglobalpulse.org/2022/01/scaling-radio-analysis-with-data-science-for-infodemic-monitoring/",
+    "tags": ["NLP"]
+  },
+  {
+      "title": "Tuning In: COVID-19 Vaccine Discourse on Public Radio in South Africa and Nigeria",
+      "image": "projects-thesis.png",
       "description": [
-        "Evaluated Facebook's Hateful Meme Challenge by comparing Facebook's carefully synthesized dataset with a collection of 'memes in the wild' gathered from Pinterest."
+        "Evaluated COVID-19 vaccine discourse on public radio streams from South Africa and Nigeria using temporal word embeddings. Master's Thesis with the Oxford Internet Institute and UNGP."
       ],
-      "paperlink":"https://arxiv.org/abs/2107.04313",
-      "tags": ["NLP", "multimodal"]
+      "codelink": "https://github.com/yenniejun/thesis-radio",
+      "tags": ["NLP"]
+  },
+  {
+    "title": "Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset", 
+    "image": "projects-memes.png",
+    "description": [
+      "Evaluated Facebook's Hateful Meme Challenge by comparing Facebook's carefully synthesized dataset with a collection of 'memes in the wild' gathered from Pinterest."
+    ],
+    "paperlink":"https://aclanthology.org/2021.woah-1.4/",
+    "tags": ["NLP", "multimodal"]
     },
     {
       "title": "Bias Out-of-the-Box: An Empirical Analysis of Intersectional Occupational Biases in Popular Generative Language Models", 
