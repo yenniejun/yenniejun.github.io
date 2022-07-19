@@ -4,6 +4,7 @@ module.exports = {
     description: `Personal website.`,
     author: `Yennie Jun`,
   },
+  // trailingSlash: `always`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
