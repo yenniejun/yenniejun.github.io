@@ -8,7 +8,7 @@ author: "Barbara Demick"
 tags: ["Nonfiction"]
 link: "https://www.goodreads.com/book/show/40604846-nothing-to-envy"
 rating: 4.8
-description: 'Barbara Demick has done a wonderful job following the lives of several North Korean refugees. I love how she follows six characters who never meet, and yet is able to weave such a compelling narrative. Her style is such that she doesn't try to put too much of her own opinion in the narrative, and lets the stories speak for themselves.'
+description: "Barbara Demick has done a wonderful job following the lives of several North Korean refugees. I love how she follows six characters who never meet, and yet is able to weave such a compelling narrative. Her style is such that she doesn't try to put too much of her own opinion in the narrative, and lets the stories speak for themselves."
 ---
 I first read this book in 2016, when I was taking a class on Korean Politics at Hong Kong University, where I was studying abroad. I reread it now, 4 years later, and found the back as compelling and inspiring as the first time I read it. 
 
