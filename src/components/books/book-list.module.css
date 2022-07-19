@@ -9,7 +9,7 @@
 }
 
 .book_post_container {
-    /* width: 80%; */
+    width: 85%;
     margin-bottom: 2rem;
 }
 
@@ -49,8 +49,8 @@
 .title {
     margin-bottom: 0;
     overflow: hidden;
-    white-space:nowrap;
-    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: initial;
     width: 700px;
 }
 
@@ -59,8 +59,7 @@
     font-size: 18px;
     color: var(--text-color-light);
     display: flex;
-    margin-top: 0.2rem;
-    /* margin-left:1rem; */
+    margin-top: 10px;
 }
 
 .author_date_container div {
