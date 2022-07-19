@@ -1,7 +1,5 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Creative Nonfiction"
 path: "/blog/room-for-the-new"
 date: "2021-02-01"
 updatedDate: "2021-05-15"

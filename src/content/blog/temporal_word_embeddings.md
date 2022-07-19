@@ -1,16 +1,12 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Data Science"
 path: "/blog/temporal-word-embeddings"
 date: "2021-09-21"
 title: "Measuring Semantic Changes Using Temporal Word Embeddings"
 tags: ["Data Science"]
-description: A guide to how temporal word embeddings can be used to measure word evolution and some considerations regarding stability of embedding methods
+description: A guide to how temporal word embeddings can be used to measure word evolution and some considerations regarding stability of embedding methods.
 ---
-
-(Published in [Towards Data Science](https://towardsdatascience.com/measuring-semantic-changes-using-temporal-word-embedding-6fc3f16cfdb4))
-
 
 What if I want to know how words have changed over time? For example, I may want to quantify the ways certain words (such as “mask” or “lockdown”) were used before the COVID-19 pandemic and how they evolved through the pandemic. Detecting how and when word usage changed over time can be useful from a linguistic and cultural standpoint as well as from a policy perspective (i.e., did the way certain words are use change after an event or a policy implementation?).
 
@@ -22,8 +18,7 @@ The example below shows the evolution of three words over several decades, descr
 
 ![](https://miro.medium.com/max/1400/1*zrf7qMoQqBCNFIkt0PTCeQ.png)From the paper written by Hamilton et al. (2016), “Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change.” Link to paper [here](https://arxiv.org/pdf/1605.09096.pdf).
 
-What are temporal word embeddings?
-==================================
+## What are temporal word embeddings?
 
 It has recently become popular to represent words using neural word embeddings, or those trained using neural network language modeling methods. In such cases, a dense vector is learned for each word by training on a large corpus of texts. Neural word embeddings extend the idea of _distributional semantics_, as the vector representation of each word is based on the distribution of its contextual words.
 
@@ -33,8 +28,7 @@ This article will focus on Word2Vec, as it is fast to train and cheap in terms o
 
 There is a myriad of other methods for training temporal word embeddings which will not be the focus of this article. For example, other word embeddings, such as GloVe and FastText, can be used in a similar way to measure semantic change. Packages such as [Compass-aligned Distributional Embeddings](https://cade.readthedocs.io/en/latest/readme.html) make it easy to train your own aligned temporal embeddings (based on Word2Vec). Transformer-based models, such as BERT, have also been used to trace temporality in large text corpora. Evaluating a more comprehensive list of temporal word embeddings is beyond the scope of this article; for a more complete list, the reader is advised to consult the surveys conducted by [Kutuzov et al., (2018)](https://www.aclweb.org/anthology/C18-1117) or [Tahmasebi et al., (2019)](http://arxiv.org/abs/1811.06278).
 
-Measuring Change using Temporal Word Embeddings
------------------------------------------------
+## Measuring Change using Temporal Word Embeddings
 
 Recall that each word corresponds to a dense vector representation, which is learned by training on a large corpus of text. The **cosine similarity** can be calculated for a word at one time period and the same word at the next time period to measure semantic change. Montariol (2021) describes two measures that can be used to track semantic change over time:
 
@@ -43,8 +37,7 @@ Recall that each word corresponds to a dense vector representation, which is lea
 
 The cosine similarity can also be calculated between two words of interest to see how the two words change over time in relation to each other. For example, in the [paper](http://ceur-ws.org/Vol-2831/paper3.pdf) “Diffusion-based Temporal Word Embeddings” (Farhan et al., 2020), the authors show the cosine similarity of the word “COVID” to each of four words (china, epidemic, pandemic, patients) over several months in 2020. This method allows the researcher to visualize trends such as how one word’s similarity to other keywords change over time. It is important to note that this requires you as the researcher to have a list of words of interest ahead of time.
 
-Training Temporal Word Embeddings
----------------------------------
+## Training Temporal Word Embeddings
 
 Neural word embeddings (such as Word2Vec) trained independently on different temporal corpora cannot be compared directly. The vector spaces learned for each time slice are different — that is, models trained on the same data could result in vector spaces with the same nearest neighbors but different coordinates (Kulkarni et al., 2014). This is due to the stochastic aspect of the training process arising from random initialization of word vectors as well as from the order in which documents are processed (Hellrich & Hahn, 2016). Therefore, in order to ensure two vector spaces are comparable, they must be aligned via a unified coordinate system.
 
@@ -52,8 +45,7 @@ Note that for count-based embeddings such as PPMI (Positive Pointwise Mutual Inf
 
 However, research has also shown instability may come from aligning temporal word embeddings. While orthogonal Procrustes is one of the most commonly used methods to align temporal embeddings (Gonen, Jawahar, Seddah, & Goldberg, 2020; Montariol, 2021), it is susceptible to a number of limitations. First, it is a complex alignment procedure and errors may be introduced in the process. Second, the method requires aligning the embedding spaces using the intersection of the vocabulary among all embedding spaces, which means that new words arising at a later time point cannot be compared. Finally, the procedure requires a large amount of training data, which may not be available for all corposes (Dubossarsky, Weinshall, & Grossman, 2017).
 
-Stability of Word Embeddings
-----------------------------
+## Stability of Word Embeddings
 
 In addition to instability in methods used to align word embeddings via linear transformations, researchers have called into question the stability and fragility of word embedding models in general. Stability and consistency of word embedding models can be measured, for example, by varying different hyperparameters. Hellrich and Hahn (2016) evaluate word embeddings’ reliability, measured by the intersection of top-N nearest neighbors across several identically-parameterized Word2Vec models. The authors find that reliability is dependent on the number of epochs a model is trained for. Further, based on their finding that models trained with identical hyperparamters yield inconsistent nearest neighbors, they suggest training several identically parameterized models and combining them into an ensemble to ensure robust results. Pierrejean and Tanguy (2018) varied other hyperparameters such as architecture (i.e., CBOW and SGNS), corpus, context window size, and embedding dimension size, finding that there is large variation in nearest neighbors of the same words in different embedding spaces.
 
@@ -63,8 +55,7 @@ Antoniak and Mimno (2018) find a great deal of variability in word embedding mod
 
 As one solution, Gonen et al. (2020) suggest an alternative way of measuring temporal change without aligning separate embeddings, which they claim can be unstable and less reliable. The authors suggest using nearest neighbors as proxy for meaning. The semantic change is measured using the intersection of top-N nearest neighbors between words trained on different temporal corpora. This metric is used across several runs of the same word embedding algorithm and is able to detect semantic change with high stability. The authors suggest using this simpler method of comparing temporal word embeddings, as it is more interpretable and stable than using the common orthogonal Procrustes method for temporal alignment.
 
-A Simple Experiment
-===================
+## A Simple Experiment
 
 As shown above, while it is necessary to align temporal embeddings trained on neural methods such as Word2Vec in order to compare them directly, doing so many introduce instability. One soultion around this was to use simpler methods of measuring change. Rather than aligning and using cosine similarity to compare words across different embedding spaces, an alternative method was to measure the Jaccard similarity of the sets of nearest neighbors for a word at two different time points.
 
@@ -82,13 +73,12 @@ Here, I’ll walk through the steps to design the simplest of experiments for tr
 
 These are just suggestions for getting started. You might want to know the relationship between stability of nearest neighbors and frequency of that word. You could be interested in how words in general have changed, and depending on your corpus, you can tweak the threshold for determine stable nearest neighbors. You could also be interested in looking at what words are _unstable._ For example, if a word shows up as a nearest neighbor of “mask” with very high cosine similarity but only 30% of the time, perhaps that word was used in a very specific (but not general) situation. Such investigations would depend on whether you are interested in how words changed over time in general, or in interesting and specific cases of how words were used.
 
-Conclusion
-==========
+## Conclusion
 
 This article attempted to explain what temporal word embeddings are and how they can be used to track semantic change over time. Concerns were discussed regarding the stability of word embeddings and common methods to align different embedding spaces. The steps for designing a simple experiment were described, and potential avenues for future projects were discussed. Temporal word embeddings are an exciting area of research within NLP and are currently being used in many different subfields. I hope that this introduction helped to explain some of these concepts.
 
-References
 ==========
+## References
 
 Antoniak, M., & Mimno, D. (2018). Evaluating the Stability of Embedding-based Word Similarities. Transactions of the Association for Computational Linguistics, 6 , 107-119.
 
@@ -123,3 +113,7 @@ Montariol, S. (2021). Models of diachronic semantic change using word embeddings
 Pierrejean, B., & Tanguy, L. (2018, June). Towards Qualitative Word Embeddings Evaluation: Measuring Neighbors Variation. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (pp. 32-39). New Orleans, Louisiana, USA: Association for Computational Linguistics.
 
 Tahmasebi, N., Borin, L., & Jatowt, A. (2019, March). Survey of Computational Approaches to Lexical Semantic Change. arXiv:1811.06278 \[cs\].
+
+---
+Originally published in [Towards Data Science](https://towardsdatascience.com/measuring-semantic-changes-using-temporal-word-embedding-6fc3f16cfdb4).
+

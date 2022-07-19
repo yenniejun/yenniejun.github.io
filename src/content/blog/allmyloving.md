@@ -1,7 +1,7 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Fiction"
+# blogtype: "Fiction"
 path: "/blog/all-my-loving"
 date: "2020-01-18"
 updatedDate: "2020-05-28"

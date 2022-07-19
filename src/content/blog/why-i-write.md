@@ -1,7 +1,5 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Opinion"
 path: "/blog/why-i-write"
 date: "2019-11-22"
 updatedDate: "2020-05-28"

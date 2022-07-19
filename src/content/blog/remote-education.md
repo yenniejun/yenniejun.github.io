@@ -1,7 +1,6 @@
 ---
 # slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Opinion"
 path: "/blog/remote-education"
 date: "2020-03-25"
 updatedDate: "2020-05-28"

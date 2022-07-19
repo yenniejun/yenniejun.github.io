@@ -1,7 +1,5 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "blog"
-blogtype: "Fiction"
 path: "/blog/when-he-pulled-his-pants"
 date: "2021-02-03"
 updatedDate: "2021-05-15"
