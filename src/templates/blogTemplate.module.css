@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 .blogContainer {
-    width: 70%;
+    width: 90%;
     margin: auto;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -10,7 +10,6 @@
 
 .blogHeader h1 {
     margin-top:3rem;
-    /* font-family: 'Chelsea Market', cursive; */
 }
 
 .blogHeader {
@@ -32,16 +31,14 @@
 }
 
 .bookTable tr th:first-child, .bookTable tr td:first-child {
-    width: 13%;
+    width: 20%;
     text-align: left
 }
 
 .bookTable td {
     padding-left: 0;
     padding-top: 0;
-
 }
-
 
 .bookHeader p {
     margin-bottom: 0
@@ -49,6 +46,10 @@
 
 .blogPostContent {
     font-size: 18px;
+}
+
+.blogPostContent p {
+    color: var(--brand-color-dark);
 }
 
 .blogPostContent a, .blogPostContent a:link, .blogPostContent a:visited,
@@ -59,6 +60,7 @@
 
 .bookHeader a:hover, .blogPostContent a:hover {
     text-decoration: underline;
+    font-weight: 600;
 }
 
 .blogPostContent hr {

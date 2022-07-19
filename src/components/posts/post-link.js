@@ -8,8 +8,8 @@ const PostLink = (props) => {
   return (
     <div className={bookStyles.book_post_container}>
       <div className={bookStyles.book_title_container}>
-        <Link to={post.frontmatter.path} activeClassName={bookStyles.active} className={bookStyles.book_title_link_cell}>
-          <h2 className={bookStyles.title_noellipsis}>{post.frontmatter.title}</h2>
+        <Link to={post.frontmatter.path} className={bookStyles.book_title_link_cell}>
+          <h2>{post.frontmatter.title}</h2>
         </Link>
       </div>
       <div className={bookStyles.author_date_container}>
@@ -17,7 +17,7 @@ const PostLink = (props) => {
         
       </div>
 
-      {!!post.frontmatter.description && <p className={bookStyles.post_description}>{post.frontmatter.description}</p>}
+      {!!post.frontmatter.description && <p>{post.frontmatter.description}</p>}
 
     </div>
   )

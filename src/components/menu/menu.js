@@ -9,9 +9,9 @@ const Menu = ({ location }) => {
       <>
         <div className={menuStyles.menu}>
             <Link to="/" activeClassName={menuStyles.active}>Home</Link>
-            <Link to="/portfolio" activeClassName={menuStyles.active}>Projects</Link>
-            <Link to="/writing" activeClassName={menuStyles.active}>Writing</Link>
-            <Link to="/books" activeClassName={menuStyles.active}>Books</Link>
+            <Link to="/portfolio/" activeClassName={menuStyles.active}>Projects</Link>
+            <Link to="/writing/" activeClassName={menuStyles.active}>Writing</Link>
+            <Link to="/books/" activeClassName={menuStyles.active}>Books</Link>
         </div>
       </>
     )

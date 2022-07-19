@@ -11,23 +11,20 @@ const WritingPage = ({
   },
 }) => {
     const OpinionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype==='Opinion') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.tags.includes('Opinion')) // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const FictionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype==='Fiction') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.tags.includes('Fiction')) // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const EssayPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype==='Essay') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.tags.includes('Essay')) // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const NonfictionPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype==='Creative Nonfiction') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.tags.includes('Creative Nonfiction')) // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
     const TechnicalPosts = edges
-      .filter(edge => edge.node.frontmatter.blogtype==='Data Science') // You can filter your posts based on some criteria
+      .filter(edge => edge.node.frontmatter.tags.includes('Data Science')) // You can filter your posts based on some criteria
       .map(edge => <PostLink key={edge.node.id} post={edge.node} type={"blog"}/>)
-     
-
-    // console.log(Posts)
   
     return(
       <Layout 
@@ -41,10 +38,11 @@ const WritingPage = ({
       { <div style={{marginBottom:`4rem`}}>{TechnicalPosts}</div>}
       <h2 className={bookStyles.blog_type_header}>Essays</h2>
       { <div style={{marginBottom:`4rem`}}>{OpinionPosts}</div>}
-      <h2 className={bookStyles.blog_type_header}>Creative Fiction</h2>
-      { <div style={{marginBottom:`4rem`}}>{FictionPosts}</div>}
       <h2 className={bookStyles.blog_type_header}>Creative Nonfiction</h2>
       { <div style={{marginBottom:`4rem`}}>{NonfictionPosts}</div>}
+      <h2 className={bookStyles.blog_type_header}>Creative Fiction</h2>
+      { <div style={{marginBottom:`4rem`}}>{FictionPosts}</div>}
+
     </div>
   </Layout>
 )}
@@ -66,7 +64,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             tags
-            blogtype
             description
           }
         }

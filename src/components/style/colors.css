@@ -1,8 +1,12 @@
 :root {
-  /* --background-color: #FECA1F; */
-  --background-color: #FBDA03;
+  /* --background-color: #ffe32b; */
+  /* --background-color: #eff0f3; */
+  --background-color: #fafafa;
+
+  /* --background-color: #FBDA03; */
   --text-color-light: #444444;
-  --text-color-dark: #010101;
+  --text-color-dark: #1a1a1a;
+
 
   --brand-color-light: #f7efe9;
   --brand-color-light2: #f9f9f9;

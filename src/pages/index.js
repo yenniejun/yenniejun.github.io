@@ -28,8 +28,8 @@ const IndexPage = () => {
       <div id="faded_name">Hi, I'm Yennie</div>
 
       <div className="body-container">
-        
-
+      
+      
         <div>
           <p>
             I am a machine learning engineer at <a href="https://www.truveta.com/" target="_blank" className="normalLink" rel="noreferrer">Truveta</a>, a company dedicated to saving lives with data in the healthcare space. I have worked with OpenAI as a Red Team Consultant to test <a href="https://openai.com/dall-e-2/" target="_blank" className="normalLink" rel="noreferrer">DALLE-2</a> prior to its release for potential harms, biases, and disinformation.</p>

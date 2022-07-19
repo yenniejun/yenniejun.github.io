@@ -9,7 +9,7 @@
 }
 
 .book_post_container {
-    width: 85%;
+    /* width: 85%; */
     margin-bottom: 2rem;
 }
 
@@ -51,7 +51,6 @@
     overflow: hidden;
     word-wrap: break-word;
     white-space: initial;
-    width: 700px;
 }
 
 
@@ -87,7 +86,7 @@
 
 table {
     font-size: 18px;
-    color:var(--text-color-light);
+    color: var(--brand-color-dark);
     font-weight: 400;
 }
 

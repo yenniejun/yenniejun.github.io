@@ -9,8 +9,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 20%;
+  margin-right: 20%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
@@ -847,6 +847,7 @@ pre tt:after {
 }
 
 @media only screen and (min-width: 768px) and (max-width:892px){
+
   /* tablets and desktop */
   .mainContainer {
     width: 80% !important;
@@ -869,15 +870,8 @@ pre tt:after {
     margin-left: 3rem;
     margin-right: 3rem;
   }
-
-
 }
 
-
-
-.hide_header_column {
-  /* display: inline-block; */
-}
 
 .placesLived {
   list-style-type: none;

@@ -7,6 +7,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
+  console.log('markdown remark', markdownRemark)
   const { frontmatter, html } = markdownRemark
   return (
       <Layout>
@@ -38,8 +39,7 @@ export default function Template({
                     </tr>
                   </tbody>
                 </table>
-                <p>{frontmatter.link && <a href={frontmatter.link} target="_blank" rel="noreferrer"><p>Goodreads link</p></a>}</p>
-
+                <p>{frontmatter.link && <a href={frontmatter.link} target="_blank" rel="noreferrer">Goodreads link</a>}</p>
 
               </div>
             }     
@@ -54,6 +54,29 @@ export default function Template({
     
   )
 }
+
+
+// export const pageQuery = graphql`
+// query BlogPage($path: String!) {
+//   allMarkdownRemark(
+//     sort: { fields: [frontmatter___date], order: DESC }
+//     filter: { frontmatter: { path: { eq: $path } } }
+//   ) {
+//     html
+//       frontmatter {
+//         date(formatString: "MMMM DD, YYYY")
+//         path
+//         title
+//         author
+//         posttype
+//         link
+//         rating
+//       }
+//     }
+//   }
+// }
+// `
+
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
