@@ -40,7 +40,7 @@ const IndexPage = () => {
 
           <p>In my spare time, you can find me writing, hiking, cycling, learning to play the accordion, and practicing martial arts.</p>
 
-          <p>You can download my resume <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>.</p>   
+          {/* <p>You can download my resume <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>.</p>    */}
 
         </div>
 
