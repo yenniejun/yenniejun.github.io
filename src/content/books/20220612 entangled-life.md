@@ -1,11 +1,10 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "books"
 path: "/books/entangled-life"
 date: "2022-06-12"
 updatedDate: "2022-06-12"
-title: Entangled Life: "How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures
-author: Merlin Sheldrake"
+title: "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures"
+author: "Merlin Sheldrake"
 tags: ["Nonfiction"]
 link: "https://www.goodreads.com/book/show/52668915-entangled-life"
 rating: 4.8
