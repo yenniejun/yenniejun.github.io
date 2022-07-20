@@ -1,12 +1,13 @@
 [
   {
     "title": "DALLE Red-Teaming",
-    "image": "dalle-walle-1.png",
+    "image": "dalle-walle-11.png",
     "description": [
-      "Part of the team to probe ('red team') DALLE-2 for potential harmful and biased image generation prior to its public release"
+      "Part of the team of AI Researchers to probe ('red team') OpenAI's DALLE-2 for potential harmful and biased image generation prior to its public release."
     ],
     "codelink": "https://github.com/openai/dalle-2-preview/blob/main/system-card.md",
-    "tags": ["AI Art"]
+    "tags": ["AI Art"],
+    "instagramlink": "https://www.instagram.com/myworldin.ai/"
   },
   {
     "title": "Scaling Radio Analysis with Data Science for Infodemic Monitoring",
@@ -52,7 +53,7 @@
       "title": "Data Surveillance and Biocitizenship in the COVID-19 Pandemic: Digital Contact-tracing in South Korea, Hong Kong, Singapore, and Taiwan", 
       "image": "midjourney-covid-1.png",
       "description": [
-        "Analyzed the privacy implications of digital contact tracing in East Asian countries during the COVID-19 pandemic through topic modeling and semantic network analysis of news media. Analysis conducted across 6 countries and 3 languages (Korean, English, Chinese)."
+        "Analyzed the privacy implications of digital contact tracing during the early days of the COVID-19 pandemic through topic modeling and semantic network analysis of news media from 6 countries and 3 languages."
       ],
       "codelink":"https://github.com/yenniejun/covid-news-analysis",
       "tags": ["topic modeling", "text cleaning", "networks"]
@@ -61,7 +62,7 @@
       "title": "Big Data as Historical Archive: The Challenges of Preserving Today’s Digital Artifacts", 
       "image": "midjourney-datacenter-4.png",
       "description": [
-        "Examined the greatest challenges for long-term preservation of big data, challenges which differ from the preservation of mostly static, smaller-scale digital material which had concerned archivists in the past."
+        "Examined the greatest challenges for long-term preservation of big data, challenges which differ from the preservation of mostly static, smaller-scale digital material which had concerned archivists in the past. With Seoul National University Big Data Studies Lab."
       ],
       "tags": ["big data studies", "digital history", "digital humanities"]
     },
@@ -70,7 +71,7 @@
       "title": "Joseon Munkwa Project", 
       "image": "projects-sillok.jpg",
       "description": [
-        "Conducted named-entity recognition and disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data."
+        "Conducted named-entity recognition and disambiguation on historical figures from Korean Joseon-Dynasty civil service roster data. With Seoul National University Big Data Studies Lab."
       ],
       "codelink": "https://github.com/yenniejun/JoseonMunkwa",
       "tags": ["digital history", "digital humanities", "NER", "disambiguation"]
