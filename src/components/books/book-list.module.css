@@ -22,6 +22,10 @@
     justify-content: space-between;
 }
 
+.book_title_link_cell {
+    width: 90%;
+}
+
 .book_title_link_cell, .book_title_link_cell:link, .book_title_link_cell:visited {
     text-decoration: none;
     color: var(--text-color-dark);
@@ -51,6 +55,7 @@
     overflow: hidden;
     word-wrap: break-word;
     white-space: initial;
+    margin-right: 50px;
 }
 
 
