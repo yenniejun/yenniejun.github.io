@@ -3,7 +3,7 @@
     "title": "DALLE Red-Teaming",
     "image": "dalle-walle-11.png",
     "description": [
-      "Part of the team of AI Researchers to probe ('red team') OpenAI's DALLE-2 for potential harmful and biased image generation prior to its public release."
+      "Part of the team of AI Researchers to probe ('red team') OpenAI's DALLE-2 prior to its public release to detect potential harms, biases, and disinformation."
     ],
     "codelink": "https://github.com/openai/dalle-2-preview/blob/main/system-card.md",
     "tags": ["AI Art"],
