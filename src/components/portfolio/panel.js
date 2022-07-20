@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 import { IoIosPaper } from 'react-icons/io'
 import { RiArticleLine } from 'react-icons/ri'
 import { GiClick } from 'react-icons/gi'
+import { FaInstagram } from 'react-icons/fa'
 import ReactTooltip from "react-tooltip";
 
 
@@ -63,10 +64,19 @@ const PortfolioPanel = (props) => {
 					}
 
 				{props.data.demolink &&
-					<a data-tip data-for="demoIcon" className={panelStyles.codelink} href={props.data.demolink} target="_blank" rel="noreferrer">
+					<a data-tip data-for="igIcon" className={panelStyles.codelink} href={props.data.demolink} target="_blank" rel="noreferrer">
 					<GiClick />
 					<ReactTooltip id="demoIcon" place="bottom" effect="solid">
 						Link to demo
+					</ReactTooltip>
+					</a>
+				}
+
+				{props.data.instagramlink &&
+					<a data-tip data-for="instagramIcon" className={panelStyles.codelink} href={props.data.instagramlink} target="_blank" rel="noreferrer">
+					<FaInstagram />
+					<ReactTooltip id="instagramIcon" place="bottom" effect="solid">
+						Link to Instagram
 					</ReactTooltip>
 					</a>
 				}
