@@ -70,7 +70,11 @@
 
 @media only screen and (max-width: 767px) {
     .blogContainer {
-        width: 80%;
+        width: 100%;
+    }
+
+    .blogPostContent {
+        margin-top: 2rem;
     }
 
     .bookTable tr th:first-child, .bookTable tr td:first-child {

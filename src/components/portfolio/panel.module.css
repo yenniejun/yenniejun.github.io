@@ -3,6 +3,7 @@
     padding-bottom: 1.2rem;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.25); */
     display: flex;
+    justify-content: space-evenly;
 }
 
 .panel hr {
@@ -22,7 +23,8 @@
     /* width: 30rem; */
     text-align: left;
     align-items: center;
-    width: 75%;
+    margin-left: 3rem;
+    /* width: 75%; */
 
 }
 
@@ -34,7 +36,7 @@
 
 
 .projectIconContainer {
-    width: 30%;
+    /* width: 30%; */
     background-position: center center;
 }
 
@@ -103,6 +105,15 @@
     margin: 0.3rem 0.2rem 0rem 0rem;
 }
 
+
+@media only screen and (min-width: 768px) and (max-width:892px){
+
+    /* tablets and desktop */
+    .projectIconContainer {
+        /* width: 70%; */
+    }
+}
+
 @media only screen and (max-width: 767px) {
     /* phone */
     .projectTitle {
@@ -114,8 +125,8 @@
         margin-bottom: 1rem;
         margin-left:auto;
         margin-right:auto;
-        border-color: None;
         border-width: 0;
+        width: unset !important;
     }
 
     .projectIcon {
@@ -123,14 +134,23 @@
         width: None;
     }
 
+    .projectContentContainer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+    }
+
     .codelinkContainer {
         margin-top: 1rem;
         flex-direction: row;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .codelink {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 20px;
         margin-bottom: 0.8rem;
     }
 
@@ -144,6 +164,7 @@
 
     .panel {
         flex-direction: column;
+        margin-left: 1rem;
     }
 }
 
