@@ -1,7 +1,5 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "blog"
-# blogtype: "Fiction"
 path: "/blog/pineapple-bun"
 date: "2019-11-16"
 updatedDate: "2020-05-28"
@@ -10,8 +8,9 @@ tags: ["Fiction"]
 description: Published in The Weekly Knob
 ---
 
-First published in [The Weekly Knob](https://theweeklyknob.com/pineapple-bun-16264b45d692)
---
+<i> Originally published in  [The Weekly Knob](https://theweeklyknob.com/pineapple-bun-16264b45d692)</i>
+<br/>
+
 
 The perfect pineapple bun comes straight out of the oven into your mouth. The toppings are thin, crunchy, sweet. The bun is sliced in half, parallel to the plate. A cold square of butter, refrigerated but not frozen, is placed in the slit. The butter melts slowly, oozing into the texture of the bread, but retains its coldness and its firm-but-softening bite.
 

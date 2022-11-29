@@ -8,9 +8,9 @@ tags: ["Opinion"]
 description: Musings on the importance of writing to my identity.
 ---
 
-(First published on [Medium](https://medium.com/@yennie.jun/why-i-write-2d49ea8e05e0))
+<i>   Originally published on [Medium](https://medium.com/@yennie.jun/why-i-write-2d49ea8e05e0)</i>
+<br/>
 
---- 
 Three months ago, I quit my job as a software engineer at Microsoft. I had a one-way flight to Seoul and one major goal: to write a book. Why?
 What do I want to do with my life? I found myself asking this question so regularly that I decided to make dedicated space just for reflecting on that.
 

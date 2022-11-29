@@ -7,6 +7,9 @@ title: "When 97% of your Machine Learning Engineer Interviews are with Men"
 tags: ["Data Science"]
 description: Of the 33 interviews I had for machine learning engineering roles, only 1 was with a woman.
 ---
+<i>   Originally published on [Medium](https://medium.com/@yennie.jun/when-97-of-your-machine-learning-engineer-interviews-are-with-men-202b09811086)</i>
+<br/>
+
 
 ![](https://miro.medium.com/max/1400/1*e5iBJnQjKT8cIOqj3hW2cg.png)
 
@@ -110,7 +113,3 @@ But why does this matter? The majority of the interviewers I met were kind, cons
 The best thing you can do in your own career is to  _pay attention_. Start noticing. Are all of the recruiters you interact with women? Are all of your interviewers men? Does it have to be this way? Why is it this way? How does this influence your experience? Representation matters, in both subtle and overt ways. And if you’re in a position of power or have some influence over hiring, DO BETTER. This is embarrassing.
 
 One of my main learnings from this interviewing experience is that reading about statistics is very different from experiencing the statistics yourself. I can only hope that at some point in my career, the diversity in this field (not just gender, but also ethnicity, sexuality, religion, class, and the intersection of these myriad categories) will improve so much that I won’t need to spend any time counting how many women are in the room.
-
-----
-
-Originally published on [Medium](https://medium.com/@yennie.jun/when-97-of-your-machine-learning-engineer-interviews-are-with-men-202b09811086).

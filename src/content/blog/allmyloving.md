@@ -9,10 +9,9 @@ title: "All My Loving"
 tags: ["Fiction"]
 description: Published in The Weekly Knob
 ---
+<i>   Originally published in [The Weekly Knob](https://theweeklyknob.com/all-my-loving-acc7c256e7d9)</i>
+<br/>
 
-(Published in [The Weekly Knob](https://theweeklyknob.com/all-my-loving-acc7c256e7d9))
-
----
 
 I wrote song lyrics on the back of paper receipts and tucked them into the armpit of her windshield wipers.
 
