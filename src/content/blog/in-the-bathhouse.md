@@ -9,9 +9,9 @@ tags: ["Creative Nonfiction"]
 description: Published in The Maine Review (2021 Embody Award 1st Place)
 ---
 
-(Published in [The Maine Review](https://mainereview.com/in-the-bathhouse/))
+<i> Originally published in [The Maine Review](https://mainereview.com/in-the-bathhouse/)</i>
+<br/>
 
----
 
 My grandmother is naked as she sits beside me on the stone step and pours water from the hot spring over her shoulders. She fills the white plastic bucket and dumps the steaming water over my head. I exhale in surprise as my skin turns bright red. She smiles widely and hands me the bucket. “Do you want to do it yourself?”
 

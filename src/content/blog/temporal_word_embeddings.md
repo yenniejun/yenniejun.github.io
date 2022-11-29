@@ -7,6 +7,8 @@ title: "Measuring Semantic Changes Using Temporal Word Embeddings"
 tags: ["Data Science"]
 description: A guide to how temporal word embeddings can be used to measure word evolution and some considerations regarding stability of embedding methods.
 ---
+<i> Originally published in [Towards Data Science](https://towardsdatascience.com/measuring-semantic-changes-using-temporal-word-embedding-6fc3f16cfdb4)</i>
+<br/>
 
 What if I want to know how words have changed over time? For example, I may want to quantify the ways certain words (such as “mask” or “lockdown”) were used before the COVID-19 pandemic and how they evolved through the pandemic. Detecting how and when word usage changed over time can be useful from a linguistic and cultural standpoint as well as from a policy perspective (i.e., did the way certain words are use change after an event or a policy implementation?).
 
@@ -113,7 +115,4 @@ Montariol, S. (2021). Models of diachronic semantic change using word embeddings
 Pierrejean, B., & Tanguy, L. (2018, June). Towards Qualitative Word Embeddings Evaluation: Measuring Neighbors Variation. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (pp. 32-39). New Orleans, Louisiana, USA: Association for Computational Linguistics.
 
 Tahmasebi, N., Borin, L., & Jatowt, A. (2019, March). Survey of Computational Approaches to Lexical Semantic Change. arXiv:1811.06278 \[cs\].
-
----
-Originally published in [Towards Data Science](https://towardsdatascience.com/measuring-semantic-changes-using-temporal-word-embedding-6fc3f16cfdb4).
 

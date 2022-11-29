@@ -8,6 +8,9 @@ tags: ["Data Science"]
 description: Were authoritarian governments more likely to enact more restrictive COVID-19 measures than democratic governments?
 ---
 
+<i>   Originally published in [Towards Data Science](https://medium.com/towards-data-science/did-government-type-have-an-effect-on-restrictive-covid-19-measures-68fa31124b8d)</i>
+<br/>
+
 ![](https://miro.medium.com/max/1274/1*RaIVYmKv9cP-uNPPunEDbg.png)
 
 At first glance, it seems that authoritarian governments had much quicker initial responses to COVID-19 than did democratic governments. But is this a correct statement? (Image by author)
@@ -126,7 +129,3 @@ Kleinfeld, R. (2020). Do Authoritarian Or Democratic Countries Handle Pandemics 
 Mahdi, A., Blaszczyk, P., Dlotko, P., Salvi, D., Chan, T., Harvey, J., Gurnari, D., Wu, Y., Farhat, A., Hellmer, N., Zarebski, A., Hogan, B., & Tarassenko, L. (2020). OxCOVID19 Database: a multimodal data repository for better understanding the global impact of COVID-19. medRxiv.
 
 Stasavage, D. (2020). Democracy, Autocracy, and Emergency Threats: Lessons for COVID-19 From the Last Thousand Years. International Organization, 1–17. doi:10.1017/S0020818320000338.
-
-----
-
-Originally published in [Towards Data Science](https://medium.com/towards-data-science/did-government-type-have-an-effect-on-restrictive-covid-19-measures-68fa31124b8d).

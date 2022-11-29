@@ -8,7 +8,8 @@ tags: ["Creative Nonfiction"]
 description: Published in Meetinghouse Magazine
 ---
 
-(Published in [Meetinghouse Magazine](https://www.meetinghousemag.org/))
+<i> Originally published in [Meetinghouse Magazine](https://www.meetinghousemag.org/)</i>
+<br/>
 
 ---
 

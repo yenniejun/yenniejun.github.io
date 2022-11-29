@@ -10,9 +10,9 @@ tags: ["Opinion"]
 description: It's time to talk about the need for an equitable, inclusive, global, and fully remote education system.
 ---
 
-(Published on [OneZero](https://onezero.medium.com/now-is-the-time-to-make-online-schools-available-to-everyone-1ab26d3222f7))
+<i>   Originally published in [OneZero](https://onezero.medium.com/now-is-the-time-to-make-online-schools-available-to-everyone-1ab26d3222f7)</i>
+<br/>
 
----
 
 The spread of coronavirus in the United States has prompted thousands of [schools](https://www.usnews.com/news/education-news/articles/2020-03-16/whats-next-as-coronavirus-closes-schools-for-half-of-all-kids-in-the-us) and [universities](https://www.cnn.com/2020/03/09/us/coronavirus-university-college-classes/index.html) to shut down and move online, leading us to rethink the future of our education systems. A worldwide shutdown of schools at this rate and volume has been unprecedented, and now we can begin to imagine a possible dystopian future where similar shutdowns will become more commonplace due to climate change, pollution, or other pandemics. There’s no better time to talk about the need for an equitable, inclusive, global, and fully remote education system.
 
