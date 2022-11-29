@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;800&display=swap');
 @import './colors.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');@import '../style/colors.css';
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -675,6 +676,11 @@ pre tt:after {
   margin-right:auto;
 }
 
+.homeFlex-iframe {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .homeFlex-bio {
   /* font-size: 1rem; */
   margin-left: 2rem;
@@ -784,6 +790,11 @@ pre tt:after {
     margin-bottom: 2rem;
   }
 
+  .homeFlex-iframe {
+    margin-left: -100px;
+    text-align: center;
+  }
+
   hr {
     display: None;
   }
@@ -887,4 +898,8 @@ pre tt:after {
 
 .placesLived li {
   margin:0;
+}
+
+.embed-page .substack-watermark {
+  display: None !important
 }

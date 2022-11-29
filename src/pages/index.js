@@ -37,7 +37,7 @@ const IndexPage = () => {
 
           <p>I have a Masters in Social Data Science from the University of Oxford and a Bachelors in computer science and history from Tufts University. I have lived in an assortment of places, including Boston, Louisiana, Seattle, Seoul, Oxford, and NYC.</p>
 
-          <p>In my spare time, I like to write.</p>
+          <p>In my spare time, I like to write. You can check out my blog, where I write about creative projects using generative AI!</p>
 
           {/* <p>You can download my resume <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>.</p>    */}
 
@@ -48,15 +48,9 @@ const IndexPage = () => {
             <Img fluid={data.file.childImageSharp.fluid} alt="This is a picture of my face" />
           </div>
         </div>
-       
-       
       </div>
-
-
-      
-
+      <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div>
     </div>
-   
   </Layout>
 }
 
