@@ -4,7 +4,7 @@ posttype: "blog"
 path: "/blog/grandmother-goes-to-school"
 date: "2019-11-09"
 updatedDate: "2022-07-20"
-title: "Grandmother goes to School"
+title: "Grandmother Goes to School"
 tags: ["Creative Nonfiction"]
 description: Published in Black Horse Review
 ---
