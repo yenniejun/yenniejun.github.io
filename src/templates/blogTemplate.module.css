@@ -52,15 +52,20 @@
     color: var(--brand-color-dark);
 }
 
+.blogPostContent i {
+    color: var(--brand-shade-dark);
+}
+
 .blogPostContent a, .blogPostContent a:link, .blogPostContent a:visited,
 .bookHeader a, .bookHeader a:link, .bookHeader a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--brand-shade-dark);
 }
 
 .bookHeader a:hover, .blogPostContent a:hover {
     text-decoration: underline;
     font-weight: 600;
+    color: var(--brand-shade-light);
 }
 
 .blogPostContent hr {
