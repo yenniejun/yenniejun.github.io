@@ -1,5 +1,26 @@
 [
   {
+    "title": "LLM Tokenization",
+    "image": "projects-tokenization.png",
+    "description": [
+      "All languages are NOT created (tokenized) equal: Language models cost much more in some languages than others"
+    ],
+    "tags": ["NLP", "multilingual"],
+    "articlelink": "https://blog.yenniejun.com/p/all-languages-are-not-created-tokenized",
+    "codelink": "https://github.com/yenniejun/tokenizers-languages",
+    "demolink": "https://huggingface.co/spaces/yenniejun/tokenizers-languages"
+  },
+  {
+    "title": "Book Bans and Censorship in the United States",
+    "image": "projects-book-ban.png",
+    "description": [
+      "Currently, a vast diversity of stories being banned in the US: stories of LGBTQ+ communities, Muslim families, and women in science. LLMs such as GPT-3 refused to recommend banning books outright, for any age level."
+    ],
+    "tags": ["NLP", "data analysis"],
+    "articlelink": "https://blog.yenniejun.com/p/the-forbidden-pages-a-data-analysis",
+    "codelink": "https://github.com/yenniejun/banned-books"
+  },
+  {
     "title": "DALLE Red-Teaming",
     "image": "dalle-walle-11.png",
     "description": [
