@@ -37,11 +37,12 @@ const IndexPage = () => {
 
           <p>I have a Masters in Social Data Science from the University of Oxford and a Bachelors in computer science and history from Tufts University. I have lived in an assortment of places, including Boston, Louisiana, Seattle, Seoul, Oxford, and NYC.</p>
 
-          <p>In my spare time, I like to write. You can check out my blog, where I write about creative projects using generative AI!</p>
+          <p>In my spare time, I like to write. I am a research writer for <a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer">DeepLearning.AI's The Batch</a>, where I synthesize and summarize state-of-the-art AI research. I also write about my personal generative AI experiments and data science explorations on my blog at<a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>.</p>
 
-          {/* <p>You can download my resume <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>.</p>    */}
+          <p>My most recent resume can be found <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>. <i>Updated Aug 4, 2023</i></p>  
+          
+        </div> 
 
-        </div>
 
         <div>
           <div className="homeFlex-image">
