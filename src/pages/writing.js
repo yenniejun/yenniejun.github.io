@@ -33,8 +33,15 @@ const WritingPage = ({
       >
       <SEO title="Yennie Jun's Writing" />
       <div className="mainContainer">
+          <p>My more recent writing and projects can be found on 
+            <a href='https://blog.yenniejun.com/'
+            className="normalLink" 
+            target="_blank" 
+            rel="noreferrer"> Art Fish Intelligence.</a></p>
+          <hr/>
 
-      <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div>
+      
+      {/* <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div> */}
   
       <h2 className={bookStyles.blog_type_header}>Data Science</h2>
       { <div style={{marginBottom:`4rem`}}>{TechnicalPosts}</div>}

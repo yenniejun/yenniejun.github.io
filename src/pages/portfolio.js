@@ -32,9 +32,15 @@ const PortfolioPage = () => {
     >
               
     <SEO title="Yennie Jun's Portfolio" />
-    <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div>
+    
 
     <div className="mainContainer">
+      <p>My more recent writing and projects can be found on 
+        <a href='https://blog.yenniejun.com/'
+        className="normalLink" 
+        target="_blank" 
+        rel="noreferrer"> Art Fish Intelligence.</a></p>
+      <hr/>
         {
           portfolioData.map((item, i) =>
               <PortfolioPanel 
