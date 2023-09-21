@@ -27,30 +27,26 @@ const IndexPage = () => {
       <hr style={{marginTop: `3rem`, marginBottom: `3rem`}}></hr>
       <div id="faded_name">Hi, I'm Yennie</div>
 
-      <div className="body-container">
-      
-      
-        <div>
-          <p>I am currently a machine learning engineer at <a href="https://www.truveta.com/" target="_blank" className="normalLink" rel="noreferrer">Truveta</a>, a company dedicated to saving lives with data in the healthcare space.</p>
+      <div style={{fontSize: '24px'}}>
+        <p>I am a machine learning engineer and AI researcher interested in the applications of AI/ML for good.</p>
 
-          <p>My professional career has focused around applications of AI/ML for good. Previously, I have worked as a data scientist with the United Nations on COVID-19 public health monitoring on radio; as a researcher with <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a> at Seoul National University on the future of big data archives; and as a software engineer with Microsoft working on <a href="https://www.microsoft.com/en-us/education" className="normalLink" target="_blank" rel="noreferrer">education technology platforms</a> to empower students and teachers. I have also worked with OpenAI and Oxford on research to reduce harms and biases in AI.</p> 
+        <p>I have worked across a variety of roles and disciplines:</p>
+        <ul className="careerList">
+          <li> Machine learning in health care applications (with <a href="https://www.truveta.com/" target="_blank" className="normalLink" rel="noreferrer">Truveta</a>)</li>
+          <li> Research into harms and biases in generative AI models (with Oxford and OpenAI)</li>
+          <li> Data science in humanitarian aid and public health (with the <a href="https://www.unglobalpulse.org/" target="_blank" className="normalLink" rel="noreferrer">United Nations</a>)</li>
+          <li> Digital humanities and computational history (with the <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a> at Seoul National University)</li>
+          <li> Education technology software (with <a href="https://www.microsoft.com/en-us/education" className="normalLink" target="_blank" rel="noreferrer">Microsoft</a>)</li>
+        </ul>
 
-          <p>I have a Masters in Social Data Science from the University of Oxford and a Bachelors in computer science and history from Tufts University. I have lived in an assortment of places, including Boston, Louisiana, Seattle, Seoul, Oxford, and NYC.</p>
+        <p>I have a Masters in <a href="https://www.oii.ox.ac.uk/study/msc-in-social-data-science/" target="_blank" className="normalLink" rel="noreferrer">Social Data Science</a> from the University of Oxford and a Bachelors in Computer Science and History from Tufts University. I have lived in an assortment of places, including Boston, Louisiana, Seattle, Seoul, Oxford, and NYC.</p>
 
-          <p>In my spare time, I like to write. I am a research writer for <a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer">DeepLearning.AI's The Batch</a>, where I synthesize and summarize state-of-the-art AI research. I also write about my personal generative AI experiments and data science explorations on my blog at<a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>.</p>
+        <p>In my spare time, I like to write. I write about generative AI experiments and data science explorations on my blog at <a href="https://www.artfish.ai/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>. I also write for <a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer">DeepLearning.AI's The Batch</a>, where I synthesize and summarize state-of-the-art AI research. I also write about generative AI </p>
 
-        </div> 
+      </div> 
 
 
-        <div>
-          <div className="homeFlex-image">
-            <Img fluid={data.file.childImageSharp.fluid} alt="This is a picture of my face" />
-          </div>
-        </div>
-      </div>
-      <hr/>
-      <p>My most recent resume can be found <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a>.</p>
-      <p><i>Updated Aug 4, 2023</i></p>  
+      <p><i>A recent version of my resume can be found <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a> (updated Aug 4, 2023)</i>.</p> 
           
       {/* <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div> */}
     </div>

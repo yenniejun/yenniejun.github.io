@@ -15,7 +15,7 @@ const Menu = ({ location }) => {
             <Link to="/writing/" activeClassName={menuStyles.active}>Writing</Link>
             <Link to="/books/" activeClassName={menuStyles.active}>Books</Link>
             <a 
-                href='https://blog.yenniejun.com/' 
+                href='https://www.artfish.ai/' 
                 target='_blank' 
                 aria-label='Link to AI Newsletter'
                 rel='nooopener'>AI Newsletter <HiExternalLink/>

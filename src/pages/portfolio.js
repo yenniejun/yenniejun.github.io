@@ -36,7 +36,7 @@ const PortfolioPage = () => {
 
     <div className="mainContainer">
       <p>My more recent writing and projects can be found on 
-        <a href='https://blog.yenniejun.com/'
+        <a href='https://www.artfish.ai/'
         className="normalLink" 
         target="_blank" 
         rel="noreferrer"> Art Fish Intelligence.</a></p>
