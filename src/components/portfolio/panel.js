@@ -64,7 +64,7 @@ const PortfolioPanel = (props) => {
 					}
 
 				{props.data.demolink &&
-					<a data-tip data-for="igIcon" className={panelStyles.codelink} href={props.data.demolink} target="_blank" rel="noreferrer">
+					<a data-tip data-for="demoIcon" className={panelStyles.codelink} href={props.data.demolink} target="_blank" rel="noreferrer">
 					<GiClick />
 					<ReactTooltip id="demoIcon" place="bottom" effect="solid">
 						Link to demo
