@@ -374,6 +374,28 @@ ul {
   list-style-position: outside;
   list-style-image: none;
 }
+
+.careerList li{
+    list-style:none;
+    color: #666;
+}
+
+.careerList li:nth-child(2)::before{
+  content: '🤖';
+}
+.careerList li:nth-child(1)::before{
+  content: '⛑️';
+}
+.careerList li:nth-child(3)::before{
+  content: '🌐';
+}
+.careerList li:nth-child(4)::before{
+  content: '📚';
+}
+.careerList li:nth-child(5)::before{
+  content: '🎓';
+}
+
 ol {
   margin-left: 1.45rem;
   margin-right: 0;
