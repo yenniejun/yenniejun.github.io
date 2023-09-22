@@ -28,14 +28,14 @@ const IndexPage = () => {
       <div id="faded_name">Hi, I'm Yennie</div>
 
       <div>
-        <p>I am a machine learning engineer and AI researcher interested in the applications of AI/ML for good.</p>
+        <p>I am a multidisciplinary machine learning engineer and AI researcher focusing on applications of AI/ML for good.</p>
 
         <p>I have worked across a variety of roles and disciplines:</p>
         <ul className="careerList">
           <li> Machine learning in health care applications (with <a href="https://www.truveta.com/" target="_blank" className="normalLink" rel="noreferrer">Truveta</a>)</li>
           <li> Research into harms and biases in generative AI models (with Oxford and OpenAI)</li>
           <li> Data science in humanitarian aid and public health (with the <a href="https://www.unglobalpulse.org/" target="_blank" className="normalLink" rel="noreferrer">United Nations</a>)</li>
-          <li> Digital humanities and computational history (with the <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a> at Seoul National University)</li>
+          <li> Digital humanities and computational history (with the <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a>)</li>
           <li> Education technology software (with <a href="https://www.microsoft.com/en-us/education" className="normalLink" target="_blank" rel="noreferrer">Microsoft</a>)</li>
         </ul>
 
