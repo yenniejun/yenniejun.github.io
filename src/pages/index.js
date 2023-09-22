@@ -27,7 +27,7 @@ const IndexPage = () => {
       <hr style={{marginTop: `3rem`, marginBottom: `3rem`}}></hr>
       <div id="faded_name">Hi, I'm Yennie</div>
 
-      <div style={{fontSize: '24px'}}>
+      <div>
         <p>I am a machine learning engineer and AI researcher interested in the applications of AI/ML for good.</p>
 
         <p>I have worked across a variety of roles and disciplines:</p>
