@@ -1,14 +1,13 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import BookList from "../components/books/book-list"
 import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import BookList from "../components/books/book-list"
+import SEO from "../components/seo"  // Update this import
 
 const BooksPage = ({ data }) => {
   const { edges } = data.allMarkdownRemark
-
   const Books = edges
-    .filter(edge => edge.node.frontmatter.date) // Filter posts based on date existence
+    .filter(edge => edge.node.frontmatter.date)
     .map(edge => (
       <BookList 
         key={edge.node.id} 
@@ -39,8 +38,8 @@ export default BooksPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { posttype: { in: "books" } } }
+      sort: { fields: [frontmatter___date], order: DESC },
+      filter: { frontmatter: { posttype: { eq: "books" } } }
     ) {
       edges {
         node {
