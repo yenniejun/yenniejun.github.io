@@ -28,7 +28,7 @@ const IndexPage = () => {
       <div id="faded_name">Hi, I'm Yennie</div>
 
       <div>
-        <p>I am a multidisciplinary machine learning engineer and AI researcher focusing on applications of AI/ML for good.</p>
+        <p>I currently work as a Research Engineer at Google DeepMind. I also write about independent AI research experiments on my blog at <a href="https://www.artfish.ai/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>.</p>
 
         <p>I have worked across a variety of roles and disciplines:</p>
         <ul className="careerList">
@@ -39,16 +39,11 @@ const IndexPage = () => {
           <li> Education technology software (with <a href="https://www.microsoft.com/en-us/education" className="normalLink" target="_blank" rel="noreferrer">Microsoft</a>)</li>
         </ul>
 
-        <p>I have a Masters in <a href="https://www.oii.ox.ac.uk/study/msc-in-social-data-science/" target="_blank" className="normalLink" rel="noreferrer">Social Data Science</a> from the University of Oxford and a Bachelors in Computer Science and History from Tufts University. I have lived in an assortment of places, including Boston, Louisiana, Seattle, Seoul, Oxford, and NYC.</p>
+        <p>I have a Masters in <a href="https://www.oii.ox.ac.uk/study/msc-in-social-data-science/" target="_blank" className="normalLink" rel="noreferrer">Social Data Science</a> from the University of Oxford and a Bachelors in Computer Science and History from Tufts University.</p>
 
-        <p>In my spare time, I like to write. I write about generative AI experiments and data science explorations on my blog at <a href="https://www.artfish.ai/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>. I also write for <a href="https://www.deeplearning.ai/the-batch/" className="normalLink" target="_blank" rel="noreferrer">DeepLearning.AI's The Batch</a>, where I synthesize and summarize state-of-the-art AI research. I also write about generative AI </p>
 
       </div> 
 
-
-      <p><i>A recent version of my resume can be found <a className="normalLink" href={resume} target="_blank" rel="noreferrer">here</a> (updated Aug 4, 2023)</i>.</p> 
-          
-      {/* <div className="homeFlex-iframe"><iframe src="https://yenniejun.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe></div> */}
     </div>
   </Layout>
 }

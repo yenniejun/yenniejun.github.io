@@ -21,14 +21,6 @@ const SocialMediaLinks = ({ location }) => {
                 <RiGithubLine/>
                 <span>GitHub</span>
             </a>
-            {/* <a href="https://www.facebook.com/yennie.jun" target="_blank" rel="noreferrer">
-                <GrFacebookOption/>
-                <span>Facebook</span>
-            </a> */}
-            <a href="https://www.instagram.com/_yenniejun_/" target="_blank" rel="noreferrer">
-                <FaInstagram/>
-                <span>Instagram</span>
-            </a>
             <a href="https://twitter.com/YennieJun" target="_blank" rel="noreferrer">
                 <FiTwitter/>
                 <span>Twitter</span>
