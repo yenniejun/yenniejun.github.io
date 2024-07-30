@@ -1,9 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import resume from  "../data/resume.pdf"
 import classnames from 'classnames';
-import Img from 'gatsby-image';
 import { useStaticQuery, graphql } from "gatsby"
 
 
@@ -28,7 +26,10 @@ const IndexPage = () => {
       <div id="faded_name">Hi, I'm Yennie</div>
 
       <div>
-        <p>I currently work as a Research Engineer at Google DeepMind. I also write about independent AI research experiments on my blog at <a href="https://www.artfish.ai/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>.</p>
+       <p>I currently work as a Research Engineer at Google DeepMind. I also write about independent AI research experiments on my blog at <a href="https://www.artfish.ai/" className="normalLink" target="_blank" rel="noreferrer"> Art Fish Intelligence</a>.</p>
+
+       <p>I care a lot about interesting, multidisciplinary projects. Especially if they are trying to make the world a better place.</p>
+
 
         <p>I have worked across a variety of roles and disciplines:</p>
         <ul className="careerList">
@@ -41,6 +42,7 @@ const IndexPage = () => {
 
         <p>I have a Masters in <a href="https://www.oii.ox.ac.uk/study/msc-in-social-data-science/" target="_blank" className="normalLink" rel="noreferrer">Social Data Science</a> from the University of Oxford and a Bachelors in Computer Science and History from Tufts University.</p>
 
+       
 
       </div> 
 

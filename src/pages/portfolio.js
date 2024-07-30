@@ -16,9 +16,7 @@ const PortfolioPage = () => {
             base
             id
             childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(layout: CONSTRAINED)
             }
           }
         }
@@ -26,33 +24,35 @@ const PortfolioPage = () => {
     }
   `);
 
-  return <Layout 
-    title="Projects" 
-    icon="computer"
+  return (
+    <Layout 
+      title="Projects" 
+      icon="computer"
     >
-              
-    <SEO title="Yennie Jun's Portfolio" />
-    
-
-    <div className="mainContainer">
-      <p>My more recent writing and projects can be found on 
-        <a href='https://www.artfish.ai/'
-        className="normalLink" 
-        target="_blank" 
-        rel="noreferrer"> Art Fish Intelligence.</a></p>
-      <hr/>
-        {
-          portfolioData.map((item, i) =>
-              <PortfolioPanel 
-                key={i} 
-                color = {"#f9f9f9"}
-                data={item}
-                image={query.images.edges.find(n => n.node.base === item.image)}
-              />
-            )
-          }
-    </div>
-  </Layout>
+      <SEO title="Yennie Jun's Portfolio" />
+      
+      <div className="mainContainer">
+        <p>
+          My more recent writing and projects can be found on
+          <a 
+            href='https://www.artfish.ai/'
+            className="normalLink" 
+            target="_blank" 
+            rel="noreferrer"
+          > Art Fish Intelligence.</a>
+        </p>
+        <hr/>
+        {portfolioData.map((item, i) => (
+          <PortfolioPanel 
+            key={i} 
+            color="#f9f9f9"
+            data={item}
+            image={query.images.edges.find(n => n.node.base === item.image)}
+          />
+        ))}
+      </div>
+    </Layout>
+  )
 }
 
 export default PortfolioPage

@@ -3,32 +3,35 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BookList from "../components/books/book-list"
 import { graphql } from "gatsby"
-// import classnames from 'classnames';
 
-const BooksPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
+const BooksPage = ({ data }) => {
+  const { edges } = data.allMarkdownRemark
+
   const Books = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <BookList key={edge.node.id} post={edge.node} type={"book"}/>)
+    .filter(edge => edge.node.frontmatter.date) // Filter posts based on date existence
+    .map(edge => (
+      <BookList 
+        key={edge.node.id} 
+        post={edge.node} 
+        type="book"
+      />
+    ))
 
-    return(
-      <Layout 
-        title="My Bookshelf" 
-        icon="books"
-      >
-        <SEO title="Book Notes" />
-        <div className="mainContainer">
-          <p>Here are my notes and thoughts on some of my recent favorite reads</p>
-          <hr/>
-          {<div style={{marginBottom:`4rem`}}>
-            {Books}
-          </div>}
+  return (
+    <Layout 
+      title="My Bookshelf" 
+      icon="books"
+    >
+      <SEO title="Book Notes" />
+      <div className="mainContainer">
+        <p>Here are my notes and thoughts on some of my recent favorite reads</p>
+        <hr/>
+        <div style={{marginBottom: '4rem'}}>
+          {Books}
         </div>
-      </Layout>
-    )
+      </div>
+    </Layout>
+  )
 }
 
 export default BooksPage
@@ -36,10 +39,10 @@ export default BooksPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] },
-        filter: { frontmatter: {posttype: {in: "books"}} }
-      ) {
-    edges {
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: { frontmatter: { posttype: { in: "books" } } }
+    ) {
+      edges {
         node {
           id
           frontmatter {

@@ -2,16 +2,17 @@
 @import './colors.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');@import '../style/colors.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rethink Sans', sans-serif;
   font-size: 1.3rem;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 23%;
+  margin-right: 23%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
@@ -227,8 +228,8 @@ html {
 }
 body {
   color: var(--text-color-dark);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  font-family: 'Rethink Sans', sans-serif;
+  font-size: 1.1rem;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -773,6 +774,7 @@ pre tt:after {
 #title_text {
   color: var(--text-color-dark);
   font-family: 'IBM Plex Serif';
+
   margin-top: 7rem;
   font-size: 3rem;
   margin-bottom: 48px;
@@ -781,6 +783,7 @@ pre tt:after {
 #subtitle_text {
   color: var(--text-color-light);
   font-family: 'IBM Plex Serif';
+
   font-weight: 300;
 }
 
