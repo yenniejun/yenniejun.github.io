@@ -38,8 +38,8 @@ export default BooksPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: { posttype: { eq: "books" } } }
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: { frontmatter: { posttype: { in: "books" } } }
     ) {
       edges {
         node {

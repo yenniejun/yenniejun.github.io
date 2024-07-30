@@ -1,5 +1,4 @@
 ---
-# slug: "/blog/my-first-post"
 posttype: "blog"
 path: "/blog/temporal-word-embeddings"
 date: "2021-09-21"
