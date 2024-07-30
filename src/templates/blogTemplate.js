@@ -4,9 +4,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import * as templateStyles from './blogTemplate.module.css' 
 
-export default function Template({ data }) {
+export default function Template({ data, pageContext }) {
+  console.log('Template data:', data)
+  console.log('Page context:', pageContext)
+
   if (!data || !data.markdownRemark) {
     console.error('No data or markdownRemark found for this page')
+    console.error('Page context:', pageContext)
     return (
       <Layout>
         <SEO title="Post Not Found" />
@@ -18,54 +22,40 @@ export default function Template({ data }) {
     )
   }
 
-  const { markdownRemark } = data
+  const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  
-  return (
-    <Layout>
-      <SEO title={frontmatter.title} />
-      <div className={templateStyles.blogContainer}>
-        {frontmatter.posttype === "blog" && (
-          <div className={templateStyles.blogHeader}>
-            <h1>{frontmatter.title}</h1>
-            <div>Written: {frontmatter.date}</div>
-          </div>
-        )}
 
-        {frontmatter.posttype === "books" && (
-          <div className={templateStyles.bookHeader}>
-            <h1>{frontmatter.title}</h1>
-            <table className={templateStyles.bookTable}>
-              <tbody>
-                <tr>
-                  <td>Author</td>
-                  <td>{frontmatter.author}</td>
-                </tr>
-                <tr>
-                  <td>Finished</td>
-                  <td>{frontmatter.date}</td>
-                </tr>
-                <tr>
-                  <td>Rating</td>
-                  <td>{frontmatter.rating ? `${frontmatter.rating.toFixed(1)} / 5` : 'N/A'}</td>
-                </tr>
-              </tbody>
-            </table>
-            {frontmatter.link && (
-              <p>
-                <a href={frontmatter.link} target="_blank" rel="noreferrer">Goodreads link</a>
-              </p>
+  return (
+      <Layout>
+        <div className={templateStyles.blogContainer}>
+            {frontmatter.posttype==="blog" &&
+              <div className={templateStyles.blogHeader}>
+                <h1>{frontmatter.title}</h1>
+                <div>Written: {frontmatter.date}</div>
+              </div>
+            }
+
+            {frontmatter.posttype==="books" &&
+              <div className={templateStyles.bookHeader}>
+                <h1>{frontmatter.title}</h1>
+                <p>Author: {frontmatter.author}</p>
+                <p>Finished: {frontmatter.date}</p>
+                {frontmatter.link && <a href={frontmatter.link} target="_blank" rel="noreferrer"><p>Goodreads link</p></a>}
+              </div>
+            }     
+            
+            <hr className={templateStyles.blogLine}/>
+            {html ? (
+              <div
+                className={templateStyles.blogPostContent}
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+            ) : (
+              <p>No content available</p>
             )}
-          </div>
-        )}     
-        
-        <hr className={templateStyles.blogLine}/>
-        <div
-          className={templateStyles.blogPostContent}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
+        </div>
     </Layout>
+    
   )
 }
 
@@ -84,4 +74,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+  `
