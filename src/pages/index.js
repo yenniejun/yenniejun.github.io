@@ -36,7 +36,7 @@ const IndexPage = () => {
           <li> Machine learning in health care applications (with <a href="https://www.truveta.com/" target="_blank" className="normalLink" rel="noreferrer">Truveta</a>)</li>
           <li> Research into harms and biases in generative AI models (with Oxford and OpenAI)</li>
           <li> Data science in humanitarian aid and public health (with the <a href="https://www.unglobalpulse.org/" target="_blank" className="normalLink" rel="noreferrer">United Nations</a>)</li>
-          <li> Digital humanities and computational history (with the <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a>)</li>
+          <li> Digital humanities and computational history (with the <a href="http://bigdatastudies.net/" className="normalLink" target="_blank" rel="noreferrer">Big Data Studies Lab</a> at Seoul National University and Hong Kong University)</li>
           <li> Education technology software (with <a href="https://www.microsoft.com/en-us/education" className="normalLink" target="_blank" rel="noreferrer">Microsoft</a>)</li>
         </ul>
 
