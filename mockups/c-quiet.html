@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mockup C — Quiet & confident</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #fbf8f3;
+  --ink: #1a1a1a;
+  --ink-soft: #555;
+  --teal: #09646A;
+  --teal-soft: #84BAB8;
+  --peach: #f5b89a;
+  --rule: #e8e2d8;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 19px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 2rem 3rem;
+  display: flex;
+  gap: 1.8rem;
+  font-size: 0.95rem;
+  z-index: 10;
+}
+
+nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover { color: var(--teal); }
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.flower {
+  position: absolute;
+  top: 7rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  animation: drift 8s ease-in-out infinite;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-14px) rotate(3deg); }
+}
+
+h1 {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 0 0 3rem;
+}
+
+.statement {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0 0 1.2rem;
+}
+
+.statement em {
+  color: var(--teal);
+  font-style: italic;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.scroll .arrow {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  animation: bob 2s ease-in-out infinite;
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+.below {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.below-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 2rem;
+}
+
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-list li {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: 4rem 1fr auto;
+  gap: 1.5rem;
+  align-items: baseline;
+  transition: padding-left 0.3s ease;
+}
+
+.work-list li:hover {
+  padding-left: 0.6rem;
+}
+
+.work-list .y {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+}
+
+.work-list .t {
+  color: var(--ink);
+}
+
+.work-list .o {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  color: var(--teal);
+  font-size: 1rem;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 1.3s ease, transform 1.3s ease;
+}
+
+.fade.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+a.link {
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--teal-soft);
+  font-style: italic;
+}
+
+.mockup-badge {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  z-index: 100;
+}
+
+@media (max-width: 720px) {
+  h1 { font-size: 3.5rem; }
+  .statement { font-size: 1.3rem; }
+  nav { padding: 1.5rem; gap: 1rem; font-size: 0.85rem; }
+  .work-list li { grid-template-columns: 3rem 1fr; }
+  .work-list .o { grid-column: 2; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#">Projects</a>
+  <a href="#">Writing</a>
+  <a href="#">Books</a>
+  <a href="#">Newsletter ↗</a>
+</nav>
+
+<section class="hero">
+  <img src="sunflower-spark.svg" alt="" class="flower">
+
+  <h1 class="fade">Yennie Jun.</h1>
+
+  <p class="statement fade">I'm a <em>research engineer</em> at Google DeepMind and a <em>writer</em> at <a href="#" class="link">Art Fish Intelligence</a>.</p>
+
+  <p class="statement fade">Interested in multidisciplinary work that makes the world a little better.</p>
+
+  <div class="scroll fade">
+    keep reading
+    <span class="arrow">↓</span>
+  </div>
+</section>
+
+<section class="below">
+  <div class="below-label fade">things I've worked on</div>
+  <ul class="work-list">
+    <li class="fade">
+      <span class="y">now</span>
+      <span class="t">Research engineer</span>
+      <span class="o">Google DeepMind</span>
+    </li>
+    <li class="fade">
+      <span class="y">past</span>
+      <span class="t">Healthcare ML</span>
+      <span class="o">Truveta</span>
+    </li>
+    <li class="fade">
+      <span class="y">past</span>
+      <span class="t">AI harms research</span>
+      <span class="o">Oxford · OpenAI</span>
+    </li>
+    <li class="fade">
+      <span class="y">past</span>
+      <span class="t">Humanitarian data science</span>
+      <span class="o">UN Global Pulse</span>
+    </li>
+    <li class="fade">
+      <span class="y">past</span>
+      <span class="t">Computational history</span>
+      <span class="o">BDS Lab</span>
+    </li>
+    <li class="fade">
+      <span class="y">past</span>
+      <span class="t">Education tech</span>
+      <span class="o">Microsoft</span>
+    </li>
+  </ul>
+</section>
+
+<div class="mockup-badge">Mockup C · Quiet & confident · spark sunflower</div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('in');
+  });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('.fade').forEach((el, i) => {
+  el.style.transitionDelay = (i * 0.12) + 's';
+  observer.observe(el);
+});
+</script>
+
+</body>
+</html>

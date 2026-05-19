@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PostListItem from '../components/PostListItem.astro';
+
+const allPosts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const sections = [
+  { title: 'Data Science', tag: 'Data Science' },
+  { title: 'Essays', tag: 'Opinion' },
+  { title: 'Creative Nonfiction', tag: 'Creative Nonfiction' },
+  { title: 'Creative Fiction', tag: 'Fiction' },
+];
+---
+<Layout title="Writing — Yennie Jun">
+  <Header current="/writing" />
+  <main>
+    <PageHeader title="Writing" icon="writing">
+      <p>My more recent writing and projects can be found on <a href="https://www.artfish.ai/" target="_blank" rel="noreferrer">Art Fish Intelligence</a> ↗</p>
+    </PageHeader>
+
+    {sections.map(section => {
+      const posts = allPosts.filter(p => p.data.tags?.includes(section.tag));
+      if (posts.length === 0) return null;
+      return (
+        <section class="section fade-up">
+          <h2>{section.title}</h2>
+          <div class="posts">
+            {posts.map(post => <PostListItem post={post} />)}
+          </div>
+        </section>
+      );
+    })}
+
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  .section {
+    margin-bottom: 4rem;
+  }
+  .section h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0 0 1rem;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+  }
+  .posts {
+    /* no top border — section h2 + spacing already mark the section start */
+  }
+</style>

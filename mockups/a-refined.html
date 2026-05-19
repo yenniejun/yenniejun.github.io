@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mockup A — Refined Editorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf6f0;
+  --ink: #1a1a1a;
+  --ink-soft: #555;
+  --ink-faint: #999;
+  --teal: #09646A;
+  --teal-soft: #84BAB8;
+  --peach: #f5b89a;
+  --peach-soft: #fde7dc;
+  --rule: #e8e2d8;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 6rem;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  font-size: 1rem;
+  margin-bottom: 6rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--teal);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: -3px;
+  height: 1px;
+  background: var(--peach);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::after { transform: scaleX(1); }
+nav a:hover { color: var(--ink); }
+
+.faded-name {
+  position: absolute;
+  top: 5.5rem;
+  right: -1rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-size: 9rem;
+  color: var(--peach);
+  opacity: 0.22;
+  letter-spacing: -0.04em;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  line-height: 1;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 0 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+h1 .flower {
+  display: inline-block;
+  width: 2.8rem;
+  height: 2.8rem;
+  vertical-align: -0.3rem;
+  margin-left: 0.5rem;
+  animation: sway 5s ease-in-out infinite;
+  transform-origin: 50% 70%;
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+.subtitle {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--ink-soft);
+  margin: 0 0 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--rule);
+  margin: 3rem 0;
+}
+
+p {
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+
+a.link {
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--teal-soft);
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+a.link:hover {
+  color: var(--peach);
+  border-bottom-color: var(--peach);
+}
+
+.career {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.career li {
+  margin-bottom: 0.85rem;
+  color: var(--ink-soft);
+  padding-left: 2.2rem;
+  position: relative;
+}
+
+.career li::before {
+  content: attr(data-emoji);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-up.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mockup-badge {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-family: 'Inter';
+  z-index: 100;
+}
+
+@media (max-width: 720px) {
+  h1 { font-size: 3rem; }
+  .faded-name { font-size: 5rem; top: 4rem; }
+  .subtitle { font-size: 1.15rem; }
+}
+</style>
+</head>
+<body>
+
+<main>
+  <nav class="fade-up">
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Writing</a>
+    <a href="#">Books</a>
+    <a href="#">Newsletter ↗</a>
+  </nav>
+
+  <div class="faded-name">yennie</div>
+
+  <h1 class="fade-up">Hi, I'm Yennie.<img src="sunflower-doodle.svg" alt="" class="flower"></h1>
+
+  <p class="subtitle fade-up">Research engineer · Writer · Curious human</p>
+
+  <hr>
+
+  <p class="fade-up">I currently work as a Research Engineer at Google DeepMind. I also write about independent AI research experiments on my blog, <a href="#" class="link">Art Fish Intelligence</a>.</p>
+
+  <p class="fade-up">I care a lot about interesting, multidisciplinary projects. Especially if they are trying to make the world a better place.</p>
+
+  <p class="fade-up">I have worked across a variety of roles and disciplines:</p>
+
+  <ul class="career fade-up">
+    <li data-emoji="⛑️">Machine learning in healthcare applications (with Truveta)</li>
+    <li data-emoji="🤖">Research into harms and biases in generative AI (with Oxford and OpenAI)</li>
+    <li data-emoji="🌐">Data science in humanitarian aid and public health (UN Global Pulse)</li>
+    <li data-emoji="📚">Digital humanities and computational history (Big Data Studies Lab)</li>
+    <li data-emoji="🎓">Education technology software (with Microsoft)</li>
+  </ul>
+
+</main>
+
+<div class="mockup-badge">Mockup A · Refined editorial · doodle sunflower</div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-up').forEach((el, i) => {
+  el.style.transitionDelay = (i * 0.08) + 's';
+  observer.observe(el);
+});
+</script>
+
+</body>
+</html>

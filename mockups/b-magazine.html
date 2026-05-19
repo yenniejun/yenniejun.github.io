@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mockup B — Magazine with motion</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Inter:wght@300..600&family=Manrope:wght@300..600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf6f0;
+  --bg-card: #ffffff;
+  --ink: #1a1a1a;
+  --ink-soft: #555;
+  --teal: #09646A;
+  --teal-soft: #84BAB8;
+  --peach: #f5b89a;
+  --peach-soft: #fde7dc;
+  --rule: #e8e2d8;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem 2rem 6rem;
+}
+
+/* ---------- Sticky frosted nav ---------- */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(250, 246, 240, 0.72);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.site-nav.scrolled {
+  border-bottom-color: var(--rule);
+}
+.nav-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  transition: opacity 0.2s ease;
+}
+.brand:hover { opacity: 0.7; }
+.brand img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.links {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 0.95rem;
+}
+.links a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.links a:hover { color: var(--teal); }
+.links a.active {
+  color: var(--ink);
+  font-weight: 500;
+}
+.links a.active::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--peach);
+  border-radius: 2px;
+}
+.links .arrow {
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin: 3rem 0 4rem;
+}
+
+.flower-box {
+  width: 280px;
+  height: 280px;
+  background: var(--peach-soft);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.flower-box::before {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(circle, transparent 55%, rgba(245, 184, 154, 0.15) 100%);
+  animation: pulse 4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.flower-box img {
+  width: 70%;
+  position: relative;
+  z-index: 1;
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+/* ---------- Intro paragraphs ---------- */
+.intro {
+  max-width: 720px;
+  margin: 4rem auto;
+  font-family: 'Manrope', 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: var(--ink-soft);
+  text-align: center;
+}
+.intro p { margin: 0 0 1rem; }
+.intro p:last-child { margin-bottom: 0; }
+.intro a {
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--teal-soft);
+  font-weight: 500;
+}
+
+/* ---------- Section label + grid ---------- */
+.section-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 5rem 0 1.5rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 960px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid var(--rule);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-4px) rotate(-0.4deg);
+  box-shadow: 0 14px 40px -10px rgba(0,0,0,0.1);
+}
+.card .icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-bottom: 0.9rem;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.card:hover .icon {
+  transform: scale(1.08) rotate(-3deg);
+}
+.card h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+.card p {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Animation utility ---------- */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-up.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Badge ---------- */
+.mockup-badge {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  z-index: 100;
+}
+
+@media (max-width: 720px) {
+  .nav-inner { padding: 0.75rem 1.25rem; }
+  .brand span { display: none; }
+  .links { gap: 1rem; font-size: 0.85rem; }
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+  .flower-box {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+  }
+  h1 { font-size: 3rem; }
+}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="#" class="brand" aria-label="Home">
+      <img src="sunflower-bold.svg" alt="">
+      <span>yennie jun</span>
+    </a>
+    <div class="links">
+      <a href="#">Projects</a>
+      <a href="#">Writing</a>
+      <a href="#">Books</a>
+      <a href="https://www.artfish.ai/" target="_blank" rel="noreferrer">Newsletter <span class="arrow">↗</span></a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="flower-box">
+      <img src="sunflower-bold.svg" alt="">
+    </div>
+    <div>
+      <h1>Hi, I'm Yennie.</h1>
+    </div>
+  </section>
+
+  <div class="intro fade-up">
+    <p>I currently work as a Research Engineer at Google DeepMind. I also write about independent AI research experiments on my blog at <a href="https://www.artfish.ai/" target="_blank" rel="noreferrer">Art Fish Intelligence</a>.</p>
+    <p>I care a lot about interesting, multidisciplinary projects. Especially if they are trying to make the world a better place.</p>
+  </div>
+
+  <div class="section-label fade-up">things I've worked on</div>
+
+  <div class="grid">
+    <div class="card fade-up">
+      <img src="icon-artfish.svg" alt="" class="icon">
+      <h3>Art Fish Intelligence</h3>
+      <p>My newsletter on independent AI research experiments.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-gemini.svg" alt="" class="icon">
+      <h3>Evals for Gemini</h3>
+      <p>Building evaluations for Gemini at Google DeepMind.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-healthcare.svg" alt="" class="icon">
+      <h3>Healthcare ML</h3>
+      <p>Machine learning for healthcare applications at Truveta.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-aiharms.svg" alt="" class="icon">
+      <h3>AI harms research</h3>
+      <p>Harms and biases in generative AI with Oxford & OpenAI.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-deeplearning.svg" alt="" class="icon">
+      <h3>DeepLearning.AI</h3>
+      <p>AI courses and curriculum with DeepLearning.AI.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-humanitarian.svg" alt="" class="icon">
+      <h3>Humanitarian data</h3>
+      <p>Data science for humanitarian aid at the UN.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-history.svg" alt="" class="icon">
+      <h3>Computational history</h3>
+      <p>Digital humanities at the Big Data Studies Lab.</p>
+    </div>
+    <div class="card fade-up">
+      <img src="icon-education.svg" alt="" class="icon">
+      <h3>Education tech</h3>
+      <p>Education technology software at Microsoft.</p>
+    </div>
+  </div>
+
+</main>
+
+<div class="mockup-badge">Mockup B · Magazine + motion · bold sunflower</div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('in');
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-up').forEach((el, i) => {
+  el.style.transitionDelay = (i * 0.08) + 's';
+  observer.observe(el);
+});
+
+const siteNav = document.querySelector('.site-nav');
+if (siteNav) {
+  const onScroll = () => siteNav.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+}
+</script>
+
+</body>
+</html>

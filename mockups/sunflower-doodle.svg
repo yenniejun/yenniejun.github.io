@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#fce0c8" stroke="#1a1a1a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(45 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(90 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(135 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(180 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(225 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(270 50 50)" />
+    <path d="M50 50 Q41 28 50 10 Q59 28 50 50 Z" transform="rotate(315 50 50)" />
+  </g>
+  <circle cx="50" cy="50" r="13" fill="#09646A" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="46" cy="47" r="1.2" fill="#fce0c8" />
+  <circle cx="52" cy="46" r="1.2" fill="#fce0c8" />
+  <circle cx="49" cy="52" r="1.2" fill="#fce0c8" />
+  <circle cx="54" cy="52" r="1.2" fill="#fce0c8" />
+  <circle cx="45" cy="53" r="1.2" fill="#fce0c8" />
+  <circle cx="50" cy="49" r="1.2" fill="#fce0c8" />
+</svg>

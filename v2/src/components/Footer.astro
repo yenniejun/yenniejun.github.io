@@ -1,0 +1,139 @@
+---
+const year = new Date().getFullYear();
+
+const socials = [
+  { name: 'GitHub',   href: 'https://github.com/yenniejun',      icon: 'github'   },
+  { name: 'X',        href: 'https://x.com/YennieJun',           icon: 'x'        },
+  { name: 'LinkedIn', href: 'https://linkedin.com/in/yenniejun', icon: 'linkedin' },
+];
+---
+<footer>
+  <hr />
+  <h5>Stay in touch!</h5>
+
+  <div class="social-links">
+    {socials.map(s => (
+      <a href={s.href} target="_blank" rel="noreferrer" aria-label={s.name}>
+        <span class="icon">
+          {s.icon === 'github' && (
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.95-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .31.21.67.79.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/>
+            </svg>
+          )}
+          {s.icon === 'x' && (
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          )}
+          {s.icon === 'linkedin' && (
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.063 2.063 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          )}
+        </span>
+        <span class="label">{s.name}</span>
+      </a>
+    ))}
+  </div>
+
+  <p class="copy">© {year} Yennie Jun</p>
+  <p class="meta">Built with <a href="https://astro.build/" target="_blank" rel="noreferrer">Astro</a></p>
+</footer>
+
+<style>
+  footer {
+    text-align: center;
+    margin: 4rem auto 1.5rem;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+  footer hr {
+    border: none;
+    height: 1px;
+    background: var(--rule);
+    margin: 1.5rem 0;
+  }
+  footer h5 {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    margin: 0 0 0.75rem;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* ---------- Social media links ---------- */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 0.5rem 0 1.5rem;
+  }
+  .social-links a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    transition: color 0.25s ease;
+    border-bottom: none !important;
+  }
+  .social-links a:hover {
+    color: var(--teal);
+  }
+  .social-links .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .social-links a:hover .icon {
+    transform: scale(1.18) translateY(-1px);
+  }
+  .social-links .icon svg {
+    width: 22px;
+    height: 22px;
+    display: block;
+  }
+  .social-links .label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 0.25rem;
+    transform: translateX(-50%) translateY(-3px);
+    font-family: var(--font-soft);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  .social-links a:hover .label,
+  .social-links a:focus-visible .label {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  footer p { margin: 0.25rem 0; }
+  footer .meta {
+    font-size: 0.72rem;
+    opacity: 0.75;
+    margin-top: 0.5rem;
+  }
+  footer a {
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid var(--teal-soft);
+  }
+
+  @media (max-width: 720px) {
+    .social-links { gap: 1.4rem; }
+  }
+</style>
