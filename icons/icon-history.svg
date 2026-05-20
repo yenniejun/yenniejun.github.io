@@ -1,9 +1,0 @@
-<svg viewBox="0 0 32 32" fill="none" stroke="#09646A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5 7 L5 26 L15 25 L15 7 Q10 5 5 7 Z" fill="#fde7dc"/>
-  <path d="M17 7 L17 25 L27 26 L27 7 Q22 5 17 7 Z" fill="#fde7dc"/>
-  <path d="M15 7 Q16 5.5 17 7"/>
-  <line x1="8" y1="12" x2="12" y2="12"/>
-  <line x1="8" y1="16" x2="12" y2="16"/>
-  <line x1="20" y1="12" x2="24" y2="12"/>
-  <line x1="20" y1="16" x2="24" y2="16"/>
-</svg>
