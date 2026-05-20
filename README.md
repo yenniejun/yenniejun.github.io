@@ -26,7 +26,6 @@ v2/                        ← the active Astro site (everything new lives here)
   astro.config.mjs
 
 mockups/                   ← initial HTML design exploration (kept for reference)
-src/, gatsby-*.js          ← old Gatsby site (no longer built — kept in history only)
 ```
 
 ## Local development
