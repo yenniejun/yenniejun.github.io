@@ -12,12 +12,14 @@ const books = (await getCollection('books'))
 
 const allTags: string[] = [...new Set(books.flatMap(b => b.data.tags || []))];
 
-// Primary categories first, then everything else alphabetically
-const primary = ['Fiction', 'Nonfiction', 'Poetry'];
-const sortedTags = [
-  ...primary.filter(t => allTags.includes(t)),
-  ...allTags.filter(t => !primary.includes(t)).sort((a, b) => a.localeCompare(b)),
-];
+// Sort tags by frequency (most common first)
+const sortedTags = allTags
+  .map(tag => ({
+    tag,
+    count: books.filter(b => b.data.tags?.includes(tag)).length
+  }))
+  .sort((a, b) => b.count - a.count)
+  .map(item => item.tag);
 ---
 <Layout title="Bookshelf — Yennie Jun">
   <Header current="/books" />
