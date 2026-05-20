@@ -1,0 +1,129 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books.map(book => ({
+    params: { slug: book.data.path.replace(/^\/books\//, '').replace(/\/$/, '') },
+    props: { book },
+  }));
+}
+
+const { book } = Astro.props;
+const { Content } = await render(book);
+const dateStr = book.data.date.toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+<Layout title={`${book.data.title} — Yennie Jun`}>
+  <Header current="/books" />
+  <main>
+    <article class="book fade-up">
+      <header class="book-header">
+        <p class="meta">Read · {dateStr}</p>
+        <h1>{book.data.title}</h1>
+        {book.data.author && <p class="author">by {book.data.author}</p>}
+        {book.data.rating && <p class="rating">★ {book.data.rating}</p>}
+        {book.data.link && (
+          <p class="ext"><a href={book.data.link} target="_blank" rel="noreferrer">Goodreads ↗</a></p>
+        )}
+      </header>
+      <div class="content">
+        <Content />
+      </div>
+
+      <p class="back"><a href="/books">← back to bookshelf</a></p>
+    </article>
+
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  .book {
+    max-width: 680px;
+    margin: 2rem auto 0;
+  }
+  .book-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .book-header .meta {
+    font-family: var(--font-soft);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin: 0 0 1rem;
+    font-weight: 500;
+  }
+  .book-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+  .book-header .author {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.6rem;
+  }
+  .book-header .rating {
+    color: var(--peach);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+    font-family: var(--font-soft);
+  }
+  .book-header .ext {
+    margin: 0.6rem 0 0;
+    font-family: var(--font-soft);
+    font-size: 0.92rem;
+  }
+  .book-header .ext a {
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid var(--teal-soft);
+  }
+  .content {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: var(--ink);
+  }
+  .content :global(p) {
+    margin: 0 0 1.4rem;
+  }
+  .content :global(a) {
+    color: var(--teal);
+    border-bottom: 1px solid var(--teal-soft);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .content :global(blockquote) {
+    border-left: 3px solid var(--peach);
+    padding: 0.5rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+  .back {
+    margin: 5rem 0 0;
+    font-family: var(--font-soft);
+    font-size: 0.95rem;
+  }
+  .back a {
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid var(--teal-soft);
+  }
+</style>

@@ -1,0 +1,58 @@
+---
+const { post } = Astro.props;
+const url = post.data.path;
+const date = post.data.date instanceof Date ? post.data.date : new Date(post.data.date);
+const dateStr = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+---
+<a class="post-item" href={url}>
+  <span class="date">{dateStr}</span>
+  <div class="content">
+    <h3>{post.data.title}</h3>
+    {post.data.description && <p>{post.data.description}</p>}
+  </div>
+</a>
+
+<style>
+  .post-item {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 1.5rem;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.25s ease;
+  }
+  .post-item:hover {
+    transform: translateX(6px);
+  }
+  .post-item:hover h3 { color: var(--teal); }
+  .date {
+    font-family: var(--font-soft);
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    padding-top: 0.4rem;
+    letter-spacing: 0.02em;
+  }
+  .content h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+    transition: color 0.25s ease;
+  }
+  .content p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-family: var(--font-soft);
+  }
+  @media (max-width: 720px) {
+    .post-item {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+    }
+  }
+</style>

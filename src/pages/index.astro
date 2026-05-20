@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SunflowerHero from '../components/SunflowerHero.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+const projects = [
+  { icon: '/icons/icon-artfish.svg',      title: 'Art Fish Intelligence', description: 'My newsletter on independent AI research experiments.', href: 'https://www.artfish.ai/' },
+  { icon: '/icons/icon-gemini.svg',       title: 'Evals for Gemini',      description: 'Building evaluations for Gemini at Google DeepMind.' },
+  { icon: '/icons/icon-healthcare.svg',   title: 'Healthcare ML',         description: 'Machine learning for healthcare applications at Truveta.' },
+  { icon: '/icons/icon-aiharms.svg',      title: 'AI harms research',     description: 'Harms and biases in generative AI with Oxford & OpenAI.' },
+  { icon: '/icons/icon-deeplearning.svg', title: 'DeepLearning.AI',       description: 'AI courses and curriculum with DeepLearning.AI.' },
+  { icon: '/icons/icon-humanitarian.svg', title: 'Humanitarian data',     description: 'Data science for humanitarian aid at the UN.' },
+  { icon: '/icons/icon-history.svg',      title: 'Computational history', description: 'Digital humanities at the Big Data Studies Lab.' },
+  { icon: '/icons/icon-education.svg',    title: 'Education tech',        description: 'Education technology software at Microsoft.' },
+];
+---
+<Layout title="Yennie Jun">
+  <Header current="/" />
+  <main>
+    <section class="hero">
+      <SunflowerHero />
+      <div class="hero-text">
+        <h1>Hi, I'm Yennie.</h1>
+        <div class="intro fade-up">
+          <p>
+            I currently work as a Research Engineer at Google DeepMind.
+            I also write about independent AI research experiments on my blog at
+            <a href="https://www.artfish.ai/" target="_blank" rel="noreferrer">Art Fish Intelligence</a>.
+          </p>
+          <p>
+            I care a lot about interesting, multidisciplinary projects.
+            Especially if they are trying to make the world a better place.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-label fade-up">things I've worked on</div>
+
+    <div class="grid">
+      {projects.map(p => (
+        <div class="fade-up">
+          <ProjectCard {...p} />
+        </div>
+      ))}
+    </div>
+
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin: 4rem 0 5rem;
+  }
+
+  .hero-text h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.25rem;
+  }
+
+  .intro {
+    font-family: var(--font-soft);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    color: var(--ink-soft);
+    max-width: 36rem;
+  }
+  .intro p {
+    margin: 0 0 0.85rem;
+  }
+  .intro p:last-child {
+    margin-bottom: 0;
+  }
+  .intro a {
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid var(--teal-soft);
+    font-weight: 500;
+  }
+
+  .section-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 5rem 0 1.5rem;
+    text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .grid > * {
+    display: flex;
+  }
+
+  @media (max-width: 960px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      grid-template-columns: 1fr;
+      text-align: left;
+      gap: 2.5rem;
+      margin: 2rem 0 3rem;
+    }
+    .hero-text h1 { font-size: 2.75rem; }
+    .intro { max-width: 100%; }
+  }
+
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
