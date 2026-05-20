@@ -1,33 +1,106 @@
-# My Personal Website
+# yenniejun.com
 
-## Built Using
-* Gatsby
+My personal website. Lives at [yenniejun.com](https://yenniejun.com).
 
-## Deploy Locally
-First make sure gatsby-cli is installed
+## Stack
+
+- **[Astro](https://astro.build)** (v5) — static site framework
+- Fonts: Fraunces (display), Inter (UI), Manrope (taglines)
+- Markdown content with Astro content collections
+- Deployed to GitHub Pages via `gh-pages` (custom domain set via `CNAME`)
+
+## Repo layout
+
 ```
-npm install -g gatsby-cli
-npm install
+v2/                        ← the active Astro site (everything new lives here)
+  src/
+    pages/                 ← routes (index, projects, writing, books, blog/[slug], books/[slug])
+    components/            ← Header, Footer, ProjectCard, BookListItem, etc.
+    layouts/Layout.astro   ← base HTML shell + scroll fade-in script
+    content/
+      blog/                ← Markdown blog posts (.md)
+      books/               ← Markdown book notes (.md)
+    data/portfolio.json    ← Projects shown on /projects
+    styles/global.css      ← design tokens, fonts, base styles
+  public/                  ← static assets (sunflower SVG, icons, CNAME, .nojekyll)
+  astro.config.mjs
+
+mockups/                   ← initial HTML design exploration (kept for reference)
+src/, gatsby-*.js          ← old Gatsby site (no longer built — kept in history only)
 ```
 
-Make sure to be in develop branch:
-`
-git checkout develop
-`
+## Local development
 
-
-Then, the following command will open in `http://localhost:8000/`
-```
-gatsby develop
+```bash
+cd v2
+npm install        # first time only
+npm run dev        # http://localhost:4321
 ```
 
-## Deploy to gatsby/github pages
+## Adding content
+
+### New blog post
+
+Create `v2/src/content/blog/<slug>.md`:
+
+```yaml
+---
+posttype: "blog"
+path: "/blog/my-post-slug"
+date: "2026-05-20"
+title: "Post title"
+tags: ["Data Science"]   # or "Opinion", "Creative Nonfiction", "Fiction"
+description: "One-line preview shown on the writing list."
+---
+
+Body in markdown…
 ```
+
+### New book note
+
+Create `v2/src/content/books/YYYYMMDD slug.md`:
+
+```yaml
+---
+posttype: "books"
+path: "/books/my-book-slug"
+date: "2026-05-20"
+title: "Book title"
+author: "Author name"
+tags: ["Fiction", "Sci-Fi"]   # see existing books for vocabulary
+link: "https://www.goodreads.com/book/show/..."
+rating: 4.2
+description: "One-line preview."
+---
+
+Notes in markdown…
+```
+
+New tags automatically appear in the filter bar on `/books`.
+
+## Deploy
+
+From `v2/`:
+
+```bash
 npm run deploy
 ```
 
+This builds the site and pushes `dist/` to the `master` branch via `gh-pages`. GitHub Pages serves `master` at yenniejun.com.
 
-## Converting Medium Posts to Markdown
-Following the instructions from [this blog post](https://stackedit.io/), just use [StackEdit](https://stackedit.io/). If for some I wany my life to be a bit harder, I can use instructions from [this blog post](https://towardsdatascience.com/converting-medium-posts-to-markdown-for-your-blog-5d6830408467) and run the following:
+Then commit your source changes to `develop`:
 
-`node medium-to-markdown.js`
+```bash
+cd ..
+git add v2/ && git commit -m "..." && git push origin develop
+```
+
+## Branches
+
+- **`develop`** — source code (you edit here)
+- **`master`** — built static site (GitHub Pages serves this; do not edit manually)
+
+## Gotchas
+
+- `.nojekyll` and the `astro-assets/` build folder (instead of default `_astro/`) are both required so GitHub Pages' Jekyll doesn't strip the assets folder.
+- `v2/public/` is excluded by the root `.gitignore` (legacy from Gatsby). Files in there are force-added when needed.
